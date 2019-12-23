@@ -1,0 +1,127 @@
+{
+    "title": "30 Tage durch das Neue Testament",
+    "color": "#d87262",
+    "plan": [
+      {
+        "day": 1,
+        "chapters": ["Lukas 1-2"]
+      },
+      {
+        "day": 2,
+        "chapters": ["Johannes 1,1–18"]
+      },
+      {
+        "day": 3,
+        "chapters": ["Lukas 4,14–44"]
+      },
+      {
+        "day": 4,
+        "chapters": ["Matthäus 5–6"]
+      },
+      {
+        "day": 5,
+        "chapters": ["Johannes 3"]
+      },
+      {
+        "day": 6,
+        "chapters": ["Johannes 5"]
+      },
+      {
+        "day": 7,
+        "chapters": ["Johannes 11"]
+      },
+      {
+        "day": 8,
+        "chapters": ["Johannes 15"]
+      },
+      {
+        "day": 9,
+        "chapters": ["Johannes 17"]
+      },
+      {
+        "day": 10,
+        "chapters": ["Matthäus 26–27"]
+      },
+      {
+        "day": 11,
+        "chapters": ["Johannes 20"]
+      },
+      {
+        "day": 12,
+        "chapters": ["Lukas 24"]
+      },
+      {
+        "day": 13,
+        "chapters": ["Apostelgeschichte 2"]
+      },
+      {
+        "day": 14,
+        "chapters": ["Apostelgeschichte 9"]
+      },
+      {
+        "day": 15,
+        "chapters": ["Apostelgeschichte 16"]
+      },
+      {
+        "day": 16,
+        "chapters": ["Apostelgeschichte 26"]
+      },
+      {
+        "day": 17,
+        "chapters": ["Römer 3"]
+      },
+      {
+        "day": 18,
+        "chapters": ["Römer 7–8"]
+      },
+      {
+        "day": 19,
+        "chapters": ["1 Korinther 13"]
+      },
+      {
+        "day": 20,
+        "chapters": ["1 Korinther 15"]
+      },
+      {
+        "day": 21,
+        "chapters": ["Galater 5"]
+      },
+      {
+        "day": 22,
+        "chapters": ["Epheser 4,1–16"]
+      },
+      {
+        "day": 23,
+        "chapters": ["Epheser 6"]
+      },
+      {
+        "day": 24,
+        "chapters": ["Philipper 1,18–2,18"]
+      },
+      {
+        "day": 25,
+        "chapters": ["Kolosser 3,1–17"]
+      },
+      {
+        "day": 26,
+        "chapters": ["Hebräer 4,14–5,10"]
+      },
+      {
+        "day": 27,
+        "chapters": ["Jakobus 1"]
+      },
+      {
+        "day": 28,
+        "chapters": ["1 Petrus 1,13–25"]
+      },
+      {
+        "day": 29,
+        "chapters": ["1 Johannes 4,7–21"]
+      },
+      {
+        "day": 30,
+        "chapters": ["Offenbarung 21–22"]
+      }
+    ],
+    "credits": "<a>https://static.crossway.org/excerpt/7-esv-30-days-in-the-nt-reading-plan.3.pdf</a>"
+  }

@@ -1,0 +1,21 @@
+{
+  "plans": [
+    {
+      "title": "365 Tage - Lies die Bibel in einem Jahr",
+      "slug": "365",
+      "color": "#6d99da"
+    },
+    {
+      "title": "Ein Psalm pro Tag",
+      "slug": "wow",
+      "color": "#6db7bb"
+    },
+    {
+      "title": "30 Tage durch das Neue Testament",
+      "slug": "30nt",
+      "color": "#d87262"
+    }
+  ]
+}
+
+ 

@@ -1,0 +1,59 @@
+{
+  "title": "Ein Psalm pro Tag",
+  "color": "#6db7bb",
+  "plan": [
+    {
+      "day": 1,
+      "chapters": ["Psalm 1"]
+    },
+    {
+      "day": 2,
+      "chapters": ["Psalm 2"]
+    },
+    {
+      "day": 3,
+      "chapters": ["Psalm 3"]
+    },
+    {
+      "day": 4,
+      "chapters": ["Psalm 4"]
+    },
+    {
+      "day": 5,
+      "chapters": ["Psalm 5"]
+    },
+    {
+      "day": 6,
+      "chapters": ["Psalm 6"]
+    },
+    {
+      "day": 7,
+      "chapters": ["Psalm 7"]
+    },
+    {
+      "day": 8,
+      "chapters": ["Psalm 8"]
+    },
+    {
+      "day": 9,
+      "chapters": ["Psalm 9"]
+    },
+    {
+      "day": 10,
+      "chapters": ["Psalm 10"]
+    },
+    {
+      "day": 11,
+      "chapters": ["Psalm 11"]
+    },
+    {
+      "day": 12,
+      "chapters": ["Psalm 12"]
+    },
+    {
+      "day": 13,
+      "chapters": ["Psalm 13"]
+    }
+  ],
+  "credits": "This is a bible reading plan by Read Scripture"
+}

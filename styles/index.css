@@ -1,0 +1,48 @@
+/* purgecss start ignore */
+@tailwind base;
+/* purgecss end ignore */
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Recursive Beta 1.022';
+    src: '/fonts/recursive-subset.woff2' format('woff2-variations');
+    font-weight: 300 900;
+    font-display: swap;
+}
+
+.border-b-5 {
+    border-bottom-width: 5px;
+}
+
+.bg-blend-excl {
+    background-blend-mode: exclusion;
+}
+
+body {
+    @apply bg-gray-100;
+}
+
+@media (prefers-color-scheme: dark){
+    body {
+        background-color: #181818;
+    }
+}
+
+.hyphens-auto {
+    hyphens: auto;
+}
+
+:root {
+    --blue: #99aadd;
+    --teal: #aabbaa;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.rounded-px {
+    border-radius: 1px;
+}
