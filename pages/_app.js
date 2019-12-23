@@ -13,6 +13,7 @@ export default class MyApp extends App {
         <Head>
           <title>heartbeat.bible</title>
           <link rel="manifest" href="/manifest.json" />
+          <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
           <meta name="theme-color" content="#f7fafc" />
           <meta name="description" content="Der Mensch lebt nicht vom Brot allein, sondern von jedem Wort, das aus dem Mund Gottes kommt." />
           <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
