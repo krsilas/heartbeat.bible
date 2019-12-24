@@ -6,6 +6,7 @@ import Link from 'next/link'
 import localforage from 'localforage'
 import { colors, darken, lighten } from '../../src/utils'
 import { useState, useEffect } from 'react'
+import MorphTransition from 'nextjs-morph-page';
 
 const Plan = (props) => {
   const { title, plan, slug, color } = props;
@@ -29,7 +30,6 @@ const Plan = (props) => {
   useEffect(()=>{
     localforage.getItem(slug).then((value)=>{
       setDays(value)
-      console.log('restored', value)
     }).catch((err)=>{
       console.error(err)
     })
@@ -41,8 +41,10 @@ const Plan = (props) => {
         <Link href="/"><a className="opacity-75">{`<-`}</a></Link>
     </div>
     <div className="h-12 mb-3 w-full"></div>
+    
+    
     <div className="dark:text-gray-300 p-2 pb-0">
-      <header className={`flex rounded-lg border items-center h-48 pb-4 w-full max-w-xl mx-auto ${colors[color]}`}>
+      <header id={`morph-${slug}`} data-morph-ms="200" className={`flex rounded-lg border items-center h-48 pb-4 w-full max-w-xl mx-auto ${colors[color]}`}>
         <h1 className="p-4 mt-6  font-mono text-4xl font-bold leading-tight tracking-tight text-color select-none">{title}</h1>
       </header>
 
@@ -62,6 +64,7 @@ const Plan = (props) => {
       {/* End List */}
 
     </div>
+    
     <style jsx>{`
       .font-fira { 
         font-family: "Fira Code" 
@@ -84,11 +87,11 @@ const Plan = (props) => {
 
 Plan.getInitialProps = async function(context) {
   const { slug } = context.query;
-  const res = await fetch(`http://localhost:3000/de/${slug}.json`);
+  const res = await fetch(`http://heartbeat.krausesilas.now.sh/de/${slug}.json`);
   const data = await res.json();
   const {title, plan, color, credits} = data;
   return {
-    title, color, plan, credits, slug
+    title, color, plan, slug
   };
 };
 

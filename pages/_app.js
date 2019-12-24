@@ -1,5 +1,5 @@
 import '../styles/index.css'
-
+import MorphTransition from 'nextjs-morph-page';
 import React from 'react'
 import App from 'next/app'
 import Head from 'next/head'
@@ -19,7 +19,9 @@ export default class MyApp extends App {
           <link href="https://fonts.googleapis.com/css?family=Fira+Code:400|700&display=swap" rel="stylesheet"></link>
           <link href="https://rsms.me/inter/inter.css" rel="stylesheet"></link>
         </Head> 
+        <MorphTransition timeout={200} classNames="morph">
         <Component {...pageProps} />
+        </MorphTransition>
       </>
     )
   }

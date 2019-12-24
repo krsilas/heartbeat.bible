@@ -9,6 +9,7 @@
     "localforage": "^1.7.3",
     "next": "^9.1.3",
     "next-offline": "^4.0.6",
+    "nextjs-morph-page": "^2.0.3",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   },
