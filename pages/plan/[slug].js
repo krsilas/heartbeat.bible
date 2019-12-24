@@ -4,11 +4,11 @@ import SectionHeader from '../../src/components/SectionHeader'
 import fetch from 'isomorphic-unfetch'
 import Link from 'next/link'
 import localforage from 'localforage'
-import { darken, lighten } from '../../src/utils'
+import { colors, darken, lighten } from '../../src/utils'
 import { useState, useEffect } from 'react'
 
 const Plan = (props) => {
-  const { title, plan, color, slug } = props;
+  const { title, plan, slug, color } = props;
   const [ days, setDays ] = useState([]);
 
   const isArray = (arr) => (arr && arr.length > 0)
@@ -26,8 +26,6 @@ const Plan = (props) => {
 
   function save() { localforage.setItem(slug, days); }
 
-  
-
   useEffect(()=>{
     localforage.getItem(slug).then((value)=>{
       setDays(value)
@@ -39,12 +37,12 @@ const Plan = (props) => {
 
   return (
     <>
-    <div className="app-bar w-full px-4 py-2 bg-blur border-b-5 border-color font-bold text-2xl text-color font-fira fixed">
-        <Link href="/"><a>{`<-`}</a></Link>
+    <div className={`w-full px-4 py-2 bg-blur border-b font-bold text-2xl font-fira fixed ${colors[color]}`}>
+        <Link href="/"><a className="opacity-75">{`<-`}</a></Link>
     </div>
     <div className="h-12 mb-3 w-full"></div>
     <div className="dark:text-gray-300 p-2 pb-0">
-      <header className="flex rounded-px items-center h-48 pb-4 w-full max-w-xl mx-auto">
+      <header className={`flex rounded-lg border items-center h-48 pb-4 w-full max-w-xl mx-auto ${colors[color]}`}>
         <h1 className="p-4 mt-6  font-mono text-4xl font-bold leading-tight tracking-tight text-color select-none">{title}</h1>
       </header>
 
@@ -65,27 +63,18 @@ const Plan = (props) => {
 
     </div>
     <style jsx>{`
-      --color: ${darken(color,33)}
-      .text-color {
-        color: var(--color);
-      }
-      .border-color {
-        border-color: var(--color);
-      }
       .font-fira { 
         font-family: "Fira Code" 
       }
-      header {
-        border: 5px solid var(--color);
-      }
       .bg-blur {
+        filter: saturate(75%);
         backdrop-filter: blur(8px) saturate(70%);
-        background-color: ${lighten(color,150,0.6)};
+        background-color: rgba(255,255,255,0.5);
       }
       @media(prefers-color-scheme: dark) {
         .bg-blur {
           backdrop-filter: blur(8px) saturate(70%) contrast(80%);
-          background-color: ${darken(color,190,0.4)};
+          background-color: rgba(0,0,0,0.5);
         }
       }
     `}</style>
@@ -95,7 +84,7 @@ const Plan = (props) => {
 
 Plan.getInitialProps = async function(context) {
   const { slug } = context.query;
-  const res = await fetch(`https://heartbeat.krausesilas.now.sh/de/${slug}.json`);
+  const res = await fetch(`http://localhost:3000/de/${slug}.json`);
   const data = await res.json();
   const {title, plan, color, credits} = data;
   return {
