@@ -6,7 +6,7 @@ import Link from 'next/link'
 import localforage from 'localforage'
 import { colors, darken, lighten } from '../../src/utils'
 import { useState, useEffect } from 'react'
-import MorphTransition from 'nextjs-morph-page';
+import TopBar from '../../src/components/TopBar'
 
 const Plan = (props) => {
   const { title, plan, slug, color } = props;
@@ -37,11 +37,7 @@ const Plan = (props) => {
 
   return (
     <>
-    <div className={`w-full px-4 py-2 bg-blur border-b font-bold text-2xl font-fira fixed ${colors[color]}`}>
-        <Link href="/"><a className="opacity-75">{`<-`}</a></Link>
-    </div>
-    <div className="h-12 mb-3 w-full"></div>
-    
+    <TopBar className={colors[color]} />
     
     <div className="dark:text-gray-300 p-2 pb-0">
       <header id={`morph-${slug}`} data-morph-ms="200" className={`flex rounded-lg border items-center h-48 pb-4 w-full max-w-xl mx-auto ${colors[color]}`}>
@@ -64,23 +60,6 @@ const Plan = (props) => {
       {/* End List */}
 
     </div>
-    
-    <style jsx>{`
-      .font-fira { 
-        font-family: "Fira Code" 
-      }
-      .bg-blur {
-        filter: saturate(75%);
-        backdrop-filter: blur(8px) saturate(70%);
-        background-color: rgba(255,255,255,0.5);
-      }
-      @media(prefers-color-scheme: dark) {
-        .bg-blur {
-          backdrop-filter: blur(8px) saturate(70%) contrast(80%);
-          background-color: rgba(0,0,0,0.5);
-        }
-      }
-    `}</style>
     </>
   );
 }
