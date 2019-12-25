@@ -22,4 +22,6 @@ const nextConfig = {
   };
 
 //module.exports = withOffline(withCSS(nextConfig))
-module.exports = withCSS({})
+module.exports = withCSS({
+    target: 'serverless'
+})
