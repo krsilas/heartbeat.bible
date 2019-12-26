@@ -6,8 +6,8 @@ const PlanLink = (props) => {
   
   return (
     <>
-      <Link href={`/plan?slug=${slug}`} as={`/plan/${slug}`}>
-        <div id={`morph-${slug}`} data-morph-ms="300" className={`planlink flex items-center border font-medium w-100 m-4 p-4 sm:pl-5 font-mono text-lg rounded-lg hover:cursor-pointer select-none ${colors[color]}`}>
+      <Link href="/plan/[slug]" as={`/plan/${slug}`}>
+        <div id={`morph-${slug}`} data-morph-ms="150" className={`planlink flex items-center border font-medium w-100 m-4 p-4 sm:pl-5 font-mono text-lg rounded-lg hover:cursor-pointer select-none ${colors[color]}`}>
           <span>{title}</span>
         </div>
       </Link>

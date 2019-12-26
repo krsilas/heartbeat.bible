@@ -40,7 +40,7 @@ const Plan = (props) => {
     <TopBar className={colors[color]} />
     
     <div className="dark:text-gray-300 p-2 pb-0">
-      <header id={`morph-${slug}`} data-morph-ms="200" className={`flex rounded-lg border items-center h-48 pb-4 w-full max-w-xl mx-auto ${colors[color]}`}>
+      <header id={`morph-${slug}`} data-morph-ms="150" className={`flex rounded-lg border items-center h-48 pb-4 w-full max-w-xl mx-auto ${colors[color]}`}>
         <h1 className="p-4 mt-6  font-mono text-4xl font-bold leading-tight tracking-tight text-color select-none">{title}</h1>
       </header>
 
@@ -66,7 +66,7 @@ const Plan = (props) => {
 
 Plan.getInitialProps = async function(context) {
   const { slug } = context.query;
-  const res = await fetch(`http://heartbeat.krausesilas.now.sh/de/${slug}.json`);
+  const res = await fetch(`https://heartbeat.krausesilas.now.sh/de/${slug}.json`);
   const data = await res.json();
   const {title, plan, color, credits} = data;
   return {

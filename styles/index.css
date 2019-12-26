@@ -41,6 +41,10 @@ body {
   transition-property: opacity;
 }
 
+.opacity-33 {
+	opacity: .33;
+}
+
 .hyphens-auto {
     hyphens: auto;
 }

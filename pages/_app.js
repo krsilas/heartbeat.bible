@@ -16,8 +16,10 @@ export default class MyApp extends App {
           <meta name="theme-color" content="#f7fafc" />
           <meta name="description" content="Der Mensch lebt nicht vom Brot allein, sondern von jedem Wort, das aus dem Mund Gottes kommt." />
           <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
-          <link href="https://fonts.googleapis.com/css?family=Fira+Code:400|700&display=swap" rel="stylesheet"></link>
-          <link href="https://rsms.me/inter/inter.css" rel="stylesheet"></link>
+          <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Fira+Code:400|700&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+          <noscript><link href="https://fonts.googleapis.com/css?family=Fira+Code:400|700&display=swap" rel="stylesheet"></link></noscript>
+          <link rel="preload" as="style" href="https://rsms.me/inter/inter.css" onload="this.onload=null;this.rel='stylesheet'" />
+          <noscript><link href="https://rsms.me/inter/inter.css" rel="stylesheet"></link></noscript>
         </Head> 
         <MorphTransition timeout={200} classNames="morph">
         <Component {...pageProps} />
