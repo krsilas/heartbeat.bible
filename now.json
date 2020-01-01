@@ -8,7 +8,14 @@
           "cache-control": "public, max-age=43200, immutable",
           "Service-Worker-Allowed": "/"
         }
-      }	
+      },
+      {	
+        "src": "/images/(.*)",	
+        "dest": "/images/$1",
+        "headers": {
+          "cache-control": "s-maxage=43200"
+        }
+      }		
     ],
     "builds": [
       {
