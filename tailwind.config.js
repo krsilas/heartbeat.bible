@@ -54,6 +54,7 @@ module.exports = {
       })
     },
     variants: {
+      backgroundColor: ['active', 'responsive'],
       cursor: ['responsive', 'hover'],
     },
     plugins: [

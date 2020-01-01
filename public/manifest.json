@@ -1,7 +1,7 @@
 {
     "name": "heartbeat.bible",
     "short_name": "Heartbeat",
-    "theme_color": "#edf2f744",
+    "theme_color": "#F7FAFC",
     "background_color": "white",
     "display": "standalone",
     "Scope": "/",

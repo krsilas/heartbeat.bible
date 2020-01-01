@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import localforage from 'localforage'
 export default () => {
-    const [ recEnabled, setRec ] = useState(true)
+    const [ recEnabled, setRec ] = useState(false)
     const [ scrollPosition, setScrollPosition ] = useState(0)
     const scrollListener = () => {
         document.addEventListener("scroll", () => {
@@ -10,9 +10,9 @@ export default () => {
     }
     useEffect(()=>{
         localforage.getItem('recEnabled').then(value=>{
-					(value != null) && setRec(value)
+			(value != null) && setRec(value)
         }).catch(()=>{
-					setRec(true)
+			setRec(true)
         })
         return scrollListener()
       }, [])
@@ -50,22 +50,19 @@ export default () => {
 
 const Item = (props) => {
 		const { title, subtitle, img, href, type } = props;
-		const baseURL = 'heartbeat.krausesilas.now.sh'
+		const baseURL = 'heartbeat.bible'
 		function imageUrl(url, w = 64, q = 90) {
-			if (process.env.NODE_ENV === 'production') {
+			//if (process.env.NODE_ENV === 'production') {
 				return `https://cdn.statically.io/img/${baseURL}/images/${url}?w=${w}&h=${w}&quality=${q}`
-			} else {
-				return `/images/${url}`
-			}
+			//} else {
+			//	return `/images/${url}`
+			//}
 		}
     return (
-        <a href={href} target="_blank" rel="noopener norefferer" className="flex text-gray-800 items-center px-2 py-2 bg-gray-200 dark:bg-gray-900 dark:border-gray-800 border-gray-300 border rounded-lg my-2">
-						{ type == 'book'
-						? <img className="book h-16 w-auto m-1 mr-2" src={imageUrl(img)} width="100" height="100" alt="Image"/>
-						: <img className="h-16 w-auto m-1 mr-3 rounded" src={imageUrl(img)} width="100" height="100" alt="Image"/> }
-            
-            <div className="py-1 flex-grow dark:text-gray-500">
-                <h4 className="font-medium leading-tight pb-1">{title}</h4>
+        <a href={href} target="_blank" rel="noopener norefferer" className="flex text-gray-800 items-center px-2 py-2 bg-gray-200 dark:bg-gray-900 dark:border-gray-800 border-gray-300 border rounded-lg my-2 tap-none active:bg-gray-300 dark:active:bg-black">
+						<img srcSet={`${imageUrl(img, 128)} 2x, ${imageUrl(img)} 1x`} sizes="64px" className="h-16 w-auto m-1 mr-3 rounded" src={imageUrl(img)} type={type} width="100" height="100" alt="Image" />
+					  <div className="py-1 flex-grow dark:text-gray-500">
+                <h4 className="font-medium text-gray-800 dark:text-gray-500 leading-tight pb-1">{title}</h4>
                 <p className="font-light opacity-75 dark:opacity-100 text-sm">{subtitle}</p>
             </div>
             <svg className="m-2 text-gray-600 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-1 0 26 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -78,11 +75,12 @@ const Item = (props) => {
 							</g>
 						</svg>
 				<style jsx>{`
-				img.book {
-						filter: drop-shadow(1px 2px 0.125rem #C4C8CC)
+				img[type="book"] {
+						filter: drop-shadow(1px 2px 0.125rem #C4C8CC);
+						margin-right: 0.5rem !important;
 				}
 				@media (prefers-color-scheme: dark){
-						img.book {
+						img[type="book"] {
 								filter: drop-shadow(1px 2px 0.125rem #111) 
 						}
 				}
