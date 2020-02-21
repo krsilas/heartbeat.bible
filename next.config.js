@@ -11,17 +11,19 @@ const nextConfig = {
                 urlPattern: /^https?.*/,
                 handler: 'NetworkFirst',
                 options: {
-                    cacheName: 'offlineCache',
+                    cacheName: 'offlineCache-v1-beta1',
+                    networkTimeoutSeconds: 15,
                     expiration: {
                         maxEntries: 200,
+                        maxAgeSeconds: 30 * 24 * 60 * 60, // 1 month
                     },
+                    cacheableResponse: {
+                        statuses: [0, 200]
+                    }
                 },
             } ,
         ],
     },
   };
 
-//module.exports = withOffline(withCSS(nextConfig))
-module.exports = withCSS({
-    target: 'serverless'
-})
+module.exports = withOffline(withCSS(nextConfig))

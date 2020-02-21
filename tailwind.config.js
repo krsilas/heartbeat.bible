@@ -1,6 +1,9 @@
 module.exports = {
     theme: {
       extend: {
+        height: {
+          '14': '3.5rem'
+        },
         screens: {
           'dark': {'raw': '(prefers-color-scheme: dark)'},
         },

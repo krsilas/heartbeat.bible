@@ -3,6 +3,7 @@ import VideoItem from '../../src/components/VideoItem'
 import SectionHeader from '../../src/components/SectionHeader'
 import fetch from 'isomorphic-unfetch'
 import Link from 'next/link'
+import Head from 'next/head'
 import localforage from 'localforage'
 import { colors, darken, lighten } from '../../src/utils'
 import { useState, useEffect } from 'react'
@@ -33,19 +34,27 @@ const Plan = (props) => {
       cN.includes('active:') && headerRef.current.classList.remove(cN)
     })
     localforage.getItem(slug).then((value)=>{
-      setDays(value)
+      if (value === null){
+        localforage.setItem(slug, days)
+      } else {
+        setDays(value)
+      }
     }).catch((err)=>{
       console.error(err)
+      localforage.setItem(slug, [])
     })
   }, [])
 
   return (
     <>
-    <TopBar className={colors[color]} />
+    <Head>
+      <link rel="preload" href={`https://heartbeat.bible/de/${slug}.json`} as="fetch" crossOrigin />
+    </Head>
+    <TopBar className={colors[color]} back={true} />
     
     <div className="dark:text-gray-300 p-2 pb-0 -mb-6">
       <header ref={headerRef} onClick={(e)=>e.preventDefault()} id={`morph-${slug}`} data-morph-ms="150" className={`flex rounded-lg border items-center h-48 pb-4 w-full max-w-xl mx-auto ${colors[color]}`}>
-        <h1 className="p-4 mt-6  font-mono text-4xl font-bold leading-tight tracking-tight text-color select-none">{title}</h1>
+        <h1 className="p-4 mt-6  font-mono text-4xl font-semibold leading-tight tracking-tight text-color select-none">{title}</h1>
       </header>
 
       {/* List */}

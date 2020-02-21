@@ -10,22 +10,28 @@ export default () => {
     }
     useEffect(()=>{
         localforage.getItem('recEnabled').then(value=>{
-			(value != null) && setRec(value)
+			if (value === null) {
+				setRec(true)
+				localforage.setItem('recEnabled', true)
+			} else {
+				setRec(value)
+			}
         }).catch(()=>{
 			setRec(true)
-        })
+		})
+		
         return scrollListener()
       }, [])
     if (!recEnabled) return null
     return (
-        <div className={`my-12 mx-5 transition-slower transition-opacity text-gray-900 ${scrollPosition < 30 ? 'opacity-33' : null}`}>
+        <div className={`recommendations text-sm my-12 mx-5 transition-slower transition-opacity text-gray-900 ${scrollPosition < 30 ? 'opacity-33' : null}`}>
         <h3 className="text-lg mt-1 font-sans font-semibold border-gray-400 inline-block dark:text-gray-200 dark:border-gray-700">Empfehlungen</h3>
 
         <h4 className="mt-1 uppercase text-gray-700 dark:text-gray-400 font-semibold tracking-wider">Bücher</h4>
-        <p className="font-light text-gray-700 tracking-wide inline-block mb-1 dark:text-gray-400">Falls du noch keine Bibel hast oder nur eine, die schwer verständlich ist, empfehle ich dir:</p>
+        <p className="font-light text-gray-600 inline-block mb-1 dark:text-gray-400">Falls du noch keine Bibel hast oder nur eine, die schwer verständlich ist, empfehle ich dir:</p>
         <Item title="Neues Leben. Die Bibel -&nbsp;Sonderausgabe" subtitle="SCM R.Brockhaus" img="neues-leben.png" href="https://www.amazon.de/Neues-Leben-Die-Bibel-Sonderausgabe/dp/3417253799/" type="book" />
         
-        <p className="mt-4 font-light text-gray-700 dark:text-gray-400 tracking-wide inline-block">Wenn du die Bibel besser verstehen willst, können dir diese Bücher weiterhelfen:</p>
+        <p className="mt-4 font-light text-gray-600 dark:text-gray-400 inline-block">Wenn du die Bibel besser verstehen willst, können dir diese Bücher weiterhelfen:</p>
         <Item title="Effektives Bibelstudium: Die Bibel verstehen und auslegen" subtitle="Douglas Stuart und Gordon D. Fee" img="effektiv-bibel.png" href="https://www.amazon.de/Effektives-Bibelstudium-Bibel-verstehen-auslegen/dp/3765506028/" type="book" />
         <Item title="Sein Wort - meine Welt: Die Studienbibel für das 21. Jahrhundert" img="elb-studienbibel.png" href="https://www.amazon.de/Sein-Wort-meine-Studienbibel-Jahrhundert/dp/3417255430/" type="book" />
 
@@ -42,8 +48,19 @@ export default () => {
         <Item type="youtube" title="Das Bibel Projekt" subtitle="" img="bibel_projekt.jpg" href="https://www.youtube.com/channel/UCMvmlvKoZV0vcM2kjLwOAbQ" />
 				<Item type="youtube" title="Look at the Book" subtitle="Desiring God" img="look_at_the_book.jpg" href="https://www.youtube.com/playlist?list=PLAcB0f-21Xj0MTWuh7NKKploqNgpbJsY2"/>
 				<Item type="youtube" title="Permission Granted" subtitle="Fire & Fragrance" img="fireNfragrance.jpg" href="https://www.youtube.com/playlist?list=PLP84kxGvMHnv08Tf-JkvvJMRh_tGaXt8l" />
-
-				
+		<style scoped jsx>{`
+		@keyframes fadeIn {
+			0% { 
+				opacity: .1; 
+				${(document.cookie.indexOf('pwaprompt=false') != -1) ? '':'transform: translateY(100px)'} 
+			}
+			33% { opacity: .2 }
+			100% { opacity: .33 }
+		}
+		.recommendations {
+			animation: fadeIn 400ms ease;
+		}
+		`}</style>				
         </div>
     )
 }
@@ -62,7 +79,7 @@ const Item = (props) => {
         <a href={href} target="_blank" rel="noopener norefferer" className="flex text-gray-800 items-center px-2 py-2 bg-gray-200 dark:bg-gray-900 dark:border-gray-800 border-gray-300 border rounded-lg my-2 tap-none active:bg-gray-300 dark:active:bg-black">
 						<img srcSet={`${imageUrl(img, 128)} 2x, ${imageUrl(img)} 1x`} sizes="64px" className="h-16 w-auto m-1 mr-3 rounded" src={imageUrl(img)} type={type} width="100" height="100" alt="Image" />
 					  <div className="py-1 flex-grow dark:text-gray-500">
-                <h4 className="font-medium text-gray-800 dark:text-gray-500 leading-tight pb-1">{title}</h4>
+                <h4 className="font-medium text-base text-gray-800 dark:text-gray-500 leading-tight pb-1">{title}</h4>
                 <p className="font-light opacity-75 dark:opacity-100 text-sm">{subtitle}</p>
             </div>
             <svg className="m-2 text-gray-600 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-1 0 26 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
