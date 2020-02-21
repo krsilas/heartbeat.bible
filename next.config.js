@@ -13,7 +13,7 @@ const nextConfig = {
                 urlPattern: /^https?.*/,
                 handler: 'NetworkFirst',
                 options: {
-                    cacheName: 'offlineCache-v1-beta1',
+                    cacheName: 'offlineCache-v1-beta2',
                     networkTimeoutSeconds: 15,
                     expiration: {
                         maxEntries: 200,

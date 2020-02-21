@@ -106,6 +106,10 @@ return(
 		h1,h2,h3,h4,h5,b {
 			font-variation-settings:'wght' 500; line-height:1.5rem;
 		} 
+		a {
+		  hyphens: auto;
+		  color: midnightblue;
+		}
 		p, ul { font-variation-settings: 'wght' 300; margin-bottom: 1rem; } 
 		li { list-style:initial; margin-left: 1.125rem; }
 	`}</style>
