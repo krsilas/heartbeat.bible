@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import localforage from 'localforage'
+import { isPWA } from '../utils'
 export default () => {
     const [ recEnabled, setRec ] = useState(false)
     const [ scrollPosition, setScrollPosition ] = useState(0)
@@ -52,7 +53,7 @@ export default () => {
 		@keyframes fadeIn {
 			0% { 
 				opacity: .1; 
-				${(document.cookie.indexOf('pwaprompt=false') != -1) ? '':'transform: translateY(100px)'} 
+				${(document.cookie.indexOf('pwaprompt=false') != -1 || isPWA()) ? '':'transform: translateY(100px)'} 
 			}
 			33% { opacity: .2 }
 			100% { opacity: .33 }

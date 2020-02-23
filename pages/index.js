@@ -10,7 +10,7 @@ export default function Index(props) {
     <> 
       <Header />
       <div className="max-w-xl mx-auto">
-      <h3 className="mt-10 mx-5 -mb-2 text-gray-900 text-lg mt-1 font-sans font-semibold border-gray-400 inline-block dark:text-gray-200 dark:border-gray-700">Lesepläne</h3>
+      <h3 className="mt-8 mx-5 -mb-2 text-gray-900 text-lg mt-1 font-sans font-semibold border-gray-400 inline-block dark:text-gray-200 dark:border-gray-700">Lesepläne</h3>
       <div>
         {props.plans.map((entry, i) => 
           <PlanLink key={i} {...entry} />

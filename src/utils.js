@@ -19,3 +19,9 @@ export const colors = {
     indigo: `bg-indigo-200 border-indigo-300 text-indigo-900 dark:bg-indigo-900 dark:border-indigo-800 dark:text-indigo-400 active:bg-indigo-300 dark:active:bg-indigo-800`,
     teal: `bg-teal-200 border-teal-300 text-teal-900 dark:bg-teal-900 dark:border-teal-800 dark:text-teal-400 active:bg-teal-300 dark:active:bg-teal-800`,
 }
+
+export const isPWA = () => {
+    if (typeof window !== 'undefined') {
+        return (window.matchMedia('(display-mode: standalone)').matches || typeof window.navigator.standalone !== 'undefined')
+    } else return false
+}

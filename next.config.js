@@ -10,11 +10,18 @@ const nextConfig = {
         swDest: 'static/service-worker.js',
         runtimeCaching: [
             {
-                urlPattern: /^https?.*/,
-                handler: 'NetworkFirst',
+                urlPattern: /.woff2$/,
+                handler: 'CacheFirst',
                 options: {
-                    cacheName: 'offlineCache-v1-beta2',
-                    networkTimeoutSeconds: 15,
+                    cacheName: 'fonts-v1',
+                    expiration: { maxAgeSeconds: 300110400 }, // 1 year
+                },
+            },
+            {
+                urlPattern: /^https?.*/,
+                handler: 'StaleWhileRevalidate',
+                options: {
+                    cacheName: 'offlineCache-v1-beta9',
                     expiration: {
                         maxEntries: 200,
                         maxAgeSeconds: 30 * 24 * 60 * 60, // 1 month
