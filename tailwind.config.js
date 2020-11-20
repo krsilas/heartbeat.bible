@@ -1,7 +1,8 @@
 module.exports = {
     purge: ['./components/**/*.js', './pages/**/*.js'],
     plugins: [
-      require('@tailwindcss/typography')
+      require('@tailwindcss/typography'),
+      require('@tailwindcss/forms')
     ],
     theme: {
       extend: {
@@ -48,17 +49,6 @@ module.exports = {
           cyan: '#9cdbff',
         }
       },
-      customForms: theme => ({
-        default: {
-          checkbox: {
-            icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 36 36" fill="none" stroke="#f8fff8" stroke-width="3.5" stroke-linecap="butt" stroke-linejoin="arcs"><polyline points="20 6 9 17 4 12"></polyline></svg>',
-            '&:focus': {
-              boxShadow: '0 0 0 3px rgba(48, 195, 38, 0.41)',
-              borderColor: theme('colors.green.300'),
-            }
-          },
-        },
-      })
     },
     variants: {
       backgroundColor: ['active', 'responsive'],

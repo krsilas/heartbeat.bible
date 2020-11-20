@@ -91,6 +91,9 @@ html, body {
   backdrop-filter: blur(8px) saturate(70%);
   background-color: rgba(255,255,255,0.55);
 }
+input[type='checkbox']:checked {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-6 -6 36 36' fill='none' stroke='%23f8fff8' stroke-width='3.5' stroke-linecap='butt' stroke-linejoin='arcs'%3e%3cpolyline points='20 6 9 17 4 12'%3e%3c/polyline%3e%3c/svg%3e")
+}
 @media(prefers-color-scheme: dark) {
   html { background-color: black; }
   .bg-blur {
