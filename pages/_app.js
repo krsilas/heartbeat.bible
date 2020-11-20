@@ -3,6 +3,7 @@ import MorphTransition from 'nextjs-morph-page';
 import React from 'react'
 import App from 'next/app'
 import Head from 'next/head'
+import Footer from '../src/components/Footer';
 
 export default class MyApp extends App {
   constructor(){
@@ -34,10 +35,17 @@ export default class MyApp extends App {
           <link rel="apple-touch-icon" href="/images/icons/icon-512x512.png"></link>
           <link rel="preload" href="/fonts/FiraCode-VF.woff2?v=2.0" as="font" crossOrigin="true" />
           <link rel="preload" href="/fonts/Inter-VF.woff2?v=3.11" as="font" crossOrigin="true" />
+          <link rel="preload" href="/de/365.json" as="fetch" />
+          <link rel="preconnect" href="https://cdn.statically.io/" />
         </Head> 
-        <MorphTransition timeout={0} classNames="morph">
-        <Component {...pageProps} />
-        </MorphTransition>
+        <div className="flex flex-col font-sans min-h-screen">
+        <main style={{ flex:' 1 0 auto'}}>
+          <MorphTransition timeout={0} classNames="morph">
+          <Component {...pageProps} />
+          </MorphTransition>
+        </main>
+        <Footer />
+        </div>
       </>
     )
   }

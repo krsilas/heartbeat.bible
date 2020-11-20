@@ -22,12 +22,11 @@ export default function Index(props) {
     </>  
     )
 }
-
-Index.getInitialProps = async function() {
-  const baseURL = 'heartbeat.bible'
-  const res = await fetch(`https://${baseURL}/de/index.json`);
-  const {plans} = await res.json();
+export const getStaticProps = async () => {
+  const baseURL = (process.env.NODE_ENV !== 'production') ? 'http://localhost:3000' : 'https://heartbeat.bible';
+  const res = await fetch(`${baseURL}/de/index.json`);
+  const { plans } = await res.json();
   return {
-    plans
+    props: { plans }
   };
 };

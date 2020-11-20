@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import localforage from 'localforage'
 import { isPWA } from '../utils'
-export default () => {
+const Recommendations = () => {
     const [ recEnabled, setRec ] = useState(false)
     const [ scrollPosition, setScrollPosition ] = useState(0)
     const scrollListener = () => {
@@ -106,3 +106,4 @@ const Item = (props) => {
         </a>
     )
 }
+export default Recommendations

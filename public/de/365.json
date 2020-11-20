@@ -1,10 +1,21 @@
 {
-  "title": "365 Tage - Lies die Bibel in einem Jahr",
+  "title": "Read Scripture - Lies die Bibel in einem Jahr",
   "color": "blue",
+  "introduction": {
+    "headline": "Einleitung",
+    "paragraphs": [
+      ["Verschaffe dir einen Überblick", "\"Read Scripture\" ist ein Leseplan mit Videos, der die gewaltige Geschichte der Bibel in 16 chronologische Kapitel aufteilt. Sie sind so angeordnet, dass die Gesamtbotschaft der Bibel deutlich wird. Die Themenvideos sollen dir dabei helfen den Abschnitt, den du gerade liest, in das große Bild einzuordnen."],
+      ["Deine persönliche Zeit mit Gott", "Jedes der 16 Kapitel ist in kleine Abschnitte eingeteilt, die eine Lesedauer von ca. 15-20 Minuten haben. In dieser Zeit darfst du lesen, wie Gott sich den Menschen offenbart hat. Nimm dir währenddessen Zeit, um zu beten. Wenn du das jeden Tag machst, kannst du die Bibel in weniger als einem Jahr durchlesen. Außerdem wirst du merken, wie sich dein Gottesbild festigt und deine Beziehung zu Gott wächst."],
+      ["Verstehe den Kontext", "Die Bibel ist für dich geschrieben, aber nicht direkt an dich. Tauche in die Welt der Bibel ein. Schau dir vor jedem Kapitel das Video dazu an, um mehr über den historischen und literarischen Kontext des Abschnitts zu lernen"],
+      ["Sei gelassen", "Bibellesen ist keine reine intellektueller Übung, sondern eine geistliche. Bete und meditiere durch die Psalmen."],
+      ["Bleibe motiviert", "Jeder Tag ist ein Schritt auf die Reise durch die Bibel. Lass dich nicht entmutigen, wenn Stellen schwierig sind und lass dich von den anderen Ressourcen inpirieren."],
+      ["Los geht's! Starte im ersten Buch Mose und seh' was Gott dir heute zeigen möchte."]
+    ]
+  },
   "plan": [
     {
       "type": "header",
-      "text": "Genesis"
+      "text": "Schöpfung & Sündenfall"
     },
     {
       "type": "video",
@@ -27,6 +38,10 @@
     {
       "day": 3,
       "chapters": ["Genesis 8-11", "Psalm 3"]
+    },
+    {
+      "type": "header",
+      "text": "Der Bund mit Abraham"
     },
     {
       "type": "video",
@@ -97,7 +112,7 @@
     },
     {
       "type": "header",
-      "text": "Exodus (2. Mose)"
+      "text": "Der Exodus aus Ägypten"
     },
     {
       "type": "video",
@@ -132,6 +147,10 @@
     {
       "day": 22,
       "chapters": ["Exodus 16-18", "Psalm 22"]
+    },
+    {
+      "type": "header",
+      "text": "Der Bund am Berg Sinai"
     },
     {
       "type": "video",
@@ -172,12 +191,8 @@
       "chapters": ["Exodus 35-40", "Psalm 29"]
     },
     {
-      "type": "header",
-      "text": "Levitikus (3. Mose)"
-    },
-    {
       "type": "video",
-      "text": "Leviticus",
+      "text": "Levitikus",
       "link": "https://www.youtube.com/watch?v=U9GFT-MO6WY"
     },
     {
@@ -224,7 +239,1681 @@
     {
       "day": 39,
       "chapters": ["Levitikus 26-27", "Psalm 39"]
+    },
+    {
+      "type": "header",
+      "text": "Die Wildernis"
+    },
+    {
+      "type": "video",
+      "text": "Numeri (4. Mose)",
+      "link": "https://www.youtube.com/watch?v=J6OhuhdD4vU"
+    },
+    {
+      "day": 40,
+      "chapters": ["Numeri 1-4", "Psalm 40"]
+    },
+    {
+      "type": "video",
+      "text": "Die Heiligkeit Gottes",
+      "link": "https://www.youtube.com/watch?v=IZO-B2s8Xgc"
+    },
+    {
+      "day": 41,
+      "chapters": ["Numeri 5-7", "Psalm 41"]
+    },
+    {
+      "day": 42,
+      "chapters": ["Numeri 8-10", "Psalm 42"]
+    },
+    {
+      "day": 43,
+      "chapters": ["Numeri 11-13", "Psalm 43"]
+    },
+    {
+      "day": 44,
+      "chapters": ["Numeri 14-16", "Psalm 44"]
+    },
+    {
+      "day": 45,
+      "chapters": ["Numeri 17-18", "Psalm 45"]
+    },
+    {
+      "day": 46,
+      "chapters": ["Numeri 19-21", "Psalm 46"]
+    },
+    {
+      "day": 47,
+      "chapters": ["Numeri 22-24", "Psalm 47"]
+    },
+    {
+      "day": 48,
+      "chapters": ["Numeri 25-27", "Psalm 48"]
+    },
+    {
+      "day": 49,
+      "chapters": ["Numeri 28-30", "Psalm 49"]
+    },
+    {
+      "day": 50,
+      "chapters": ["Numeri 31-32", "Psalm 50"]
+    },
+    {
+      "day": 51,
+      "chapters": ["Numeri 33-34", "Psalm 51"]
+    },
+    {
+      "day": 52,
+      "chapters": ["Numeri 35-36", "Psalm 52"]
+    },
+    {
+      "type": "video",
+      "text": "Deuteronomium (5. Mose)",
+      "link": "https://www.youtube.com/watch?v=Eu7K6Vd7jLM"
+    },
+    {
+      "day": 53,
+      "chapters": ["Deuteronomium 1-3", "Psalm 53"]
+    },
+    {
+      "day": 54,
+      "chapters": ["Deuteronomium 4-6", "Psalm 54"]
+    },
+    {
+      "day": 55,
+      "chapters": ["Deuteronomium 7-9", "Psalm 55"]
+    },
+    {
+      "type": "video",
+      "text": "Das Gesetz",
+      "link": "https://www.youtube.com/watch?v=5xuJ-3KgyA4"
+    },
+    {
+      "day": 56,
+      "chapters": ["Deuteronomium 10-12", "Psalm 56"]
+    },
+    {
+      "day": 57,
+      "chapters": ["Deuteronomium 13-14", "Psalm 57"]
+    },
+    {
+      "day": 58,
+      "chapters": ["Deuteronomium 15-16", "Psalm 58"]
+    },
+    {
+      "day": 59,
+      "chapters": ["Deuteronomium 17-20", "Psalm 59"]
+    },
+    {
+      "day": 60,
+      "chapters": ["Deuteronomium 21-23", "Psalm 60"]
+    },
+    {
+      "day": 61,
+      "chapters": ["Deuteronomium 24-27", "Psalm 61"]
+    },
+    {
+      "day": 62,
+      "chapters": ["Deuteronomium 28-29", "Psalm 62"]
+    },
+    {
+      "day": 63,
+      "chapters": ["Deuteronomium 30-31", "Psalm 63"]
+    },
+    {
+      "day": 64,
+      "chapters": ["Deuteronomium 32-34", "Psalm 64"]
+    },
+    {
+      "type": "header",
+      "text": "Das gelobte Land"
+    },
+    {
+      "type": "video",
+      "text": "Josua",
+      "link": "https://www.youtube.com/watch?v=5EOv0AUXo1Q"
+    },
+    {
+      "day": 65,
+      "chapters": ["Josua 1-4", "Psalm 65"]
+    },
+    {
+      "day": 66,
+      "chapters": ["Josua 5-8", "Psalm 66"]
+    },
+    {
+      "day": 67,
+      "chapters": ["Josua 9-12", "Psalm 67"]
+    },
+    {
+      "day": 68,
+      "chapters": ["Josua 13-21", "Psalm 68"]
+    },
+    {
+      "day": 69,
+      "chapters": ["Josua 22-24", "Psalm 69"]
+    },
+    {
+      "type": "video",
+      "text": "Richter",
+      "link": "https://www.youtube.com/watch?v=dclxjfBPgkc"
+    },
+    {
+      "day": 70,
+      "chapters": ["Richter 1-3", "Psalm 70"]
+    },
+    {
+      "day": 71,
+      "chapters": ["Richter 4-5", "Psalm 71"]
+    },
+    {
+      "day": 72,
+      "chapters": ["Richter 6-8", "Psalm 72"]
+    },
+    {
+      "day": 73,
+      "chapters": ["Richter 9-12", "Psalm 73"]
+    },
+    {
+      "day": 74,
+      "chapters": ["Richter 13-15", "Psalm 74"]
+    },
+    {
+      "day": 75,
+      "chapters": ["Richter 16-18", "Psalm 75"]
+    },
+    {
+      "day": 76,
+      "chapters": ["Richter 19-21", "Psalm 76"]
+    },
+    {
+      "type": "header",
+      "text": "Der Aufstieg und Fall des isralischen Königreichs"
+    },
+    {
+      "type": "video",
+      "text": "Rut",
+      "link": "https://www.youtube.com/watch?v=IF1bCncMGfw"
+    },
+    {
+      "day": 77,
+      "chapters": ["Ruth 1-4", "Psalm 77"]
+    },
+    {
+      "type": "video",
+      "text": "1. Samuel",
+      "link": "https://www.youtube.com/watch?v=UYn3koCqqUc"
+    },
+    {
+      "day": 78,
+      "chapters": ["1. Samuel 1-3", "Psalm 78"]
+    },
+    {
+      "day": 79,
+      "chapters": ["1. Samuel 4-8", "Psalm 79"]
+    },
+    {
+      "day": 80,
+      "chapters": ["1. Samuel 9-12", "Psalm 80"]
+    },
+    {
+      "day": 81,
+      "chapters": ["1. Samuel 13-14", "Psalm 81"]
+    },
+    {
+      "day": 82,
+      "chapters": ["1. Samuel 15-17", "Psalm 82"]
+    },
+    {
+      "day": 83,
+      "chapters": ["1. Samuel 18-20", "Psalm 83"]
+    },
+    {
+      "day": 84,
+      "chapters": ["1. Samuel 21-24", "Psalm 84"]
+    },
+    {
+      "day": 85,
+      "chapters": ["1. Samuel 25-27", "Psalm 85"]
+    },
+    {
+      "day": 86,
+      "chapters": ["1. Samuel 28-31", "Psalm 86"]
+    },
+    {
+      "type": "video",
+      "text": "2. Samuel",
+      "link": "https://www.youtube.com/watch?v=jdGu7U0pcVY"
+    },
+    {
+      "day": 87,
+      "chapters": ["2. Samuel 1-3", "Psalm 87"]
+    },
+    {
+      "type": "video",
+      "text": "Der Messias",
+      "link": "https://www.youtube.com/watch?v=TDCCElmQu60"
+    },
+    {
+      "day": 88,
+      "chapters": ["2. Samuel 4-8", "Psalm 88"]
+    },
+    {
+      "day": 89,
+      "chapters": ["2. Samuel 9-12", "Psalm 89"]
+    },
+    {
+      "day": 90,
+      "chapters": ["2. Samuel 13-15", "Psalm 90"]
+    },
+    {
+      "day": 91,
+      "chapters": ["2. Samuel 16-18", "Psalm 91"]
+    },
+    {
+      "day": 92,
+      "chapters": ["2. Samuel 19-21", "Psalm 92"]
+    },
+    {
+      "day": 93,
+      "chapters": ["2. Samuel 22-24", "Psalm 93"]
+    },
+    {
+      "type": "video",
+      "text": "Könige",
+      "link": "https://www.youtube.com/watch?v=n7TrGldij-o"
+    },
+    {
+      "day": 94,
+      "chapters": ["1. Könige 1-3", "Psalm 94"]
+    },
+    {
+      "day": 95,
+      "chapters": ["1. Könige 4-7", "Psalm 95"]
+    },
+    {
+      "day": 96,
+      "chapters": ["1. Könige 8-10", "Psalm 96"]
+    },
+    {
+      "day": 97,
+      "chapters": ["1. Könige 11-13", "Psalm 97"]
+    },
+    {
+      "day": 98,
+      "chapters": ["1. Könige 14-16", "Psalm 98"]
+    },
+    {
+      "day": 99,
+      "chapters": ["1. Könige 17-19", "Psalm 99"]
+    },
+    {
+      "day": 100,
+      "chapters": ["1. Könige 20-22", "Psalm 100"]
+    },
+    {
+      "day": 101,
+      "chapters": ["2. Könige 1-3", "Psalm 101"]
+    },
+    {
+      "day": 102,
+      "chapters": ["2. Könige 4-7", "Psalm 102"]
+    },
+    {
+      "day": 103,
+      "chapters": ["2. Könige 8-11", "Psalm 103"]
+    },
+    {
+      "day": 104,
+      "chapters": ["2. Könige 12-14", "Psalm 104"]
+    },
+    {
+      "day": 105,
+      "chapters": ["2. Könige 15-17", "Psalm 105"]
+    },
+    {
+      "day": 106,
+      "chapters": ["2. Könige 18-19", "Psalm 106"]
+    },
+    {
+      "day": 107,
+      "chapters": ["2. Könige 20-22", "Psalm 107"]
+    },
+    {
+      "day": 108,
+      "chapters": ["2. Könige 23-25", "Psalm 108"]
+    },
+    {
+      "type": "header",
+      "text": "Die Propheten vor dem Exil"
+    },
+    {
+      "type": "video",
+      "text": "Jesaja Kap. 1-39",
+      "link": "https://www.youtube.com/watch?v=PVkASigeqD0"
+    },
+    {
+      "day": 109,
+      "chapters": ["Jesaja 1-4", "Psalm 109"]
+    },
+    {
+      "day": 110,
+      "chapters": ["Jesaja 5-8", "Psalm 110"]
+    },
+    {
+      "day": 111,
+      "chapters": ["Jesaja 9-12", "Psalm 111"]
+    },
+    {
+      "day": 112,
+      "chapters": ["Jesaja 13-17", "Psalm 112"]
+    },
+    {
+      "day": 113,
+      "chapters": ["Jesaja 18-22", "Psalm 113"]
+    },
+    {
+      "day": 114,
+      "chapters": ["Jesaja 23-27", "Psalm 114"]
+    },
+    {
+      "day": 115,
+      "chapters": ["Jesaja 28-30", "Psalm 115"]
+    },
+    {
+      "day": 116,
+      "chapters": ["Jesaja 31-35", "Psalm 116"]
+    },
+    {
+      "day": 117,
+      "chapters": ["Jesaja 36-38", "Psalm 117"]
+    },
+    {
+      "type": "video",
+      "text": "Jesaja Kap. 40-66",
+      "link": "https://www.youtube.com/watch?v=dgJvi3DopD0"
+    },
+    {
+      "day": 118,
+      "chapters": ["Jesaja 39-41", "Psalm 118"]
+    },
+    {
+      "day": 119,
+      "chapters": ["Jesaja 42-44", "Psalm 119, 1-32"]
+    },
+    {
+      "day": 120,
+      "chapters": ["Jesaja 45-48", "Psalm 119, 33-64"]
+    },
+    {
+      "day": 121,
+      "chapters": ["Jesaja 49-51", "Psalm 119, 65-96"]
+    },
+    {
+      "type": "video",
+      "text": "Die gute Nachricht vom Königreich Gottes",
+      "link": "https://www.youtube.com/watch?v=g25Alkh_LFs"
+    },
+    {
+      "day": 122,
+      "chapters": ["Jesaja 52-54", "Psalm 119, 97-128"]
+    },
+    {
+      "day": 123,
+      "chapters": ["Jesaja 55-57", "Psalm 119, 129-152"]
+    },
+    {
+      "day": 124,
+      "chapters": ["Jesaja 58-60", "Psalm 119, 153-176"]
+    },
+    {
+      "day": 125,
+      "chapters": ["Jesaja 61-64", "Psalm 120"]
+    },
+    {
+      "day": 126,
+      "chapters": ["Jesaja 65-66", "Psalm 121"]
+    },
+    {
+      "type": "video",
+      "text": "Hosea",
+      "link": "https://www.youtube.com/watch?v=hQ2YgxGCKoA"
+    },
+    {
+      "day": 127,
+      "chapters": ["Hosea 1-5", "Psalm 122"]
+    },
+    {
+      "day": 128,
+      "chapters": ["Hosea 6-10", "Psalm 123"]
+    },
+    {
+      "day": 129,
+      "chapters": ["Hosea 11-14", "Psalm 124"]
+    },
+    {
+      "type": "video",
+      "text": "Joel",
+      "link": "https://www.youtube.com/watch?v=qpNaQ2cMMlk"
+    },
+    {
+      "day": 130,
+      "chapters": ["Joel 1-4", "Psalm 125"]
+    },
+    {
+      "type": "video",
+      "text": "Amos",
+      "link": "https://www.youtube.com/watch?v=rn3PpM2pnog"
+    },
+    {
+      "day": 131,
+      "chapters": ["Amos 1-5", "Psalm 126"]
+    },
+    {
+      "day": 132,
+      "chapters": ["Amos 6-9", "Psalm 127"]
+    },
+    {
+      "type": "video",
+      "text": "Obadja",
+      "link": "https://www.youtube.com/watch?v=FMlWKSd0Sgw"
+    },
+    {
+      "day": 133,
+      "chapters": ["Obadja 1", "Psalm 128"]
+    },
+    {
+      "type": "video",
+      "text": "Jona",
+      "link": "https://www.youtube.com/watch?v=FbhXx3EAvGI"
+    },
+    {
+      "day": 134,
+      "chapters": ["Jona 1-4", "Psalm 129"]
+    },
+    {
+      "type": "video",
+      "text": "Micha",
+      "link": "https://www.youtube.com/watch?v=M4xHtQQ4vik"
+    },
+    {
+      "day": 135,
+      "chapters": ["Micha 1-4", "Psalm 130"]
+    },
+    {
+      "day": 136,
+      "chapters": ["Micha 5-7", "Psalm 131"]
+    },
+    {
+      "type": "video",
+      "text": "Nahum",
+      "link": "https://www.youtube.com/watch?v=3urB4sFuIM4"
+    },
+    {
+      "day": 137,
+      "chapters": ["Nahum 1-3", "Psalm 132"]
+    },
+    {
+      "type": "video",
+      "text": "Habakuk",
+      "link": "https://www.youtube.com/watch?v=7B3ngdxDMGg"
+    },
+    {
+      "day": 138,
+      "chapters": ["Habakuk 1-3", "Psalm 133"]
+    },
+    {
+      "type": "video",
+      "text": "Zefanja",
+      "link": "https://www.youtube.com/watch?v=zJezRH2kdgE"
+    },
+    {
+      "day": 139,
+      "chapters": ["Zefanja 1-3", "Psalm 134"]
+    },
+    {
+      "type": "header",
+      "text": "Die Weisheit Israels"
+    },
+    {
+      "type": "video",
+      "text": "Hiob",
+      "link": "https://www.youtube.com/watch?v=Fb0FBrvO7zQ"
+    },
+    {
+      "day": 140,
+      "chapters": ["Hiob 1-3", "Psalm 135"]
+    },
+    {
+      "day": 141,
+      "chapters": ["Hiob 4-7", "Psalm 136"]
+    },
+    {
+      "day": 142,
+      "chapters": ["Hiob 8-11", "Psalm 137"]
+    },
+    {
+      "day": 143,
+      "chapters": ["Hiob 12-15", "Psalm 138"]
+    },
+    {
+      "day": 144,
+      "chapters": ["Hiob 16-19", "Psalm 139"]
+    },
+    {
+      "day": 145,
+      "chapters": ["Hiob 20-23", "Psalm 140"]
+    },
+    {
+      "day": 146,
+      "chapters": ["Hiob 24-28", "Psalm 141"]
+    },
+    {
+      "day": 147,
+      "chapters": ["Hiob 29-31", "Psalm 142"]
+    },
+    {
+      "day": 148,
+      "chapters": ["Hiob 32-34", "Psalm 143"]
+    },
+    {
+      "day": 149,
+      "chapters": ["Hiob 35-37", "Psalm 144"]
+    },
+    {
+      "day": 150,
+      "chapters": ["Hiob 38-39", "Psalm 145"]
+    },
+    {
+      "day": 151,
+      "chapters": ["Hiob 40-42", "Psalm 146"]
+    },
+    {
+      "type": "video",
+      "text": "Psalmen",
+      "link": "https://www.youtube.com/watch?v=vVW2IthkhgM"
+    },
+    {
+      "day": 152,
+      "chapters": ["Psalm 1-2", "Psalm 147"]
+    },
+    {
+      "type": "video",
+      "text": "Sprüche",
+      "link": "https://www.youtube.com/watch?v=CZtN1nW_18k"
+    },
+    {
+      "day": 153,
+      "chapters": ["Sprüche 1-3", "Psalm 148"]
+    },
+    {
+      "day": 154,
+      "chapters": ["Sprüche 4-6", "Psalm 149"]
+    },
+    {
+      "day": 155,
+      "chapters": ["Sprüche 7-9", "Psalm 150"]
+    },
+    {
+      "day": 156,
+      "chapters": ["Sprüche 10-12", "Psalm 1"]
+    },
+    {
+      "day": 157,
+      "chapters": ["Sprüche 13-15", "Psalm 2"]
+    },
+    {
+      "day": 158,
+      "chapters": ["Sprüche 16-18", "Psalm 3"]
+    },
+    {
+      "day": 159,
+      "chapters": ["Sprüche 19-21", "Psalm 4"]
+    },
+    {
+      "day": 160,
+      "chapters": ["Sprüche 22-24", "Psalm 5"]
+    },
+    {
+      "day": 161,
+      "chapters": ["Sprüche 25-27", "Psalm 6"]
+    },
+    {
+      "day": 162,
+      "chapters": ["Sprüche 28-31", "Psalm 7"]
+    },
+    {
+      "type": "video",
+      "text": "Prediger",
+      "link": "https://www.youtube.com/watch?v=QkhASgIUrkM"
+    },
+    {
+      "day": 163,
+      "chapters": ["Prediger 1-4", "Psalm 8"]
+    },
+    {
+      "day": 164,
+      "chapters": ["Prediger 5-8", "Psalm 9"]
+    },
+    {
+      "day": 165,
+      "chapters": ["Prediger 9-12", "Psalm 10"]
+    },
+    {
+      "type": "video",
+      "text": "Hohelied",
+      "link": "https://www.youtube.com/watch?v=cu4pQ-G3nV8"
+    },
+    {
+      "day": 166,
+      "chapters": ["Hohelied 1-4", "Psalm 11"]
+    },
+    {
+      "day": 167,
+      "chapters": ["Hohelied 5-8", "Psalm 12"]
+    },
+    {
+      "type": "header",
+      "text": "Die Propheten während dem Exil"
+    },
+    {
+      "type": "video",
+      "text": "Jeremia",
+      "link": "https://www.youtube.com/watch?v=2hFQoNVe55w"
+    },
+    {
+      "day": 168,
+      "chapters": ["Jeremia 1-3", "Psalm 13"]
+    },
+    {
+      "day": 169,
+      "chapters": ["Jeremia 4-6", "Psalm 14"]
+    },
+    {
+      "day": 170,
+      "chapters": ["Jeremia 7-9", "Psalm 15"]
+    },
+    {
+      "day": 171,
+      "chapters": ["Jeremia 10-13", "Psalm 16"]
+    },
+    {
+      "day": 172,
+      "chapters": ["Jeremia 14-17", "Psalm 17"]
+    },
+    {
+      "day": 173,
+      "chapters": ["Jeremia 18-22", "Psalm 18"]
+    },
+    {
+      "day": 174,
+      "chapters": ["Jeremia 23-25", "Psalm 19"]
+    },
+    {
+      "day": 175,
+      "chapters": ["Jeremia 26-29", "Psalm 20"]
+    },
+    {
+      "day": 176,
+      "chapters": ["Jeremia 30-32", "Psalm 21"]
+    },
+    {
+      "day": 177,
+      "chapters": ["Jeremia 33-36", "Psalm 22"]
+    },
+    {
+      "day": 178,
+      "chapters": ["Jeremia 37-39", "Psalm 23"]
+    },
+    {
+      "day": 179,
+      "chapters": ["Jeremia 40-44", "Psalm 24"]
+    },
+    {
+      "day": 180,
+      "chapters": ["Jeremia 45-48", "Psalm 25"]
+    },
+    {
+      "day": 181,
+      "chapters": ["Jeremia 49-50", "Psalm 26"]
+    },
+    {
+      "day": 182,
+      "chapters": ["Jeremia 51-52", "Psalm 27"]
+    },
+    {
+      "type": "video",
+      "text": "Klagelieder",
+      "link": "https://www.youtube.com/watch?v=Kysg5GET0o0"
+    },
+    {
+      "day": 183,
+      "chapters": ["Klagelieder 1-2", "Psalm 28"]
+    },
+    {
+      "day": 184,
+      "chapters": ["Klagelieder 3", "Psalm 29"]
+    },
+    {
+      "day": 185,
+      "chapters": ["Klagelieder 4-5", "Psalm 30"]
+    },
+    {
+      "type": "header",
+      "text": "Die Rückkehr aus dem Exil"
+    },
+    {
+      "type": "video",
+      "text": "Hesekiel Teil 1",
+      "link": "https://www.youtube.com/watch?v=L0h5QNJiVXc"
+    },
+    {
+      "day": 186,
+      "chapters": ["Hesekiel 1-4", "Psalm 31"]
+    },
+    {
+      "day": 187,
+      "chapters": ["Hesekiel 5-8", "Psalm 32"]
+    },
+    {
+      "day": 188,
+      "chapters": ["Hesekiel 9-12", "Psalm 33"]
+    },
+    {
+      "day": 189,
+      "chapters": ["Hesekiel 13-15", "Psalm 34"]
+    },
+    {
+      "day": 190,
+      "chapters": ["Hesekiel 16-18", "Psalm 35"]
+    },
+    {
+      "day": 191,
+      "chapters": ["Hesekiel 19-21", "Psalm 36"]
+    },
+    {
+      "day": 192,
+      "chapters": ["Hesekiel 22-24", "Psalm 37"]
+    },
+    {
+      "day": 193,
+      "chapters": ["Hesekiel 25-27", "Psalm 38"]
+    },
+    {
+      "day": 194,
+      "chapters": ["Hesekiel 28-30", "Psalm 39"]
+    },
+    {
+      "type": "video",
+      "text": "Hesekiel Teil 2",
+      "link": "https://www.youtube.com/watch?v=2gxebq-PTCg"
+    },
+    {
+      "day": 195,
+      "chapters": ["Hesekiel 31-33", "Psalm 40"]
+    },
+    {
+      "day": 196,
+      "chapters": ["Hesekiel 34-36", "Psalm 41"]
+    },
+    {
+      "day": 197,
+      "chapters": ["Hesekiel 37-39", "Psalm 42"]
+    },
+    {
+      "day": 198,
+      "chapters": ["Hesekiel 40-44", "Psalm 43"]
+    },
+    {
+      "day": 199,
+      "chapters": ["Hesekiel 45-48", "Psalm 44"]
+    },
+    {
+      "type": "video",
+      "text": "Esra - Nehemia",
+      "link": "https://www.youtube.com/watch?v=SGO0vu2-xSk"
+    },
+    {
+      "day": 200,
+      "chapters": ["Esra 1-3", "Psalm 45"]
+    },
+    {
+      "day": 201,
+      "chapters": ["Esra 4-7", "Psalm 46"]
+    },
+    {
+      "day": 202,
+      "chapters": ["Esra 8-10", "Psalm 47"]
+    },
+    {
+      "day": 203,
+      "chapters": ["Nehemia 1-3", "Psalm 48"]
+    },
+    {
+      "day": 204,
+      "chapters": ["Nehemia 4-6", "Psalm 49"]
+    },
+    {
+      "day": 205,
+      "chapters": ["Nehemia 7-9", "Psalm 50"]
+    },
+    {
+      "day": 206,
+      "chapters": ["Nehemia 10-11", "Psalm 51"]
+    },
+    {
+      "day": 207,
+      "chapters": ["Nehemia 12-13", "Psalm 52"]
+    },
+    {
+      "type": "video",
+      "text": "Esther",
+      "link": "https://www.youtube.com/watch?v=u9Jp9gc_Cgo"
+    },
+    {
+      "day": 208,
+      "chapters": ["Esther 1-5", "Psalm 53"]
+    },
+    {
+      "day": 209,
+      "chapters": ["Esther 6-10", "Psalm 54"]
+    },
+    {
+      "type": "header",
+      "text": "Die Propheten nach dem Exil"
+    },
+    {
+      "type": "video",
+      "text": "Daniel",
+      "link": "https://www.youtube.com/watch?v=aOs-QRJl8xY"
+    },
+    {
+      "day": 210,
+      "chapters": ["Daniel 1-3", "Psalm 55"]
+    },
+    {
+      "day": 211,
+      "chapters": ["Daniel 4-6", "Psalm 56"]
+    },
+    {
+      "day": 212,
+      "chapters": ["Daniel 7-9", "Psalm 57"]
+    },
+    {
+      "day": 213,
+      "chapters": ["Daniel 10-12", "Psalm 58"]
+    },
+    {
+      "type": "video",
+      "text": "Haggai",
+      "link": "https://www.youtube.com/watch?v=mPt3d4D4NsM"
+    },
+    {
+      "day": 214,
+      "chapters": ["Haggai 1-2", "Psalm 59"]
+    },
+    {
+      "type": "video",
+      "text": "Sacharja",
+      "link": "https://www.youtube.com/watch?v=_N26FJaOCkE"
+    },
+    {
+      "day": 215,
+      "chapters": ["Sacharja 1-4", "Psalm 60"]
+    },
+    {
+      "day": 216,
+      "chapters": ["Sacharja 5-8", "Psalm 61"]
+    },
+    {
+      "day": 217,
+      "chapters": ["Sacharja 9-14", "Psalm 62"]
+    },
+    {
+      "type": "video",
+      "text": "Maleachi",
+      "link": "https://www.youtube.com/watch?v=J3Mm5McR0Ak"
+    },
+    {
+      "day": 218,
+      "chapters": ["Maleachi 1-2", "Psalm 63"]
+    },
+    {
+      "day": 219,
+      "chapters": ["Maleachi 3-4", "Psalm 64"]
+    },
+    {
+      "type": "header",
+      "text": "Zusammenfassung"
+    },
+    {
+      "type": "video",
+      "text": "Chroniken",
+      "link": "https://www.youtube.com/watch?v=MyhFWaS9LJs"
+    },
+    {
+      "day": 220,
+      "chapters": ["1. Chronik 1-10", "Psalm 65"]
+    },
+    {
+      "day": 221,
+      "chapters": ["1. Chronik 11-14", "Psalm 66"]
+    },
+    {
+      "day": 222,
+      "chapters": ["1. Chronik 15-17", "Psalm 67"]
+    },
+    {
+      "day": 223,
+      "chapters": ["1. Chronik 18-21", "Psalm 68"]
+    },
+    {
+      "day": 224,
+      "chapters": ["1. Chronik 22-24", "Psalm 69"]
+    },
+    {
+      "day": 225,
+      "chapters": ["1. Chronik 25-29", "Psalm 70"]
+    },
+    {
+      "day": 226,
+      "chapters": ["2. Chronik 1-4", "Psalm 71"]
+    },
+    {
+      "day": 227,
+      "chapters": ["2. Chronik 5-8", "Psalm 72"]
+    },
+    {
+      "day": 228,
+      "chapters": ["2. Chronik 9-12", "Psalm 73"]
+    },
+    {
+      "day": 229,
+      "chapters": ["2. Chronik 13-17", "Psalm 74"]
+    },
+    {
+      "day": 230,
+      "chapters": ["2. Chronik 18-20", "Psalm 75"]
+    },
+    {
+      "day": 231,
+      "chapters": ["2. Chronik 21-24", "Psalm 76"]
+    },
+    {
+      "day": 232,
+      "chapters": ["2. Chronik 25-27", "Psalm 77"]
+    },
+    {
+      "day": 233,
+      "chapters": ["2. Chronik 28-31", "Psalm 78"]
+    },
+    {
+      "day": 234,
+      "chapters": ["2. Chronik 32-34", "Psalm 79"]
+    },
+    {
+      "day": 235,
+      "chapters": ["2. Chronik 35-36", "Psalm 80"]
+    },
+    {
+      "type": "header",
+      "text": "Jesus und das Königreich"
+    },
+    {
+      "type": "video",
+      "text": "Matthäus 1-13",
+      "link": "https://www.youtube.com/watch?v=YnfiW_xBsMQ"
+    },
+    {
+      "day": 236,
+      "chapters": ["Matthäus 1-2", "Psalm 81"]
+    },
+    {
+      "day": 237,
+      "chapters": ["Matthäus 3-4", "Psalm 82"]
+    },
+    {
+      "day": 238,
+      "chapters": ["Matthäus 5-6", "Psalm 83"]
+    },
+    {
+      "day": 239,
+      "chapters": ["Matthäus 7-8", "Psalm 84"]
+    },
+    {
+      "day": 240,
+      "chapters": ["Matthäus 9-10", "Psalm 85"]
+    },
+    {
+      "day": 241,
+      "chapters": ["Matthäus 11-12", "Psalm 86"]
+    },
+    {
+      "type": "video",
+      "text": "Matthäus 14-28",
+      "link": "https://www.youtube.com/watch?v=qjafm3VQRUY"
+    },
+    {
+      "day": 242,
+      "chapters": ["Matthäus 13-14", "Psalm 87"]
+    },
+    {
+      "day": 243,
+      "chapters": ["Matthäus 15-16", "Psalm 88"]
+    },
+    {
+      "day": 244,
+      "chapters": ["Matthäus 17-18", "Psalm 89"]
+    },
+    {
+      "day": 245,
+      "chapters": ["Matthäus 19-20", "Psalm 90"]
+    },
+    {
+      "day": 246,
+      "chapters": ["Matthäus 21-22", "Psalm 91"]
+    },
+    {
+      "day": 247,
+      "chapters": ["Matthäus 23-24", "Psalm 92"]
+    },
+    {
+      "day": 248,
+      "chapters": ["Matthäus 25-26", "Psalm 93"]
+    },
+    {
+      "day": 249,
+      "chapters": ["Matthäus 27-28", "Psalm 94"]
+    },
+    {
+      "type": "video",
+      "text": "Markus",
+      "link": "https://www.youtube.com/watch?v=If-fs-dl84o"
+    },
+    {
+      "day": 250,
+      "chapters": ["Markus 1-2", "Psalm 95"]
+    },
+    {
+      "day": 251,
+      "chapters": ["Markus 3-4", "Psalm 96"]
+    },
+    {
+      "day": 252,
+      "chapters": ["Markus 5-6", "Psalm 97"]
+    },
+    {
+      "day": 253,
+      "chapters": ["Markus 7-8", "Psalm 98"]
+    },
+    {
+      "day": 254,
+      "chapters": ["Markus 9-10", "Psalm 99"]
+    },
+    {
+      "day": 255,
+      "chapters": ["Markus 11-12", "Psalm 100"]
+    },
+    {
+      "day": 256,
+      "chapters": ["Markus 13-14", "Psalm 101"]
+    },
+    {
+      "day": 257,
+      "chapters": ["Markus 15-16", "Psalm 102"]
+    },
+    {
+      "type": "video",
+      "text": "Johannes 1-12",
+      "link": "https://www.youtube.com/watch?v=1Dx63MbgbhA"
+    },
+    {
+      "day": 258,
+      "chapters": ["Johannes 1-2", "Psalm 103"]
+    },
+    {
+      "day": 259,
+      "chapters": ["Johannes 3-4", "Psalm 104"]
+    },
+    {
+      "day": 260,
+      "chapters": ["Johannes 5-6", "Psalm 105"]
+    },
+    {
+      "day": 261,
+      "chapters": ["Johannes 7-8", "Psalm 106"]
+    },
+    {
+      "day": 262,
+      "chapters": ["Johannes 9-10", "Psalm 107"]
+    },
+    {
+      "day": 263,
+      "chapters": ["Johannes 11-12", "Psalm 108"]
+    },
+    {
+      "type": "video",
+      "text": "Johannes 13-21",
+      "link": "https://www.youtube.com/watch?v=JwwzKyfkoTw"
+    },
+    {
+      "day": 264,
+      "chapters": ["Johannes 13-15", "Psalm 109"]
+    },
+    {
+      "day": 265,
+      "chapters": ["Johannes 16-18", "Psalm 110"]
+    },
+    {
+      "day": 266,
+      "chapters": ["Johannes 19-21", "Psalm 111"]
+    },
+    {
+      "type": "video",
+      "text": "Lukas 1-9",
+      "link": "https://www.youtube.com/watch?v=hFSY9wmaTxE"
+    },
+    {
+      "day": 267,
+      "chapters": ["Lukas 1", "Psalm 112"]
+    },
+    {
+      "day": 268,
+      "chapters": ["Lukas 2-3", "Psalm 113"]
+    },
+    {
+      "day": 269,
+      "chapters": ["Lukas 4-5", "Psalm 114"]
+    },
+    {
+      "day": 270,
+      "chapters": ["Lukas 6-7", "Psalm 115"]
+    },
+    {
+      "day": 271,
+      "chapters": ["Lukas 8-9", "Psalm 116"]
+    },
+    {
+      "type": "video",
+      "text": "Lukas 10-24",
+      "link": "https://www.youtube.com/watch?v=w5A64cBbyf0"
+    },
+    {
+      "day": 272,
+      "chapters": ["Lukas 10-11", "Psalm 117"]
+    },
+    {
+      "day": 273,
+      "chapters": ["Lukas 12-13", "Psalm 118"]
+    },
+    {
+      "day": 274,
+      "chapters": ["Lukas 14-16", "Psalm 119, 1-32"]
+    },
+    {
+      "day": 275,
+      "chapters": ["Lukas 17-18", "Psalm 119, 33-64"]
+    },
+    {
+      "day": 276,
+      "chapters": ["Lukas 19-20", "Psalm 119, 65-96"]
+    },
+    {
+      "day": 277,
+      "chapters": ["Lukas 21-22", "Psalm 119, 97-128"]
+    },
+    {
+      "day": 278,
+      "chapters": ["Lukas 23-24", "Psalm 119, 129-152"]
+    },
+    {
+      "type": "video",
+      "text": "Apostelgeschichte 1-12",
+      "link": "https://www.youtube.com/watch?v=9XLmtudlWDg"
+    },
+    {
+      "day": 279,
+      "chapters": ["Apostelgeschichte 1-2", "Psalm 119, 153-176"]
+    },
+    {
+      "day": 280,
+      "chapters": ["Apostelgeschichte 3-4", "Psalm 120"]
+    },
+    {
+      "day": 281,
+      "chapters": ["Apostelgeschichte 5-6", "Psalm 121"]
+    },
+    {
+      "day": 282,
+      "chapters": ["Apostelgeschichte 7-8", "Psalm 122"]
+    },
+    {
+      "day": 283,
+      "chapters": ["Apostelgeschichte 9-10", "Psalm 123"]
+    },
+    {
+      "day": 284,
+      "chapters": ["Apostelgeschichte 11-12", "Psalm 124"]
+    },
+    {
+      "type": "video",
+      "text": "Apostelgeschichte 13-28",
+      "link": "https://www.youtube.com/watch?v=utaAu5qNZig"
+    },
+    {
+      "day": 285,
+      "chapters": ["Apostelgeschichte 13-14", "Psalm 125"]
+    },
+    {
+      "day": 286,
+      "chapters": ["Apostelgeschichte 15-16", "Psalm 126"]
+    },
+    {
+      "day": 287,
+      "chapters": ["Apostelgeschichte 17-18", "Psalm 127"]
+    },
+    {
+      "day": 288,
+      "chapters": ["Apostelgeschichte 19-20", "Psalm 128"]
+    },
+    {
+      "day": 289,
+      "chapters": ["Apostelgeschichte 21-22", "Psalm 129"]
+    },
+    {
+      "day": 290,
+      "chapters": ["Apostelgeschichte 23-24", "Psalm 130"]
+    },
+    {
+      "day": 291,
+      "chapters": ["Apostelgeschichte 25-26", "Psalm 131"]
+    },
+    {
+      "day": 292,
+      "chapters": ["Apostelgeschichte 27-28", "Psalm 132"]
+    },
+    {
+      "type": "header",
+      "text": "Die Menschen des Königreichs"
+    },
+    {
+      "type": "video",
+      "text": "Römer 1-4",
+      "link": "https://www.youtube.com/watch?v=DQyi-r6iV8U"
+    },
+    {
+      "day": 293,
+      "chapters": ["Römer 1-2", "Psalm 133"]
+    },
+    {
+      "day": 294,
+      "chapters": ["Römer 3-4", "Psalm 134"]
+    },
+    {
+      "type": "video",
+      "text": "Römer 5-16",
+      "link": "https://www.youtube.com/watch?v=OLGU1dsTbyg"
+    },
+    {
+      "day": 295,
+      "chapters": ["Römer 5-6", "Psalm 135"]
+    },
+    {
+      "day": 296,
+      "chapters": ["Römer 7-8", "Psalm 136"]
+    },
+    {
+      "day": 297,
+      "chapters": ["Römer 9-10", "Psalm 137"]
+    },
+    {
+      "day": 298,
+      "chapters": ["Römer 11-12", "Psalm 138"]
+    },
+    {
+      "day": 299,
+      "chapters": ["Römer 13-14", "Psalm 139"]
+    },
+    {
+      "day": 300,
+      "chapters": ["Römer 15-16", "Psalm 140"]
+    },
+    {
+      "type": "video",
+      "text": "1. Korinther",
+      "link": "https://www.youtube.com/watch?v=LuurVpuqEr0"
+    },
+    {
+      "day": 301,
+      "chapters": ["1. Korinther 1-2", "Psalm 141"]
+    },
+    {
+      "day": 302,
+      "chapters": ["1. Korinther 3-4", "Psalm 142"]
+    },
+    {
+      "day": 303,
+      "chapters": ["1. Korinther 5-6", "Psalm 143"]
+    },
+    {
+      "day": 304,
+      "chapters": ["1. Korinther 7-8", "Psalm 144"]
+    },
+    {
+      "day": 305,
+      "chapters": ["1. Korinther 9-10", "Psalm 145"]
+    },
+    {
+      "day": 306,
+      "chapters": ["1. Korinther 11-12", "Psalm 146"]
+    },
+    {
+      "day": 307,
+      "chapters": ["1. Korinther 13-14", "Psalm 147"]
+    },
+    {
+      "day": 308,
+      "chapters": ["1. Korinther 15-16", "Psalm 148"]
+    },
+    {
+      "type": "video",
+      "text": "2. Korinther",
+      "link": "https://www.youtube.com/watch?v=ZnloEyPB6F4"
+    },
+    {
+      "day": 309,
+      "chapters": ["2. Korinther 1-2", "Psalm 149"]
+    },
+    {
+      "day": 310,
+      "chapters": ["2. Korinther 3-4", "Psalm 150"]
+    },
+    {
+      "day": 311,
+      "chapters": ["2. Korinther 5-6", "Psalm 1"]
+    },
+    {
+      "day": 312,
+      "chapters": ["2. Korinther 7-8", "Psalm 2"]
+    },
+    {
+      "day": 313,
+      "chapters": ["2. Korinther 9-10", "Psalm 3"]
+    },
+    {
+      "day": 314,
+      "chapters": ["2. Korinther 11-13", "Psalm 4"]
+    },
+    {
+      "type": "video",
+      "text": "Galater",
+      "link": "https://www.youtube.com/watch?v=7itkqlIH_4Q"
+    },
+    {
+      "day": 315,
+      "chapters": ["Galater 1-2", "Psalm 5"]
+    },
+    {
+      "day": 316,
+      "chapters": ["Galater 3-4", "Psalm 6"]
+    },
+    {
+      "day": 317,
+      "chapters": ["Galater 5-6", "Psalm 7"]
+    },
+    {
+      "type": "video",
+      "text": "Epheser",
+      "link": "https://www.youtube.com/watch?v=aG3c1LO-poI"
+    },
+    {
+      "day": 318,
+      "chapters": ["Epheser 1-2", "Psalm 8"]
+    },
+    {
+      "day": 319,
+      "chapters": ["Epheser 3-4", "Psalm 9"]
+    },
+    {
+      "day": 320,
+      "chapters": ["Epheser 5-6", "Psalm 10"]
+    },
+    {
+      "type": "video",
+      "text": "Philipper",
+      "link": "https://www.youtube.com/watch?v=H-1LF1LXOgc"
+    },
+    {
+      "day": 321,
+      "chapters": ["Philipper 1-2", "Psalm 11"]
+    },
+    {
+      "day": 322,
+      "chapters": ["Philipper 3-4", "Psalm 12"]
+    },
+    {
+      "day": 323,
+      "chapters": ["Kolosser 1-2", "Psalm 13"]
+    },
+    {
+      "day": 324,
+      "chapters": ["Kolosser 3-4", "Psalm 14"]
+    },
+    {
+      "type": "video",
+      "text": "1. Thessalonicher",
+      "link": "https://www.youtube.com/watch?v=ZRtD-YidDDs"
+    },
+    {
+      "day": 325,
+      "chapters": ["1. Thessalonicher 1-2", "Psalm 15"]
+    },
+    {
+      "day": 326,
+      "chapters": ["1. Thessalonicher 3-4", "Psalm 16"]
+    },
+    {
+      "day": 327,
+      "chapters": ["1. Thessalonicher 5", "Psalm 17"]
+    },
+    {
+      "type": "video",
+      "text": "2. Thessalonicher",
+      "link": "https://www.youtube.com/watch?v=yQu8rJFdzZM"
+    },
+    {
+      "day": 328,
+      "chapters": ["2. Thessalonicher 1-3", "Psalm 18"]
+    },
+    {
+      "type": "video",
+      "text": "1. Timotheus",
+      "link": "https://www.youtube.com/watch?v=fKHQqofGzN4"
+    },
+    {
+      "day": 329,
+      "chapters": ["1. Timotheus 1-2", "Psalm 19"]
+    },
+    {
+      "day": 330,
+      "chapters": ["1. Timotheus 3-4", "Psalm 20"]
+    },
+    {
+      "day": 331,
+      "chapters": ["1. Timotheus 5-6", "Psalm 21"]
+    },
+    {
+      "type": "video",
+      "text": "2. Timotheus",
+      "link": "https://www.youtube.com/watch?v=oa4X85AurwM"
+    },
+    {
+      "day": 332,
+      "chapters": ["2. Timotheus 1-4", "Psalm 22"]
+    },
+    {
+      "type": "video",
+      "text": "Titus",
+      "link": "https://www.youtube.com/watch?v=2liHZlumVcs"
+    },
+    {
+      "day": 333,
+      "chapters": ["Titus 1-3", "Psalm 23"]
+    },
+    {
+      "type": "video",
+      "text": "Philemon",
+      "link": "https://www.youtube.com/watch?v=4oFlijk3jWQ"
+    },
+    {
+      "day": 334,
+      "chapters": ["Philemon 1", "Psalm 24"]
+    },
+    {
+      "type": "video",
+      "text": "Hebräer",
+      "link": "https://www.youtube.com/watch?v=bja6fTJ3t8U"
+    },
+    {
+      "day": 335,
+      "chapters": ["Hebräer 1-2", "Psalm 25"]
+    },
+    {
+      "day": 336,
+      "chapters": ["Hebräer 3-4", "Psalm 26"]
+    },
+    {
+      "day": 337,
+      "chapters": ["Hebräer 5-6", "Psalm 27"]
+    },
+    {
+      "day": 338,
+      "chapters": ["Hebräer 7-8", "Psalm 28"]
+    },
+    {
+      "day": 339,
+      "chapters": ["Hebräer 9-10", "Psalm 29"]
+    },
+    {
+      "day": 340,
+      "chapters": ["Hebräer 11-13", "Psalm 30"]
+    },
+    {
+      "type": "video",
+      "text": "Jakobus",
+      "link": "https://www.youtube.com/watch?v=4hLzi0LrmSU"
+    },
+    {
+      "day": 341,
+      "chapters": ["Jakobus 1-3", "Psalm 31"]
+    },
+    {
+      "day": 342,
+      "chapters": ["Jakobus 4-5", "Psalm 32"]
+    },
+    {
+      "type": "video",
+      "text": "1. Petrus",
+      "link": "https://www.youtube.com/watch?v=nWMnVKAF8Jk"
+    },
+    {
+      "day": 343,
+      "chapters": ["1. Petrus 1-2", "Psalm 33"]
+    },
+    {
+      "day": 344,
+      "chapters": ["1. Petrus 3-5", "Psalm 34"]
+    },
+    {
+      "type": "video",
+      "text": "2. Petrus",
+      "link": "https://www.youtube.com/watch?v=lGtu3NVEkT4"
+    },
+    {
+      "day": 345,
+      "chapters": ["2. Petrus 1-3", "Psalm 35"]
+    },
+    {
+      "type": "video",
+      "text": "Johannesbriefe",
+      "link": "https://www.youtube.com/watch?v=j1EPdjp2zNY"
+    },
+    {
+      "day": 346,
+      "chapters": ["1. Johannes 1-2", "Psalm 36"]
+    },
+    {
+      "day": 347,
+      "chapters": ["1. Johannes 3-4", "Psalm 37"]
+    },
+    {
+      "day": 348,
+      "chapters": ["1. Johannes 5", "2. Johannes 1", "3. Johannes 1", "Psalm 38"]
+    },
+    {
+      "type": "video",
+      "text": "Judas",
+      "link": "https://www.youtube.com/watch?v=3D7ysrzVoWg"
+    },
+    {
+      "day": 349,
+      "chapters": ["Judas 1", "Psalm 39"]
+    },
+    {
+      "type": "header",
+      "text": "Die Offenbarung"
+    },
+    {
+      "type": "video",
+      "text": "Offenbarung 1-11",
+      "link": "https://www.youtube.com/watch?v=-daqkqk5k28"
+    },
+    {
+      "day": 350,
+      "chapters": ["Offenbarung 1-3", "Psalm 40"]
+    },
+    {
+      "day": 351,
+      "chapters": ["Offenbarung 4-6", "Psalm 41"]
+    },
+    {
+      "day": 352,
+      "chapters": ["Offenbarung 7-9", "Psalm 42"]
+    },
+    {
+      "day": 353,
+      "chapters": ["Offenbarung 10-11", "Psalm 43"]
+    },
+    {
+      "type": "video",
+      "text": "Offenbarung 12-22",
+      "link": "https://www.youtube.com/watch?v=Pl_LqxxFFAo"
+    },
+    {
+      "day": 354,
+      "chapters": ["Offenbarung 12-13", "Psalm 44"]
+    },
+    {
+      "day": 355,
+      "chapters": ["Offenbarung 14-16", "Psalm 45"]
+    },
+    {
+      "day": 356,
+      "chapters": ["Offenbarung 17-18", "Psalm 46"]
+    },
+    {
+      "type": "video",
+      "text": "Himmel und Erde",
+      "link": "https://www.youtube.com/watch?v=ByQA2UdUpJc"
+    },
+    {
+      "day": 357,
+      "chapters": ["Offenbarung 19-20", "Psalm 47"]
+    },
+    {
+      "day": 358,
+      "chapters": ["Offenbarung 21-22", "Psalm 48"]
     }
   ],
-  "credits": "This is a bible reading plan by Read Scripture"
+  "credits": "Dieser Leseplan ist von <a href='https://www.readscripture.org/' rel='noreferrer nofollow'>ReadScripture</a>. Ein großes Dankeschön an <a href='https://dasbibelprojekt.de/' rel='noreferrer nofollow'>das Bibel-Projekt</a> für die Videos. Du kannst sie <a href='https://dasbibelprojekt.de/spenden/' rel='noreferrer nofollow'>hier</a> unterstützen."
 }
