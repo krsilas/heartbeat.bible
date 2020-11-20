@@ -1,7 +1,6 @@
 import PlanLink from '../src/components/PlanLink'
 import Header from '../src/components/Header'
 import Recommendations from '../src/components/Recommendations'
-import fetch from 'isomorphic-unfetch'
 import PWAInstallPrompt from "../src/components/PWAInstallPrompt"
 
 export default function Index(props) {

@@ -4,21 +4,18 @@
     "build": "NODE_ENV=production next build",
     "start": "NODE_ENV=production next start"
   },
+  "private": true,
   "dependencies": {
+    "@tailwindcss/typography": "^0.3.1",
     "localforage": "^1.7.3",
-    "next": "^9.2.2",
-    "next-offline": "^5.0.0",
-    "nextjs-morph-page": "^2.0.3",
+    "next": "^10.0.2",
+    "next-offline": "^5.0.3",
+    "postcss": "^8.1.8",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.0.6",
-    "@tailwindcss/custom-forms": "^0.2.1",
-    "autoprefixer": "^9.7.4",
-    "cssnano": "^4.1.0",
-    "isomorphic-unfetch": "^3.0.0",
-    "postcss-easy-import": "^3.0.0",
-    "tailwindcss": "^1.2.0"
+    "autoprefixer": "^10.0.2",
+    "tailwindcss": "^2.0.1"
   }
 }

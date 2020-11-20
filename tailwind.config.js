@@ -1,4 +1,8 @@
 module.exports = {
+    purge: ['./components/**/*.js', './pages/**/*.js'],
+    plugins: [
+      require('@tailwindcss/typography')
+    ],
     theme: {
       extend: {
         height: {
@@ -60,7 +64,4 @@ module.exports = {
       backgroundColor: ['active', 'responsive'],
       cursor: ['responsive', 'hover'],
     },
-    plugins: [
-      require('@tailwindcss/custom-forms'),
-    ]
   }

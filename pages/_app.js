@@ -1,5 +1,4 @@
 import '../styles/index.css'
-import MorphTransition from 'nextjs-morph-page';
 import React from 'react'
 import App from 'next/app'
 import Head from 'next/head'
@@ -39,10 +38,8 @@ export default class MyApp extends App {
           <link rel="preconnect" href="https://cdn.statically.io/" />
         </Head> 
         <div className="flex flex-col font-sans min-h-screen">
-        <main style={{ flex:' 1 0 auto'}}>
-          <MorphTransition timeout={0} classNames="morph">
+        <main style={{ flex: '1 0 auto'}}>
           <Component {...pageProps} />
-          </MorphTransition>
         </main>
         <Footer />
         </div>

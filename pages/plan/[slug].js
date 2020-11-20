@@ -1,7 +1,6 @@
 import CheckItem from '../../src/components/CheckItem'
 import VideoItem from '../../src/components/VideoItem'
 import SectionHeader from '../../src/components/SectionHeader'
-import fetch from 'isomorphic-unfetch'
 import Link from 'next/link'
 import Head from 'next/head'
 import localforage from 'localforage'
@@ -17,11 +16,6 @@ const Plan = (props) => {
   const isArray = (arr) => (arr && arr.length > 0)
   const isChecked = (day) => isArray(days) ? days.includes(day) : false
   const headerRef = React.createRef();
-  const [plans, setPlans] = useState([])
-  useEffect(()=>{
-    //setTimeout(1000)
-    setPlans(plan)
-  },[plan])
 
   function handleClick(day) {
     let buffer = days ? days : []
@@ -59,7 +53,7 @@ const Plan = (props) => {
     <TopBar className={colors[color]} back={true} />
     
     <div className="dark:text-gray-300 p-2 pb-0 -mb-6">
-      <header ref={headerRef} onClick={(e)=>e.preventDefault()} id={`morph-${slug}`} data-morph-ms="150" className={`flex rounded-lg border items-center pb-4 w-full max-w-xl mx-auto ${colors[color]}`} style={{minHeight: '12rem'}}>
+      <header ref={headerRef} onClick={(e)=>e.preventDefault()} className={`flex rounded-lg border items-center pb-4 w-full max-w-xl mx-auto ${colors[color]}`} style={{minHeight: '12rem'}}>
         <h1 className="p-4 mt-6 font-mono text-4xl font-semibold leading-tight tracking-tight text-color select-none">{title}</h1>
       </header>
 
@@ -84,7 +78,7 @@ const Plan = (props) => {
       <div className="max-w-xl mx-auto">
         <ul className="p-4 md:px-6 md:py-3 rounded-sm">
 
-        {plans.map((item, i)=>(
+        {plan.map((item, i)=>(
           item.day 
           ? <CheckItem key={i} checked={isChecked(item.day)} handleClick={()=>handleClick(item.day)}>
               {item.chapters.map((entry, i)=><p key={i}>{entry}</p>)}

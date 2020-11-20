@@ -2,7 +2,7 @@ import TopBar from '../src/components/TopBar'
 import { useEffect, useState } from 'react'
 import localforage from 'localforage'
 
-export default () => {
+const Settings = () => {
   const [ recEnabled, setRec ] = useState(true)
   const [ webShareAvailable, setWebShareAvailability ] = useState(false)
   function handleRec() {
@@ -66,3 +66,4 @@ export default () => {
   </>
   )
 }
+export default Settings
