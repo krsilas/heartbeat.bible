@@ -1,11 +1,20 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
-    purge: ['./components/**/*.js', './pages/**/*.js'],
+    purge: {
+      content: ['./src/**/*.js', './pages/**/*.js'],
+    },
     plugins: [
       require('@tailwindcss/typography'),
       require('@tailwindcss/forms')
     ],
     theme: {
       extend: {
+        colors: {
+          orange: colors.orange,
+          lightblue: colors.lightBlue,
+          cyan: colors.cyan,
+        },
         height: {
           '14': '3.5rem'
         },
@@ -28,30 +37,12 @@ module.exports = {
             '"Segoe UI Symbol"',
             '"Noto Color Emoji"',
           ],
-          serif: [
-            'Georgia',
-            'Cambria',
-            '"Times New Roman"',
-            'Times',
-            'serif',
-          ],
-          mono: [
-            "Fira Code",
-            'Menlo',
-            'Monaco',
-            'Consolas',
-            '"Liberation Mono"',
-            '"Courier New"',
-            'monospace',
-          ],
         },
-        colors: {
-          cyan: '#9cdbff',
-        }
       },
     },
     variants: {
-      backgroundColor: ['active', 'responsive'],
+      backgroundColor: ['active', 'responsive', 'hover'],
+      backgroundOpacity: ['active', 'hover'],
       cursor: ['responsive', 'hover'],
     },
-  }
+}

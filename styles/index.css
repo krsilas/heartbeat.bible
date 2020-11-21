@@ -27,6 +27,7 @@
   .font-light { font-variation-settings: 'wght' 300; }
   .font-normal { font-variation-settings: 'wght' 400; }
   .font-medium { font-variation-settings: 'wght' 500; }
+  .font-thicker { font-variation-settings: "wght" 550 }
   .font-semibold { font-variation-settings: 'wght' 600; }
   .font-bold { font-variation-settings: 'wght' 700; }
   .font-extrabold { font-variation-settings: 'wght' 800; }
@@ -42,7 +43,6 @@
 }
 
 html, body {
-    @apply bg-gray-100;
     @apply min-h-full;
 }
 
@@ -52,6 +52,12 @@ html, body {
     }
 }
 
+.darker {
+  filter: brightness(90%);
+}
+.min-h-48 {
+  min-height: 12rem;
+}
 .transition-slower {
   transition-duration: 500ms;
 }
@@ -85,8 +91,11 @@ html, body {
 .rounded-px {
     border-radius: 1px;
 }
-
-.desaturate { filter: saturate(75%) }
+.rounded-big {
+  border-radius: 0.66rem;
+}
+.desaturate-75 { filter: saturate(75%) }
+.adjust-color { filter: saturate(1.05) brightness(1.015); }
 .bg-blur {
   backdrop-filter: blur(8px) saturate(70%);
   background-color: rgba(255,255,255,0.55);

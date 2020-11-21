@@ -1,13 +1,13 @@
 {
   "title": "Read Scripture - Lies die Bibel in einem Jahr",
-  "color": "blue",
+  "color": "lightblue",
   "introduction": {
     "headline": "Einleitung",
     "paragraphs": [
       ["Verschaffe dir einen Überblick", "\"Read Scripture\" ist ein Leseplan mit Videos, der die gewaltige Geschichte der Bibel in 16 chronologische Kapitel aufteilt. Sie sind so angeordnet, dass die Gesamtbotschaft der Bibel deutlich wird. Die Themenvideos sollen dir dabei helfen den Abschnitt, den du gerade liest, in das große Bild einzuordnen."],
       ["Deine persönliche Zeit mit Gott", "Jedes der 16 Kapitel ist in kleine Abschnitte eingeteilt, die eine Lesedauer von ca. 15-20 Minuten haben. In dieser Zeit darfst du lesen, wie Gott sich den Menschen offenbart hat. Nimm dir währenddessen Zeit, um zu beten. Wenn du das jeden Tag machst, kannst du die Bibel in weniger als einem Jahr durchlesen. Außerdem wirst du merken, wie sich dein Gottesbild festigt und deine Beziehung zu Gott wächst."],
       ["Verstehe den Kontext", "Die Bibel ist für dich geschrieben, aber nicht direkt an dich. Tauche in die Welt der Bibel ein. Schau dir vor jedem Kapitel das Video dazu an, um mehr über den historischen und literarischen Kontext des Abschnitts zu lernen"],
-      ["Sei gelassen", "Bibellesen ist keine reine intellektueller Übung, sondern eine geistliche. Bete und meditiere durch die Psalmen."],
+      ["Sei gelassen", "Bibellesen ist keine reine intellektuelle Übung, sondern eine geistliche. Bete und meditiere durch die Psalmen."],
       ["Bleibe motiviert", "Jeder Tag ist ein Schritt auf die Reise durch die Bibel. Lass dich nicht entmutigen, wenn Stellen schwierig sind und lass dich von den anderen Ressourcen inpirieren."],
       ["Los geht's! Starte im ersten Buch Mose und seh' was Gott dir heute zeigen möchte."]
     ]
@@ -155,7 +155,7 @@
     {
       "type": "video",
       "text": "Exodus 19-40",
-      "link": "youtube.com"
+      "link": "https://www.youtube.com/watch?v=FDwxYLOigPM"
     },
     {
       "day": 23,

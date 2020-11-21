@@ -8,6 +8,7 @@
   "dependencies": {
     "@tailwindcss/forms": "^0.2.1",
     "@tailwindcss/typography": "^0.3.1",
+    "framer-motion": "^2.9.4",
     "localforage": "^1.7.3",
     "next": "^10.0.2",
     "next-offline": "^5.0.3",

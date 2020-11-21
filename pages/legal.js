@@ -97,7 +97,7 @@ return(
 			<p>Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z. B. SSL) über HTTPS.</p>
 			<h2>Eingesetzte Auftragsverarbeiter</h2>
 			<p>Folgende Organisationen, Unternehmen bzw. Personen wurden vom Betreiber dieser Website mit der Verarbeitung von Daten beauftragt: <br/>
-			zeit.co, ImprovMX</p>
+			Vercel, ImprovMX</p>
 			<h2>Änderung unserer Datenschutzbestimmungen</h2>
 			<p>Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.</p>
     </div>

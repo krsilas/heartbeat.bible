@@ -2,18 +2,21 @@
   "plans": [
     {
       "title": "Read Scripture - Lies die Bibel in einem Jahr",
+      "days": "365 Tage",
       "slug": "365",
-      "color": "blue"
+      "color": "lightblue"
     },
     {
-      "title": "30 Tage durch das Neue Testament",
+      "title": "Ein Überblick über das Neue Testament",
+      "days": "30 Tage",
       "slug": "30nt",
-      "color": "teal"
+      "color": "green"
     },
     {
       "title": "Systematische Theologie",
+      "days": "30 Tage",
       "slug": "systematic",
-      "color": "green"
+      "color": "orange"
     }
   ]
 }
