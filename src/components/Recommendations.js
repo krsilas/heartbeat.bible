@@ -78,13 +78,13 @@ const Item = (props) => {
 		}
     return (
 		<a 	href={href} target="_blank" rel="noopener norefferer" 
-			className="flex text-gray-800 items-center px-2 py-2 bg-gray-300 bg-opacity-25 rounded-big my-2 tap-none hover:bg-opacity-40 active:bg-opacity-50">
+			className="flex text-gray-800 items-center px-2 py-2 bg-gray-300 bg-opacity-30 dark:bg-opacity-10 rounded-big my-2 tap-none hover:bg-opacity-40 active:bg-opacity-50">
 				<img srcSet={`${imageUrl(img, 128)} 2x, ${imageUrl(img)} 1x`} sizes="64px" className="h-16 w-auto m-1 mr-3 rounded" src={imageUrl(img)} type={type} width="100" height="100" alt="Image" />
-				<div className="py-1 flex-grow dark:text-gray-500">
-                <h4 className="font-medium text-base text-gray-800 dark:text-gray-500 leading-tight pb-1">{title}</h4>
+				<div className="py-1 flex-grow dark:text-gray-400">
+                <h4 className="font-medium text-base text-gray-800 dark:text-gray-300 leading-tight pb-1">{title}</h4>
                 <p className="font-light opacity-75 dark:opacity-100 text-sm">{subtitle}</p>
             </div>
-            <svg className="m-2 text-gray-600 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-1 0 26 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <svg className="m-2 text-gray-600 dark:text-gray-300 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-1 0 26 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
 							<g className={ type === 'book' ? 'block' : 'hidden' }><circle cx="10" cy="20.5" r="1"/><circle cx="18" cy="20.5" r="1"/><path d="M2.5 2.5h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6l1.6-8.4H7.1"/></g>
 							<g className={ type === 'podcast' ? 'block' : 'hidden' }><circle cx="12" cy="12" r="2"></circle><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"></path>
 							</g>

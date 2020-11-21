@@ -9,7 +9,7 @@ return(
 		<meta name="robots" content="noindex" />
 	</Head>
   <TopBar back={true} />
-  <div className="p-4 mt-3 mx-auto max-w-2xl prose leading-normal">
+  <div className="p-4 mt-3 mx-auto max-w-2xl prose dark:prose-dark leading-normal">
     <h1>Rechtliches</h1>
     <div>
 			<h2>Impressum</h2>

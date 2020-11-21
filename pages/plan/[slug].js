@@ -50,11 +50,11 @@ const Plan = ({ title, plan, slug, color, introduction, credits }) => {
     <div className="md:pt-2">
       <header 
         onClick={(e)=>e.preventDefault()} 
-        className={`${colors[color]} bg-opacity-30 flex items-center w-full min-h-48 px-5 pr-6 pb-4 select-none max-w-xl md:mx-auto`}>
+        className={`${colors[color]} bg-opacity-30 dark:bg-opacity-20 flex items-center w-full min-h-48 px-5 pr-6 pb-4 select-none max-w-xl md:mx-auto`}>
         <h1 className="mt-6 text-4xl font-semibold leading-tight tracking-tight darker">{title}</h1>
       </header>
 
-      <main className={`px-1 text-gray-800`}>
+      <main className={`px-1 text-gray-800 dark:text-gray-300`}>
       { 
         introduction && (<div className={`max-w-xl text-lg mx-auto mt-4 ${!introOpen ? '-mb-16 pb-10' : '-mb-8'} p-4 md:px-6 md:py-3`}>
           <div className="flex justify-between">

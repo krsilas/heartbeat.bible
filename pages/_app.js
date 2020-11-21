@@ -2,7 +2,8 @@ import '../styles/index.css'
 import React from 'react'
 import App from 'next/app'
 import Head from 'next/head'
-import Footer from '../src/components/Footer';
+import Footer from '../src/components/Footer'
+import { updateTheme } from '../src/utils'
 
 export default class MyApp extends App {
   constructor(){
@@ -19,6 +20,7 @@ export default class MyApp extends App {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches){
       this.setState({themeColor: '#232323'}) 
     }
+    updateTheme()
   }
   render() {
     const { Component, pageProps } = this.props

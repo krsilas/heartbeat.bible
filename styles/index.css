@@ -46,10 +46,10 @@ html, body {
     @apply min-h-full;
 }
 
-@media (prefers-color-scheme: dark){
-    body {
-        background-color: #121214;
-    }
+html.dark > .dark\:bg-blackish { background-color: #121214; }
+html.dark > .dark\:desaturate-75 { filter: saturate(75%)}
+html.dark > body {
+    @apply bg-black;
 }
 
 .darker {
@@ -102,13 +102,6 @@ html, body {
 }
 input[type='checkbox']:checked {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-6 -6 36 36' fill='none' stroke='%23f8fff8' stroke-width='3.5' stroke-linecap='butt' stroke-linejoin='arcs'%3e%3cpolyline points='20 6 9 17 4 12'%3e%3c/polyline%3e%3c/svg%3e")
-}
-@media(prefers-color-scheme: dark) {
-  html { background-color: black; }
-  .bg-blur {
-    backdrop-filter: blur(8px) saturate(70%) contrast(80%);
-    background-color: rgba(30,30,30,0.55);
-  }
 }
 input, select {
   -webkit-appearance: none;
