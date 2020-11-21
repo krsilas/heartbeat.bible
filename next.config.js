@@ -24,7 +24,7 @@ const nextConfig = {
                 urlPattern: /^https?.*/,
                 handler: 'StaleWhileRevalidate',
                 options: {
-                    cacheName: 'offlineCache-v2-alpha2',
+                    cacheName: 'offlineCache-v2-beta1',
                     expiration: {
                         maxEntries: 200,
                         maxAgeSeconds: 30 * 24 * 60 * 60, // 1 month
