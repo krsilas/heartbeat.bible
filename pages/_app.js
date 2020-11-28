@@ -10,15 +10,15 @@ export default class MyApp extends App {
     super();
     this.state = {
       meta: 'width=device-width, initial-scale=1.0',
-      themeColor: '#FCFDFD'
+      themeColor: '#FFFFFF'
     }
   }
   componentDidMount(){
     if (window.matchMedia('(display-mode: standalone)').matches){
       this.setState({meta: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'}) 
     }
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches){
-      this.setState({themeColor: '#232323'}) 
+    if (localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches)){
+      this.setState({themeColor: '#000000'}) 
     }
     updateTheme()
   }

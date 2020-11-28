@@ -80,7 +80,7 @@ const Settings = () => {
       </div>
       <div className="flex justify-between">
         <span className="py-1 leading-relaxed">Empfehlungen anzeigen</span>
-        <input onChange={handleRec} className="rounded-md border-2 h-6 w-6 focus:ring-offset-0 focus:ring-green-600 m-1 text-green-500 focus:border-green-500" type="checkbox" checked={recEnabled}/>
+        <input onChange={handleRec} className="rounded-md border-2 h-6 w-6 focus:ring-offset-0 focus:ring-green-600 m-1 text-green-500 bg-transparent focus:border-green-500" type="checkbox" checked={recEnabled}/>
       </div>
     </div>
     <a 
@@ -90,7 +90,7 @@ const Settings = () => {
       rel="nofollow norefferer">
         Help me translate heartbeat.bible
     </a>
-  { webShareAvailable && <button onClick={share} className="mt-4 bg-opacity-75  text-green-900 font-medium w-full text-center bg-green-300 px-3 py-2 rounded-lg dark:bg-green-900 dark:border-green-800">App weiterempfehlen</button> }
+  { webShareAvailable && <button onClick={share} className="mt-4 bg-opacity-75  text-green-900 font-medium w-full text-center bg-green-300 px-3 py-2 rounded-lg dark:bg-green-900 dark:border-green-800 dark:text-green-100">App weiterempfehlen</button> }
   </div>
   </>
   )
