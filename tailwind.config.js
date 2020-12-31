@@ -92,8 +92,10 @@ module.exports = {
       backgroundColor: ['active', 'responsive', 'hover', 'dark'],
       backgroundOpacity: ['active', 'hover', 'responsive', 'dark'],
       borderColor: ['hover', 'focus', 'responsive', 'dark'],
+      borderWidth: ['focus'],
       cursor: ['responsive', 'hover'],
       ringColor: ['hover', 'focus', 'responsive', 'dark'],
+      ringWidth: ['hover', 'focus', 'responsive', 'dark'],
       typography: ['responsive', 'dark'],
       extend: {
         textOpacity: ['dark'],

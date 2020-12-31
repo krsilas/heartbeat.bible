@@ -1,26 +1,7 @@
 import TopBar from '../src/components/TopBar'
 import { useEffect, useState } from 'react'
 import localforage from 'localforage'
-import { updateTheme } from '../src/utils'
-
-const useTheme = (initial) => {
-  const [theme, setUITheme] = useState(initial || 'os')
-  useEffect(()=>{
-    setUITheme(localStorage.theme)
-  }, [])
-  function setTheme(event) {
-    if (event.target.value == 'os') {
-      localStorage.removeItem('theme')
-      setUITheme('os')
-    }
-    else {
-      localStorage.theme = event.target.value
-      setUITheme(event.target.value)
-    }
-    updateTheme()
-  }
-  return [theme, setTheme]
-}
+import { useTheme } from '../src/utils'
 
 const Settings = () => {
   const [ recEnabled, setRec ] = useState(false)
@@ -80,17 +61,17 @@ const Settings = () => {
       </div>
       <div className="flex justify-between">
         <span className="py-1 leading-relaxed">Empfehlungen anzeigen</span>
-        <input onChange={handleRec} className="rounded-md border-2 h-6 w-6 focus:ring-offset-0 focus:ring-green-600 m-1 text-green-500 bg-transparent focus:border-green-500" type="checkbox" checked={recEnabled}/>
+        <input onChange={handleRec} className="rounded-md border-2 h-6 w-6 focus:ring-offset-0 focus:ring-green-600 m-1 text-green-500 bg-transparent focus:border-0" type="checkbox" checked={recEnabled}/>
       </div>
     </div>
     <a 
       href="https://docs.google.com/spreadsheets/d/10VISzPQcj4w3r2g8Qe6oH_LoGGTDBh0yz-klRiXxj2g/edit?usp=sharing" 
-      className="mt-8 inline-block focus:ring-2 ring-lightblue-700 focus:outline-none w-full text-center bg-blue-200 dark:bg-opacity-30 dark:text-blue-100 bg-opacity-80 text-blue-900 px-3 py-2 rounded-lg" 
+      className="mt-8 inline-block focus:ring-2 ring-lightblue-700 focus:outline-none w-full text-center bg-blue-200 dark:bg-opacity-30 dark:text-blue-100 bg-opacity-80 text-blue-900 px-3 py-3 rounded-xl" 
       target="_blank" 
       rel="nofollow norefferer">
         Help me translate heartbeat.bible
     </a>
-  { webShareAvailable && <button onClick={share} className="mt-4 bg-opacity-75  text-green-900 font-medium w-full text-center bg-green-300 px-3 py-2 rounded-lg dark:bg-green-900 dark:border-green-800 dark:text-green-100">App weiterempfehlen</button> }
+  { webShareAvailable && <button onClick={share} className="mt-4 bg-opacity-75  text-green-900 font-medium w-full text-center bg-green-300 px-3 py-3 rounded-xl dark:bg-green-900 dark:border-green-800 dark:text-green-100">App weiterempfehlen</button> }
   </div>
   </>
   )

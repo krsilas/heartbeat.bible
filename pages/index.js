@@ -9,7 +9,7 @@ function Index({plans}) {
     <> 
       <Header />
       <div className="max-w-xl mx-auto">
-      <div className="font-thicker mt-4 p-4 space-y-4">
+      <div className="font-thicker p-4 space-y-4">
         {plans.map((entry, i) => 
           <PlanLink key={i} {...entry} />
         )}
