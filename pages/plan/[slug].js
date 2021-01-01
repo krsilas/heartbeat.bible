@@ -53,7 +53,7 @@ const Plan = (props) => {
 }
 
 export async function getStaticPaths() {
-  const paths = ["365", "30nt", "systematic"]
+  const paths = ["365", "30nt", "systematic", "start"]
   return {
     fallback: false,
     paths: paths.map((slug) => ({ params: { slug } }))

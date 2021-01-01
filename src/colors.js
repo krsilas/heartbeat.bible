@@ -2,7 +2,8 @@ module.exports = {
     lightblue: `bg-lightblue-300 text-blue-900 dark:text-blue-400`,
     green: `bg-green-300 text-green-900 dark:text-green-400`,
     yellow: `bg-yellow-300 text-yellow-900 dark:text-yellow-400`,
-    orange: `bg-orange-300 text-orange-900 dark:text-orange-400`
+    orange: `bg-orange-300 text-orange-900 dark:text-orange-400`,
+    red: `bg-red-300 text-red-900 dark:text-red-400`
     // blue: `bg-blue-200 border-blue-300 text-blue-900 dark:bg-blue-900 dark:border-blue-800 dark:text-blue-400 active:bg-blue-300 dark:active:bg-blue-800`,
     // red: `bg-red-200 border-red-300 text-red-900 dark:bg-red-900 dark:border-red-800 dark:text-red-400 active:bg-red-300 dark:active:bg-red-800`,
     // green: `bg-green-200 border-green-300 text-green-900 dark:bg-green-900 dark:border-green-800 dark:text-green-400 active:bg-green-300 dark:active:bg-green-800`,

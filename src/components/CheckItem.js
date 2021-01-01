@@ -3,7 +3,8 @@ const CheckItem = ({ children, handleClick, checked, color }) => {
   const cColor = {
     lightblue: 'focus:ring-blue-600 text-blue-400 hover:ring-blue-400 dark:text-blue-500 dark:desaturate-75',
     green: 'focus:ring-green-600 text-green-400 hover:ring-green-400 dark:text-green-500 dark:desaturate-75',
-    orange: 'focus:ring-orange-600 text-orange-400 hover:ring-orange-400 dark:text-orange-500 dark:desaturate-75'
+    orange: 'focus:ring-orange-600 text-orange-400 hover:ring-orange-400 dark:text-orange-500 dark:desaturate-75',
+    red: 'focus:ring-red-600 text-red-400 hover:ring-red-400 dark:text-red-500 dark:desaturate-75'
   }
   
 

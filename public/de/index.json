@@ -17,6 +17,11 @@
       "days": "30 Tage",
       "slug": "systematic",
       "color": "orange"
+    },
+    { "title": "Start Here - Jesus folgen",
+      "days": "15 Tage",
+      "slug": "start",
+      "color": "red"
     }
   ]
 }
