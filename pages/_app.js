@@ -32,7 +32,6 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="description" content="Der Mensch lebt nicht vom Brot allein, sondern von jedem Wort, das aus dem Mund Gottes kommt." />
         <meta name='viewport' content={meta} />
         <link rel="apple-touch-icon" href="/images/icons/icon-512x512.png"></link>
-        <link rel="preload" href="/fonts/FiraCode-VF.woff2?v=2.0" as="font" crossOrigin="true" />
         <link rel="preload" href="/fonts/Inter-VF.woff2?v=3.11" as="font" crossOrigin="true" />
         <link rel="preload" href="/de/365.json" as="fetch" />
         <link rel="preconnect" href="https://cdn.statically.io/" />
