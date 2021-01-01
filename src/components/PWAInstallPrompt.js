@@ -6,6 +6,7 @@ export function useAddToHomescreenPrompt(){
   const promptToInstall = () => {
     if (prompt) {
       document.cookie = "pwaprompt=false"
+      window?.splitbee?.track("Install PWA")
       return prompt.prompt();
     }
     return Promise.reject(
@@ -60,9 +61,9 @@ export default function PWAInstallPrompt() {
             und wähle "<em style={{fontVariationSettings: "'wght' 420, 'slnt' -5"}}>Zum Home-Bildschirm</em>"
         </div>}
         
-				<div className="flex justify-end text-gray-800 mt-4 font-medium uppercase tracking-wider text-sm dark:text-indigo-200 dark:opacity-75">
+				<div className="flex justify-end text-gray-800 mt-4 font-medium uppercase tracking-wide text-sm dark:text-indigo-200 dark:opacity-75">
 					<span className="p-2" onClick={hide}>Nein, danke</span>
-          {!isIOSSafari() && <span className="mx-3 px-3 py-2 rounded bg-gray-300 active:bg-gray-400 dark:active:bg-gray-900 dark:bg-gray-800 dark:border-black hover:cursor-pointer" onClick={promptToInstall}>Installieren</span> }
+          {!isIOSSafari() && <span className="ml-2 mr-1 px-3 py-2 rounded bg-gray-200 active:bg-gray-400 dark:active:bg-gray-900 dark:bg-gray-800 dark:border-black hover:cursor-pointer" onClick={promptToInstall}>Installieren</span> }
 				</div>
 			</div>
   );

@@ -16,7 +16,8 @@ export default function MyApp({ Component, pageProps }) {
   useEffect(() => {
     if (window.matchMedia('(display-mode: standalone)').matches){
       setMeta('width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0') 
-    }
+      window.splitbee?.user.set({appMode: 'PWA'})
+    } else { window.splitbee?.user.set({appMode: 'Browser'})}
     if (localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches)){
       setThemeColor('#000000') 
     }
@@ -36,6 +37,7 @@ export default function MyApp({ Component, pageProps }) {
         <link rel="preload" href="/de/365.json" as="fetch" />
         <link rel="preconnect" href="https://cdn.statically.io/" />
         <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <script async data-api="/_hive" src="/bee.js" />
       </Head> 
       <div className="flex flex-col font-sans min-h-screen">
       <main style={{ flex: '1 0 auto'}}>
