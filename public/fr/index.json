@@ -1,0 +1,30 @@
+{
+  "plans": [
+    {
+      "title": "Read Scripture - Lis la Bible en un an",
+      "days": "365 jours",
+      "slug": "365",
+      "color": "lightblue"
+    },
+    {
+      "title": "Un aperçu du Nouveau Testament",
+      "days": "30 jours",
+      "slug": "30nt",
+      "color": "green"
+    },
+    {
+      "title": "Théologie systématique",
+      "days": "30 jours",
+      "slug": "systematic",
+      "color": "orange"
+    },
+    { "title": "Start Here - Suivre Jésus",
+      "days": "15 jours",
+      "slug": "start",
+      "color": "red"
+    }
+  ],
+  "cookie": "Nous utilisons des cookies pour améliorer ton expérience d'utilisateur."
+}
+
+ 

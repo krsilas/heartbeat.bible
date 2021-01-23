@@ -1,368 +1,363 @@
 {
-  "title": "Read Scripture - Lies die Bibel in einem Jahr",
+  "title": "Read Scripture - Lis la Bible en un an",
   "color": "lightblue",
   "introduction": {
-    "headline": "Einleitung",
+    "headline": "Introduction",
     "paragraphs": [
-      ["Verschaffe dir einen Überblick", "\"Read Scripture\" ist ein Leseplan mit Videos, der die gewaltige Geschichte der Bibel in 16 chronologische Kapitel aufteilt. Sie sind so angeordnet, dass die Gesamtbotschaft der Bibel deutlich wird. Die Themenvideos sollen dir dabei helfen den Abschnitt, den du gerade liest, in das große Bild einzuordnen."],
-      ["Deine persönliche Zeit mit Gott", "Jedes der 16 Kapitel ist in kleine Abschnitte eingeteilt, die eine Lesedauer von ca. 15–20 Minuten haben. In dieser Zeit darfst du lesen, wie Gott sich den Menschen offenbart hat. Nimm dir währenddessen Zeit, um zu beten. Wenn du das jeden Tag machst, kannst du die Bibel in weniger als einem Jahr durchlesen. Außerdem wirst du merken, wie sich dein Gottesbild festigt und deine Beziehung zu Gott wächst."],
+      ["Obtiens un aperçu", "«Read Scripture» est un plan de lecture avec des vidéos qui décompose la vaste histoire de la Bible en 16 chapitres chronologiques. Ils sont disposés de telle sorte que tout le message de la Bible devient clair. Les vidéos thématiques devraient t'aider à mettre la section que tu lis dans une vue d'ensemble."],
+      ["Ton temps personnel avec Dieu", "Chacun des 16 chapitres est divisé en petites sections qui prennent environ 15 à 20 minutes à lire. En ce moment, tu peux lire comment Dieu s'est révélé à l'homme. En attendant, prendre le temps de prier. Si tu fais cela tous les jours, tu peux lire la Bible en moins d'un an. Tu remarqueres également que tes image de Dieu se renforce et que tes relation avec Dieu se développe."],
       ["Verstehe den Kontext", "Die Bibel ist für dich geschrieben, aber nicht direkt an dich. Tauche in die Welt der Bibel ein. Schau dir vor jedem Kapitel das Video dazu an, um mehr über den historischen und literarischen Kontext des Abschnitts zu lernen."],
-      ["Sei gelassen", "Bibellesen ist keine reine intellektuelle Übung, sondern auch eine geistliche. Bete und reflektiere, während du die Psalmen liest."],
-      ["Bleibe motiviert", "Jeder Tag ist ein Schritt auf die Reise durch die Bibel. Lass dich nicht entmutigen, wenn Stellen schwierig sind und lass dich von den anderen Ressourcen inspirieren."],
-      ["Los geht’s! Starte im ersten Buch Mose und seh’ was Gott dir heute zeigen möchte."]
+      ["Sois calme", "La lecture de la Bible n'est pas un exercice purement intellectuel, mais aussi spirituel. Prie et réfléchisse en lisant les Psaumes."],
+      ["Reste motivé", "Chaque jour est une étape du voyage à travers la Bible. Ne tu décourage pas lorsque les pièces sont difficiles et laisse-toi inspirer par les autres ressources."],
+      ["Alllons-y! Commerce par la Genèse et vis ce que Dieu veut te montrer aujourd'hui."]
     ]
   },
   "plan": [
     {
       "type": "header",
-      "text": "Schöpfung & Sündenfall"
+      "text": "Créateur et chute"
     },
     {
       "type": "video",
-      "text": "Genesis 1-11",
-      "link": "https://www.youtube.com/watch?v=P9BxBKx8hlM"
+      "text": "Genèse 1-11",
+      "link": "https://www.youtube.com/watch?v=3m24IHVZ0XM"
     },
     {
       "day": 1,
-      "chapters": ["Genesis 1-3", "Psalm 1"]
+      "chapters": ["Genèse 1-3", "Psaumes 1"]
     },
     {
       "type": "video",
-      "text": "Das Ebenbild Gottes",
-      "link": "https://www.youtube.com/watch?v=JKACvwfXD-A"
+      "text": "L'image de Dieu",
+      "link": "https://www.youtube.com/watch?v=sDnohPQxLD8"
     },
     {
       "day": 2,
-      "chapters": ["Genesis 4-7", "Psalm 2"]
+      "chapters": ["Genèse 4-7", "Psaumes 2"]
     },
     {
       "day": 3,
-      "chapters": ["Genesis 8-11", "Psalm 3"]
+      "chapters": ["Genèse 8-11", "Psaumes 3"]
     },
     {
       "type": "header",
-      "text": "Der Bund mit Abraham"
+      "text": "L'alliance avec Abraham"
     },
     {
       "type": "video",
-      "text": "Genesis 12-50",
-      "link": "https://www.youtube.com/watch?v=LgITkuI_46A"
+      "text": "Genèse 12-50",
+      "link": "https://www.youtube.com/watch?v=NylJU42gNnU"
     },
     {
       "day": 4,
-      "chapters": ["Genesis 12-15", "Psalm 4"]
+      "chapters": ["Genèse 12-15", "Psaumes 4"]
     },
     {
       "type": "video",
-      "text": "Die Bündnisse",
-      "link": "https://www.youtube.com/watch?v=BnrM6qjr_OE"
+      "text": "Alliances",
+      "link": "https://www.youtube.com/watch?v=FVzc7zXuQzA"
     },
     {
       "day": 5,
-      "chapters": ["Genesis 16-18", "Psalm 5"]
+      "chapters": ["Genèse 16-18", "Psaumes 5"]
     },
     {
       "day": 6,
-      "chapters": ["Genesis 19-21", "Psalm 6"]
+      "chapters": ["Genèse 19-21", "Psaumes 6"]
     },
     {
       "day": 7,
-      "chapters": ["Genesis 22-24", "Psalm 7"]
+      "chapters": ["Genèse 22-24", "Psaumes 7"]
     },
     {
       "day": 8,
-      "chapters": ["Genesis 25-28", "Psalm 8"]
+      "chapters": ["Genèse 25-28", "Psaumes 8"]
     },
     {
       "day": 9,
-      "chapters": ["Genesis 29-31", "Psalm 9"]
+      "chapters": ["Genèse 29-31", "Psaumes 9"]
     },
     {
       "day": 10,
-      "chapters": ["Genesis 32-34", "Psalm 10"]
+      "chapters": ["Genèse 32-34", "Psaumes 10"]
     },
     {
       "day": 11,
-      "chapters": ["Genesis 35-37", "Psalm 11"]
+      "chapters": ["Genèse 35-37", "Psaumes 11"]
     },
     {
       "day": 12,
-      "chapters": ["Genesis 38-40", "Psalm 12"]
+      "chapters": ["Genèse 38-40", "Psaumes 12"]
     },
     {
       "day": 13,
-      "chapters": ["Genesis 41-42", "Psalm 13"]
+      "chapters": ["Genèse 41-42", "Psaumes 13"]
     },
     {
       "day": 14,
-      "chapters": ["Genesis 43-45", "Psalm 14"]
+      "chapters": ["Genèse 43-45", "Psaumes 14"]
     },
     {
       "day": 15,
-      "chapters": ["Genesis 46-47", "Psalm 15"]
+      "chapters": ["Genèse 46-47", "Psaumes 15"]
     },
     {
       "type": "video",
-      "text": "Der Messias",
-      "link": "https://www.youtube.com/watch?v=TDCCElmQu60"
+      "text": "Le Messie",
+      "link": "https://www.youtube.com/watch?v=4eBBvA8zzxI"
     },
     {
       "day": 16,
-      "chapters": ["Genesis 48-50", "Psalm 16"]
+      "chapters": ["Genèse 48-50", "Psaumes 16"]
     },
     {
       "type": "header",
-      "text": "Der Exodus aus Ägypten"
+      "text": "L'exode d'Égypte"
     },
     {
       "type": "video",
-      "text": "Exodus 1-18",
-      "link": "https://www.youtube.com/watch?v=bOhDKsdxwdk"
+      "text": "Exode 1-18",
+      "link": "https://www.youtube.com/watch?v=6gAkIXm4ZN8"
     },
     {
       "day": 17,
-      "chapters": ["Exodus 1-3", "Psalm 17"]
+      "chapters": ["Exode 1-3", "Psaumes 17"]
     },
     {
       "type": "video",
-      "text": "Heiligkeit",
-      "link": "https://www.youtube.com/watch?v=IZO-B2s8Xgc"
+      "text": "La Sainteté",
+      "link": "https://www.youtube.com/watch?v=jxKoDvf2nXk"
     },
     {
       "day": 18,
-      "chapters": ["Exodus 4-6", "Psalm 18"]
+      "chapters": ["Exode 4-6", "Psaumes 18"]
     },
     {
       "day": 19,
-      "chapters": ["Exodus 7-9", "Psalm 19"]
+      "chapters": ["Exode 7-9", "Psaumes 19"]
     },
     {
       "day": 20,
-      "chapters": ["Exodus 10-12", "Psalm 20"]
+      "chapters": ["Exode 10-12", "Psaumes 20"]
     },
     {
       "day": 21,
-      "chapters": ["Exodus 13-15", "Psalm 21"]
+      "chapters": ["Exode 13-15", "Psaumes 21"]
     },
     {
       "day": 22,
-      "chapters": ["Exodus 16-18", "Psalm 22"]
+      "chapters": ["Exode 16-18", "Psaumes 22"]
     },
     {
       "type": "header",
-      "text": "Der Bund am Berg Sinai"
+      "text": "L'Alliance au Mont Sinaï"
     },
     {
       "type": "video",
-      "text": "Exodus 19-40",
-      "link": "https://www.youtube.com/watch?v=FDwxYLOigPM"
+      "text": "Exode 19-40",
+      "link": "https://www.youtube.com/watch?v=GIdz46OiA5s"
     },
     {
       "day": 23,
-      "chapters": ["Exodus 19-21", "Psalm 23"]
+      "chapters": ["Exode 19-21", "Psaumes 23"]
     },
     {
       "day": 24,
-      "chapters": ["Exodus 22-24", "Psalm 24"]
+      "chapters": ["Exode 22-24", "Psaumes 24"]
     },
     {
       "type": "video",
-      "text": "Himmel und Erde",
-      "link": "https://www.youtube.com/watch?v=ByQA2UdUpJc"
+      "text": "La Ciel et la Terre",
+      "link": "https://www.youtube.com/watch?v=PZ-CmV2Xg6A"
     },
     {
       "day": 25,
-      "chapters": ["Exodus 25-27", "Psalm 25"]
+      "chapters": ["Exode 25-27", "Psaumes 25"]
     },
     {
       "day": 26,
-      "chapters": ["Exodus 28-29", "Psalm 26"]
+      "chapters": ["Exode 28-29", "Psaumes 26"]
     },
     {
       "day": 27,
-      "chapters": ["Exodus 30-31", "Psalm 27"]
+      "chapters": ["Exode 30-31", "Psaumes 27"]
     },
     {
       "day": 28,
-      "chapters": ["Exodus 32-34", "Psalm 28"]
+      "chapters": ["Exode 32-34", "Psaumes 28"]
     },
     {
       "day": 29,
-      "chapters": ["Exodus 35-40", "Psalm 29"]
+      "chapters": ["Exode 35-40", "Psaumes 29"]
     },
     {
       "type": "video",
-      "text": "Levitikus",
-      "link": "https://www.youtube.com/watch?v=U9GFT-MO6WY"
+      "text": "Lévitique",
+      "link": "https://www.youtube.com/watch?v=Bule8U5Hfu4"
     },
     {
       "day": 30,
-      "chapters": ["Levitikus 1-4", "Psalm 30"]
+      "chapters": ["Lévitique 1-4", "Psaumes 30"]
     },
     {
       "type": "video",
-      "text": "Opfer & Sühne",
-      "link": "https://www.youtube.com/watch?v=Gzj-vqrzJog"
+      "text": "Sacrifice et Expiation",
+      "link": "https://www.youtube.com/watch?v=wmICj1t6UIA"
     },
     {
       "day": 31,
-      "chapters": ["Levitikus 5-7", "Psalm 31"]
+      "chapters": ["Lévitique 5-7", "Psaumes 31"]
     },
     {
       "day": 32,
-      "chapters": ["Levitikus 8-10", "Psalm 32"]
+      "chapters": ["Lévitique 8-10", "Psaumes 32"]
     },
     {
       "day": 33,
-      "chapters": ["Levitikus 11-13", "Psalm 33"]
+      "chapters": ["Lévitique 11-13", "Psaumes 33"]
     },
     {
       "day": 34,
-      "chapters": ["Levitikus 14-15", "Psalm 34"]
+      "chapters": ["Lévitique 14-15", "Psaumes 34"]
     },
     {
       "day": 35,
-      "chapters": ["Levitikus 16-18", "Psalm 35"]
+      "chapters": ["Lévitique 16-18", "Psaumes 35"]
     },
     {
       "day": 36,
-      "chapters": ["Levitikus 19-20", "Psalm 36"]
+      "chapters": ["Lévitique 19-20", "Psaumes 36"]
     },
     {
       "day": 37,
-      "chapters": ["Levitikus 21-23", "Psalm 37"]
+      "chapters": ["Lévitique 21-23", "Psaumes 37"]
     },
     {
       "day": 38,
-      "chapters": ["Levitikus 24-25", "Psalm 38"]
+      "chapters": ["Lévitique 24-25", "Psaumes 38"]
     },
     {
       "day": 39,
-      "chapters": ["Levitikus 26-27", "Psalm 39"]
+      "chapters": ["Lévitique 26-27", "Psaumes 39"]
     },
     {
       "type": "header",
-      "text": "Die Wildernis"
+      "text": "Le désert"
     },
     {
       "type": "video",
-      "text": "Numeri (4. Mose)",
-      "link": "https://www.youtube.com/watch?v=J6OhuhdD4vU"
+      "text": "Nombres",
+      "link": "https://www.youtube.com/watch?v=VxrSqvkN-BY"
     },
     {
       "day": 40,
-      "chapters": ["Numeri 1-4", "Psalm 40"]
+      "chapters": ["Nombres 1-4", "Psaumes 40"]
     },
     {
       "type": "video",
-      "text": "Die Heiligkeit Gottes",
-      "link": "https://www.youtube.com/watch?v=IZO-B2s8Xgc"
+      "text": "La Sainteté",
+      "link": "https://www.youtube.com/watch?v=jxKoDvf2nXk"
     },
     {
       "day": 41,
-      "chapters": ["Numeri 5-7", "Psalm 41"]
+      "chapters": ["Nombres 5-7", "Psaumes 41"]
     },
     {
       "day": 42,
-      "chapters": ["Numeri 8-10", "Psalm 42"]
+      "chapters": ["Nombres 8-10", "Psaumes 42"]
     },
     {
       "day": 43,
-      "chapters": ["Numeri 11-13", "Psalm 43"]
+      "chapters": ["Nombres 11-13", "Psaumes 43"]
     },
     {
       "day": 44,
-      "chapters": ["Numeri 14-16", "Psalm 44"]
+      "chapters": ["Nombres 14-16", "Psaumes 44"]
     },
     {
       "day": 45,
-      "chapters": ["Numeri 17-18", "Psalm 45"]
+      "chapters": ["Nombres 17-18", "Psaumes 45"]
     },
     {
       "day": 46,
-      "chapters": ["Numeri 19-21", "Psalm 46"]
+      "chapters": ["Nombres 19-21", "Psaumes 46"]
     },
     {
       "day": 47,
-      "chapters": ["Numeri 22-24", "Psalm 47"]
+      "chapters": ["Nombres 22-24", "Psaumes 47"]
     },
     {
       "day": 48,
-      "chapters": ["Numeri 25-27", "Psalm 48"]
+      "chapters": ["Nombres 25-27", "Psaumes 48"]
     },
     {
       "day": 49,
-      "chapters": ["Numeri 28-30", "Psalm 49"]
+      "chapters": ["Nombres 28-30", "Psaumes 49"]
     },
     {
       "day": 50,
-      "chapters": ["Numeri 31-32", "Psalm 50"]
+      "chapters": ["Nombres 31-32", "Psaumes 50"]
     },
     {
       "day": 51,
-      "chapters": ["Numeri 33-34", "Psalm 51"]
+      "chapters": ["Nombres 33-34", "Psaumes 51"]
     },
     {
       "day": 52,
-      "chapters": ["Numeri 35-36", "Psalm 52"]
+      "chapters": ["Nombres 35-36", "Psaumes 52"]
     },
     {
       "type": "video",
-      "text": "Deuteronomium (5. Mose)",
-      "link": "https://www.youtube.com/watch?v=Eu7K6Vd7jLM"
+      "text": "Deutéronome",
+      "link": "https://www.youtube.com/watch?v=j8FrGTdho14&list=PLSEw5zAcWoz2-gWfwR9i9F_SUTqUk8l5e&index=7"
     },
     {
       "day": 53,
-      "chapters": ["Deuteronomium 1-3", "Psalm 53"]
+      "chapters": ["Deutéronome 1-3", "Psaumes 53"]
     },
     {
       "day": 54,
-      "chapters": ["Deuteronomium 4-6", "Psalm 54"]
+      "chapters": ["Deutéronome 4-6", "Psaumes 54"]
     },
     {
       "day": 55,
-      "chapters": ["Deuteronomium 7-9", "Psalm 55"]
-    },
-    {
-      "type": "video",
-      "text": "Das Gesetz",
-      "link": "https://www.youtube.com/watch?v=5xuJ-3KgyA4"
+      "chapters": ["Deutéronome 7-9", "Psaumes 55"]
     },
     {
       "day": 56,
-      "chapters": ["Deuteronomium 10-12", "Psalm 56"]
+      "chapters": ["Deutéronome 10-12", "Psaumes 56"]
     },
     {
       "day": 57,
-      "chapters": ["Deuteronomium 13-14", "Psalm 57"]
+      "chapters": ["Deutéronome 13-14", "Psaumes 57"]
     },
     {
       "day": 58,
-      "chapters": ["Deuteronomium 15-16", "Psalm 58"]
+      "chapters": ["Deutéronome 15-16", "Psaumes 58"]
     },
     {
       "day": 59,
-      "chapters": ["Deuteronomium 17-20", "Psalm 59"]
+      "chapters": ["Deutéronome 17-20", "Psaumes 59"]
     },
     {
       "day": 60,
-      "chapters": ["Deuteronomium 21-23", "Psalm 60"]
+      "chapters": ["Deutéronome 21-23", "Psaumes 60"]
     },
     {
       "day": 61,
-      "chapters": ["Deuteronomium 24-27", "Psalm 61"]
+      "chapters": ["Deutéronome 24-27", "Psaumes 61"]
     },
     {
       "day": 62,
-      "chapters": ["Deuteronomium 28-29", "Psalm 62"]
+      "chapters": ["Deutéronome 28-29", "Psaumes 62"]
     },
     {
       "day": 63,
-      "chapters": ["Deuteronomium 30-31", "Psalm 63"]
+      "chapters": ["Deutéronome 30-31", "Psaumes 63"]
     },
     {
       "day": 64,
-      "chapters": ["Deuteronomium 32-34", "Psalm 64"]
+      "chapters": ["Deutéronome 32-34", "Psaumes 64"]
     },
     {
       "type": "header",
@@ -375,23 +370,23 @@
     },
     {
       "day": 65,
-      "chapters": ["Josua 1-4", "Psalm 65"]
+      "chapters": ["Josua 1-4", "Psaumes 65"]
     },
     {
       "day": 66,
-      "chapters": ["Josua 5-8", "Psalm 66"]
+      "chapters": ["Josua 5-8", "Psaumes 66"]
     },
     {
       "day": 67,
-      "chapters": ["Josua 9-12", "Psalm 67"]
+      "chapters": ["Josua 9-12", "Psaumes 67"]
     },
     {
       "day": 68,
-      "chapters": ["Josua 13-21", "Psalm 68"]
+      "chapters": ["Josua 13-21", "Psaumes 68"]
     },
     {
       "day": 69,
-      "chapters": ["Josua 22-24", "Psalm 69"]
+      "chapters": ["Josua 22-24", "Psaumes 69"]
     },
     {
       "type": "video",
@@ -400,31 +395,31 @@
     },
     {
       "day": 70,
-      "chapters": ["Richter 1-3", "Psalm 70"]
+      "chapters": ["Richter 1-3", "Psaumes 70"]
     },
     {
       "day": 71,
-      "chapters": ["Richter 4-5", "Psalm 71"]
+      "chapters": ["Richter 4-5", "Psaumes 71"]
     },
     {
       "day": 72,
-      "chapters": ["Richter 6-8", "Psalm 72"]
+      "chapters": ["Richter 6-8", "Psaumes 72"]
     },
     {
       "day": 73,
-      "chapters": ["Richter 9-12", "Psalm 73"]
+      "chapters": ["Richter 9-12", "Psaumes 73"]
     },
     {
       "day": 74,
-      "chapters": ["Richter 13-15", "Psalm 74"]
+      "chapters": ["Richter 13-15", "Psaumes 74"]
     },
     {
       "day": 75,
-      "chapters": ["Richter 16-18", "Psalm 75"]
+      "chapters": ["Richter 16-18", "Psaumes 75"]
     },
     {
       "day": 76,
-      "chapters": ["Richter 19-21", "Psalm 76"]
+      "chapters": ["Richter 19-21", "Psaumes 76"]
     },
     {
       "type": "header",
@@ -437,7 +432,7 @@
     },
     {
       "day": 77,
-      "chapters": ["Ruth 1-4", "Psalm 77"]
+      "chapters": ["Ruth 1-4", "Psaumes 77"]
     },
     {
       "type": "video",
@@ -446,39 +441,39 @@
     },
     {
       "day": 78,
-      "chapters": ["1. Samuel 1-3", "Psalm 78"]
+      "chapters": ["1. Samuel 1-3", "Psaumes 78"]
     },
     {
       "day": 79,
-      "chapters": ["1. Samuel 4-8", "Psalm 79"]
+      "chapters": ["1. Samuel 4-8", "Psaumes 79"]
     },
     {
       "day": 80,
-      "chapters": ["1. Samuel 9-12", "Psalm 80"]
+      "chapters": ["1. Samuel 9-12", "Psaumes 80"]
     },
     {
       "day": 81,
-      "chapters": ["1. Samuel 13-14", "Psalm 81"]
+      "chapters": ["1. Samuel 13-14", "Psaumes 81"]
     },
     {
       "day": 82,
-      "chapters": ["1. Samuel 15-17", "Psalm 82"]
+      "chapters": ["1. Samuel 15-17", "Psaumes 82"]
     },
     {
       "day": 83,
-      "chapters": ["1. Samuel 18-20", "Psalm 83"]
+      "chapters": ["1. Samuel 18-20", "Psaumes 83"]
     },
     {
       "day": 84,
-      "chapters": ["1. Samuel 21-24", "Psalm 84"]
+      "chapters": ["1. Samuel 21-24", "Psaumes 84"]
     },
     {
       "day": 85,
-      "chapters": ["1. Samuel 25-27", "Psalm 85"]
+      "chapters": ["1. Samuel 25-27", "Psaumes 85"]
     },
     {
       "day": 86,
-      "chapters": ["1. Samuel 28-31", "Psalm 86"]
+      "chapters": ["1. Samuel 28-31", "Psaumes 86"]
     },
     {
       "type": "video",
@@ -487,7 +482,7 @@
     },
     {
       "day": 87,
-      "chapters": ["2. Samuel 1-3", "Psalm 87"]
+      "chapters": ["2. Samuel 1-3", "Psaumes 87"]
     },
     {
       "type": "video",
@@ -496,27 +491,27 @@
     },
     {
       "day": 88,
-      "chapters": ["2. Samuel 4-8", "Psalm 88"]
+      "chapters": ["2. Samuel 4-8", "Psaumes 88"]
     },
     {
       "day": 89,
-      "chapters": ["2. Samuel 9-12", "Psalm 89"]
+      "chapters": ["2. Samuel 9-12", "Psaumes 89"]
     },
     {
       "day": 90,
-      "chapters": ["2. Samuel 13-15", "Psalm 90"]
+      "chapters": ["2. Samuel 13-15", "Psaumes 90"]
     },
     {
       "day": 91,
-      "chapters": ["2. Samuel 16-18", "Psalm 91"]
+      "chapters": ["2. Samuel 16-18", "Psaumes 91"]
     },
     {
       "day": 92,
-      "chapters": ["2. Samuel 19-21", "Psalm 92"]
+      "chapters": ["2. Samuel 19-21", "Psaumes 92"]
     },
     {
       "day": 93,
-      "chapters": ["2. Samuel 22-24", "Psalm 93"]
+      "chapters": ["2. Samuel 22-24", "Psaumes 93"]
     },
     {
       "type": "video",
@@ -525,63 +520,63 @@
     },
     {
       "day": 94,
-      "chapters": ["1. Könige 1-3", "Psalm 94"]
+      "chapters": ["1. Könige 1-3", "Psaumes 94"]
     },
     {
       "day": 95,
-      "chapters": ["1. Könige 4-7", "Psalm 95"]
+      "chapters": ["1. Könige 4-7", "Psaumes 95"]
     },
     {
       "day": 96,
-      "chapters": ["1. Könige 8-10", "Psalm 96"]
+      "chapters": ["1. Könige 8-10", "Psaumes 96"]
     },
     {
       "day": 97,
-      "chapters": ["1. Könige 11-13", "Psalm 97"]
+      "chapters": ["1. Könige 11-13", "Psaumes 97"]
     },
     {
       "day": 98,
-      "chapters": ["1. Könige 14-16", "Psalm 98"]
+      "chapters": ["1. Könige 14-16", "Psaumes 98"]
     },
     {
       "day": 99,
-      "chapters": ["1. Könige 17-19", "Psalm 99"]
+      "chapters": ["1. Könige 17-19", "Psaumes 99"]
     },
     {
       "day": 100,
-      "chapters": ["1. Könige 20-22", "Psalm 100"]
+      "chapters": ["1. Könige 20-22", "Psaumes 100"]
     },
     {
       "day": 101,
-      "chapters": ["2. Könige 1-3", "Psalm 101"]
+      "chapters": ["2. Könige 1-3", "Psaumes 101"]
     },
     {
       "day": 102,
-      "chapters": ["2. Könige 4-7", "Psalm 102"]
+      "chapters": ["2. Könige 4-7", "Psaumes 102"]
     },
     {
       "day": 103,
-      "chapters": ["2. Könige 8-11", "Psalm 103"]
+      "chapters": ["2. Könige 8-11", "Psaumes 103"]
     },
     {
       "day": 104,
-      "chapters": ["2. Könige 12-14", "Psalm 104"]
+      "chapters": ["2. Könige 12-14", "Psaumes 104"]
     },
     {
       "day": 105,
-      "chapters": ["2. Könige 15-17", "Psalm 105"]
+      "chapters": ["2. Könige 15-17", "Psaumes 105"]
     },
     {
       "day": 106,
-      "chapters": ["2. Könige 18-19", "Psalm 106"]
+      "chapters": ["2. Könige 18-19", "Psaumes 106"]
     },
     {
       "day": 107,
-      "chapters": ["2. Könige 20-22", "Psalm 107"]
+      "chapters": ["2. Könige 20-22", "Psaumes 107"]
     },
     {
       "day": 108,
-      "chapters": ["2. Könige 23-25", "Psalm 108"]
+      "chapters": ["2. Könige 23-25", "Psaumes 108"]
     },
     {
       "type": "header",
@@ -594,39 +589,39 @@
     },
     {
       "day": 109,
-      "chapters": ["Jesaja 1-4", "Psalm 109"]
+      "chapters": ["Jesaja 1-4", "Psaumes 109"]
     },
     {
       "day": 110,
-      "chapters": ["Jesaja 5-8", "Psalm 110"]
+      "chapters": ["Jesaja 5-8", "Psaumes 110"]
     },
     {
       "day": 111,
-      "chapters": ["Jesaja 9-12", "Psalm 111"]
+      "chapters": ["Jesaja 9-12", "Psaumes 111"]
     },
     {
       "day": 112,
-      "chapters": ["Jesaja 13-17", "Psalm 112"]
+      "chapters": ["Jesaja 13-17", "Psaumes 112"]
     },
     {
       "day": 113,
-      "chapters": ["Jesaja 18-22", "Psalm 113"]
+      "chapters": ["Jesaja 18-22", "Psaumes 113"]
     },
     {
       "day": 114,
-      "chapters": ["Jesaja 23-27", "Psalm 114"]
+      "chapters": ["Jesaja 23-27", "Psaumes 114"]
     },
     {
       "day": 115,
-      "chapters": ["Jesaja 28-30", "Psalm 115"]
+      "chapters": ["Jesaja 28-30", "Psaumes 115"]
     },
     {
       "day": 116,
-      "chapters": ["Jesaja 31-35", "Psalm 116"]
+      "chapters": ["Jesaja 31-35", "Psaumes 116"]
     },
     {
       "day": 117,
-      "chapters": ["Jesaja 36-38", "Psalm 117"]
+      "chapters": ["Jesaja 36-38", "Psaumes 117"]
     },
     {
       "type": "video",
@@ -635,19 +630,19 @@
     },
     {
       "day": 118,
-      "chapters": ["Jesaja 39-41", "Psalm 118"]
+      "chapters": ["Jesaja 39-41", "Psaumes 118"]
     },
     {
       "day": 119,
-      "chapters": ["Jesaja 42-44", "Psalm 119, 1-32"]
+      "chapters": ["Jesaja 42-44", "Psaumes 119, 1-32"]
     },
     {
       "day": 120,
-      "chapters": ["Jesaja 45-48", "Psalm 119, 33-64"]
+      "chapters": ["Jesaja 45-48", "Psaumes 119, 33-64"]
     },
     {
       "day": 121,
-      "chapters": ["Jesaja 49-51", "Psalm 119, 65-96"]
+      "chapters": ["Jesaja 49-51", "Psaumes 119, 65-96"]
     },
     {
       "type": "video",
@@ -656,23 +651,23 @@
     },
     {
       "day": 122,
-      "chapters": ["Jesaja 52-54", "Psalm 119, 97-128"]
+      "chapters": ["Jesaja 52-54", "Psaumes 119, 97-128"]
     },
     {
       "day": 123,
-      "chapters": ["Jesaja 55-57", "Psalm 119, 129-152"]
+      "chapters": ["Jesaja 55-57", "Psaumes 119, 129-152"]
     },
     {
       "day": 124,
-      "chapters": ["Jesaja 58-60", "Psalm 119, 153-176"]
+      "chapters": ["Jesaja 58-60", "Psaumes 119, 153-176"]
     },
     {
       "day": 125,
-      "chapters": ["Jesaja 61-64", "Psalm 120"]
+      "chapters": ["Jesaja 61-64", "Psaumes 120"]
     },
     {
       "day": 126,
-      "chapters": ["Jesaja 65-66", "Psalm 121"]
+      "chapters": ["Jesaja 65-66", "Psaumes 121"]
     },
     {
       "type": "video",
@@ -681,15 +676,15 @@
     },
     {
       "day": 127,
-      "chapters": ["Hosea 1-5", "Psalm 122"]
+      "chapters": ["Hosea 1-5", "Psaumes 122"]
     },
     {
       "day": 128,
-      "chapters": ["Hosea 6-10", "Psalm 123"]
+      "chapters": ["Hosea 6-10", "Psaumes 123"]
     },
     {
       "day": 129,
-      "chapters": ["Hosea 11-14", "Psalm 124"]
+      "chapters": ["Hosea 11-14", "Psaumes 124"]
     },
     {
       "type": "video",
@@ -698,7 +693,7 @@
     },
     {
       "day": 130,
-      "chapters": ["Joel 1-4", "Psalm 125"]
+      "chapters": ["Joel 1-4", "Psaumes 125"]
     },
     {
       "type": "video",
@@ -707,11 +702,11 @@
     },
     {
       "day": 131,
-      "chapters": ["Amos 1-5", "Psalm 126"]
+      "chapters": ["Amos 1-5", "Psaumes 126"]
     },
     {
       "day": 132,
-      "chapters": ["Amos 6-9", "Psalm 127"]
+      "chapters": ["Amos 6-9", "Psaumes 127"]
     },
     {
       "type": "video",
@@ -720,7 +715,7 @@
     },
     {
       "day": 133,
-      "chapters": ["Obadja 1", "Psalm 128"]
+      "chapters": ["Obadja 1", "Psaumes 128"]
     },
     {
       "type": "video",
@@ -729,7 +724,7 @@
     },
     {
       "day": 134,
-      "chapters": ["Jona 1-4", "Psalm 129"]
+      "chapters": ["Jona 1-4", "Psaumes 129"]
     },
     {
       "type": "video",
@@ -738,11 +733,11 @@
     },
     {
       "day": 135,
-      "chapters": ["Micha 1-4", "Psalm 130"]
+      "chapters": ["Micha 1-4", "Psaumes 130"]
     },
     {
       "day": 136,
-      "chapters": ["Micha 5-7", "Psalm 131"]
+      "chapters": ["Micha 5-7", "Psaumes 131"]
     },
     {
       "type": "video",
@@ -751,7 +746,7 @@
     },
     {
       "day": 137,
-      "chapters": ["Nahum 1-3", "Psalm 132"]
+      "chapters": ["Nahum 1-3", "Psaumes 132"]
     },
     {
       "type": "video",
@@ -760,7 +755,7 @@
     },
     {
       "day": 138,
-      "chapters": ["Habakuk 1-3", "Psalm 133"]
+      "chapters": ["Habakuk 1-3", "Psaumes 133"]
     },
     {
       "type": "video",
@@ -769,7 +764,7 @@
     },
     {
       "day": 139,
-      "chapters": ["Zefanja 1-3", "Psalm 134"]
+      "chapters": ["Zefanja 1-3", "Psaumes 134"]
     },
     {
       "type": "header",
@@ -782,60 +777,60 @@
     },
     {
       "day": 140,
-      "chapters": ["Hiob 1-3", "Psalm 135"]
+      "chapters": ["Hiob 1-3", "Psaumes 135"]
     },
     {
       "day": 141,
-      "chapters": ["Hiob 4-7", "Psalm 136"]
+      "chapters": ["Hiob 4-7", "Psaumes 136"]
     },
     {
       "day": 142,
-      "chapters": ["Hiob 8-11", "Psalm 137"]
+      "chapters": ["Hiob 8-11", "Psaumes 137"]
     },
     {
       "day": 143,
-      "chapters": ["Hiob 12-15", "Psalm 138"]
+      "chapters": ["Hiob 12-15", "Psaumes 138"]
     },
     {
       "day": 144,
-      "chapters": ["Hiob 16-19", "Psalm 139"]
+      "chapters": ["Hiob 16-19", "Psaumes 139"]
     },
     {
       "day": 145,
-      "chapters": ["Hiob 20-23", "Psalm 140"]
+      "chapters": ["Hiob 20-23", "Psaumes 140"]
     },
     {
       "day": 146,
-      "chapters": ["Hiob 24-28", "Psalm 141"]
+      "chapters": ["Hiob 24-28", "Psaumes 141"]
     },
     {
       "day": 147,
-      "chapters": ["Hiob 29-31", "Psalm 142"]
+      "chapters": ["Hiob 29-31", "Psaumes 142"]
     },
     {
       "day": 148,
-      "chapters": ["Hiob 32-34", "Psalm 143"]
+      "chapters": ["Hiob 32-34", "Psaumes 143"]
     },
     {
       "day": 149,
-      "chapters": ["Hiob 35-37", "Psalm 144"]
+      "chapters": ["Hiob 35-37", "Psaumes 144"]
     },
     {
       "day": 150,
-      "chapters": ["Hiob 38-39", "Psalm 145"]
+      "chapters": ["Hiob 38-39", "Psaumes 145"]
     },
     {
       "day": 151,
-      "chapters": ["Hiob 40-42", "Psalm 146"]
+      "chapters": ["Hiob 40-42", "Psaumes 146"]
     },
     {
       "type": "video",
-      "text": "Psalmen",
+      "text": "Psaumesen",
       "link": "https://www.youtube.com/watch?v=vVW2IthkhgM"
     },
     {
       "day": 152,
-      "chapters": ["Psalm 1-2", "Psalm 147"]
+      "chapters": ["Psaumes 1-2", "Psaumes 147"]
     },
     {
       "type": "video",
@@ -844,43 +839,43 @@
     },
     {
       "day": 153,
-      "chapters": ["Sprüche 1-3", "Psalm 148"]
+      "chapters": ["Sprüche 1-3", "Psaumes 148"]
     },
     {
       "day": 154,
-      "chapters": ["Sprüche 4-6", "Psalm 149"]
+      "chapters": ["Sprüche 4-6", "Psaumes 149"]
     },
     {
       "day": 155,
-      "chapters": ["Sprüche 7-9", "Psalm 150"]
+      "chapters": ["Sprüche 7-9", "Psaumes 150"]
     },
     {
       "day": 156,
-      "chapters": ["Sprüche 10-12", "Psalm 1"]
+      "chapters": ["Sprüche 10-12", "Psaumes 1"]
     },
     {
       "day": 157,
-      "chapters": ["Sprüche 13-15", "Psalm 2"]
+      "chapters": ["Sprüche 13-15", "Psaumes 2"]
     },
     {
       "day": 158,
-      "chapters": ["Sprüche 16-18", "Psalm 3"]
+      "chapters": ["Sprüche 16-18", "Psaumes 3"]
     },
     {
       "day": 159,
-      "chapters": ["Sprüche 19-21", "Psalm 4"]
+      "chapters": ["Sprüche 19-21", "Psaumes 4"]
     },
     {
       "day": 160,
-      "chapters": ["Sprüche 22-24", "Psalm 5"]
+      "chapters": ["Sprüche 22-24", "Psaumes 5"]
     },
     {
       "day": 161,
-      "chapters": ["Sprüche 25-27", "Psalm 6"]
+      "chapters": ["Sprüche 25-27", "Psaumes 6"]
     },
     {
       "day": 162,
-      "chapters": ["Sprüche 28-31", "Psalm 7"]
+      "chapters": ["Sprüche 28-31", "Psaumes 7"]
     },
     {
       "type": "video",
@@ -889,15 +884,15 @@
     },
     {
       "day": 163,
-      "chapters": ["Prediger 1-4", "Psalm 8"]
+      "chapters": ["Prediger 1-4", "Psaumes 8"]
     },
     {
       "day": 164,
-      "chapters": ["Prediger 5-8", "Psalm 9"]
+      "chapters": ["Prediger 5-8", "Psaumes 9"]
     },
     {
       "day": 165,
-      "chapters": ["Prediger 9-12", "Psalm 10"]
+      "chapters": ["Prediger 9-12", "Psaumes 10"]
     },
     {
       "type": "video",
@@ -906,11 +901,11 @@
     },
     {
       "day": 166,
-      "chapters": ["Hohelied 1-4", "Psalm 11"]
+      "chapters": ["Hohelied 1-4", "Psaumes 11"]
     },
     {
       "day": 167,
-      "chapters": ["Hohelied 5-8", "Psalm 12"]
+      "chapters": ["Hohelied 5-8", "Psaumes 12"]
     },
     {
       "type": "header",
@@ -923,63 +918,63 @@
     },
     {
       "day": 168,
-      "chapters": ["Jeremia 1-3", "Psalm 13"]
+      "chapters": ["Jeremia 1-3", "Psaumes 13"]
     },
     {
       "day": 169,
-      "chapters": ["Jeremia 4-6", "Psalm 14"]
+      "chapters": ["Jeremia 4-6", "Psaumes 14"]
     },
     {
       "day": 170,
-      "chapters": ["Jeremia 7-9", "Psalm 15"]
+      "chapters": ["Jeremia 7-9", "Psaumes 15"]
     },
     {
       "day": 171,
-      "chapters": ["Jeremia 10-13", "Psalm 16"]
+      "chapters": ["Jeremia 10-13", "Psaumes 16"]
     },
     {
       "day": 172,
-      "chapters": ["Jeremia 14-17", "Psalm 17"]
+      "chapters": ["Jeremia 14-17", "Psaumes 17"]
     },
     {
       "day": 173,
-      "chapters": ["Jeremia 18-22", "Psalm 18"]
+      "chapters": ["Jeremia 18-22", "Psaumes 18"]
     },
     {
       "day": 174,
-      "chapters": ["Jeremia 23-25", "Psalm 19"]
+      "chapters": ["Jeremia 23-25", "Psaumes 19"]
     },
     {
       "day": 175,
-      "chapters": ["Jeremia 26-29", "Psalm 20"]
+      "chapters": ["Jeremia 26-29", "Psaumes 20"]
     },
     {
       "day": 176,
-      "chapters": ["Jeremia 30-32", "Psalm 21"]
+      "chapters": ["Jeremia 30-32", "Psaumes 21"]
     },
     {
       "day": 177,
-      "chapters": ["Jeremia 33-36", "Psalm 22"]
+      "chapters": ["Jeremia 33-36", "Psaumes 22"]
     },
     {
       "day": 178,
-      "chapters": ["Jeremia 37-39", "Psalm 23"]
+      "chapters": ["Jeremia 37-39", "Psaumes 23"]
     },
     {
       "day": 179,
-      "chapters": ["Jeremia 40-44", "Psalm 24"]
+      "chapters": ["Jeremia 40-44", "Psaumes 24"]
     },
     {
       "day": 180,
-      "chapters": ["Jeremia 45-48", "Psalm 25"]
+      "chapters": ["Jeremia 45-48", "Psaumes 25"]
     },
     {
       "day": 181,
-      "chapters": ["Jeremia 49-50", "Psalm 26"]
+      "chapters": ["Jeremia 49-50", "Psaumes 26"]
     },
     {
       "day": 182,
-      "chapters": ["Jeremia 51-52", "Psalm 27"]
+      "chapters": ["Jeremia 51-52", "Psaumes 27"]
     },
     {
       "type": "video",
@@ -988,15 +983,15 @@
     },
     {
       "day": 183,
-      "chapters": ["Klagelieder 1-2", "Psalm 28"]
+      "chapters": ["Klagelieder 1-2", "Psaumes 28"]
     },
     {
       "day": 184,
-      "chapters": ["Klagelieder 3", "Psalm 29"]
+      "chapters": ["Klagelieder 3", "Psaumes 29"]
     },
     {
       "day": 185,
-      "chapters": ["Klagelieder 4-5", "Psalm 30"]
+      "chapters": ["Klagelieder 4-5", "Psaumes 30"]
     },
     {
       "type": "header",
@@ -1009,39 +1004,39 @@
     },
     {
       "day": 186,
-      "chapters": ["Hesekiel 1-4", "Psalm 31"]
+      "chapters": ["Hesekiel 1-4", "Psaumes 31"]
     },
     {
       "day": 187,
-      "chapters": ["Hesekiel 5-8", "Psalm 32"]
+      "chapters": ["Hesekiel 5-8", "Psaumes 32"]
     },
     {
       "day": 188,
-      "chapters": ["Hesekiel 9-12", "Psalm 33"]
+      "chapters": ["Hesekiel 9-12", "Psaumes 33"]
     },
     {
       "day": 189,
-      "chapters": ["Hesekiel 13-15", "Psalm 34"]
+      "chapters": ["Hesekiel 13-15", "Psaumes 34"]
     },
     {
       "day": 190,
-      "chapters": ["Hesekiel 16-18", "Psalm 35"]
+      "chapters": ["Hesekiel 16-18", "Psaumes 35"]
     },
     {
       "day": 191,
-      "chapters": ["Hesekiel 19-21", "Psalm 36"]
+      "chapters": ["Hesekiel 19-21", "Psaumes 36"]
     },
     {
       "day": 192,
-      "chapters": ["Hesekiel 22-24", "Psalm 37"]
+      "chapters": ["Hesekiel 22-24", "Psaumes 37"]
     },
     {
       "day": 193,
-      "chapters": ["Hesekiel 25-27", "Psalm 38"]
+      "chapters": ["Hesekiel 25-27", "Psaumes 38"]
     },
     {
       "day": 194,
-      "chapters": ["Hesekiel 28-30", "Psalm 39"]
+      "chapters": ["Hesekiel 28-30", "Psaumes 39"]
     },
     {
       "type": "video",
@@ -1050,23 +1045,23 @@
     },
     {
       "day": 195,
-      "chapters": ["Hesekiel 31-33", "Psalm 40"]
+      "chapters": ["Hesekiel 31-33", "Psaumes 40"]
     },
     {
       "day": 196,
-      "chapters": ["Hesekiel 34-36", "Psalm 41"]
+      "chapters": ["Hesekiel 34-36", "Psaumes 41"]
     },
     {
       "day": 197,
-      "chapters": ["Hesekiel 37-39", "Psalm 42"]
+      "chapters": ["Hesekiel 37-39", "Psaumes 42"]
     },
     {
       "day": 198,
-      "chapters": ["Hesekiel 40-44", "Psalm 43"]
+      "chapters": ["Hesekiel 40-44", "Psaumes 43"]
     },
     {
       "day": 199,
-      "chapters": ["Hesekiel 45-48", "Psalm 44"]
+      "chapters": ["Hesekiel 45-48", "Psaumes 44"]
     },
     {
       "type": "video",
@@ -1075,35 +1070,35 @@
     },
     {
       "day": 200,
-      "chapters": ["Esra 1-3", "Psalm 45"]
+      "chapters": ["Esra 1-3", "Psaumes 45"]
     },
     {
       "day": 201,
-      "chapters": ["Esra 4-7", "Psalm 46"]
+      "chapters": ["Esra 4-7", "Psaumes 46"]
     },
     {
       "day": 202,
-      "chapters": ["Esra 8-10", "Psalm 47"]
+      "chapters": ["Esra 8-10", "Psaumes 47"]
     },
     {
       "day": 203,
-      "chapters": ["Nehemia 1-3", "Psalm 48"]
+      "chapters": ["Nehemia 1-3", "Psaumes 48"]
     },
     {
       "day": 204,
-      "chapters": ["Nehemia 4-6", "Psalm 49"]
+      "chapters": ["Nehemia 4-6", "Psaumes 49"]
     },
     {
       "day": 205,
-      "chapters": ["Nehemia 7-9", "Psalm 50"]
+      "chapters": ["Nehemia 7-9", "Psaumes 50"]
     },
     {
       "day": 206,
-      "chapters": ["Nehemia 10-11", "Psalm 51"]
+      "chapters": ["Nehemia 10-11", "Psaumes 51"]
     },
     {
       "day": 207,
-      "chapters": ["Nehemia 12-13", "Psalm 52"]
+      "chapters": ["Nehemia 12-13", "Psaumes 52"]
     },
     {
       "type": "video",
@@ -1112,11 +1107,11 @@
     },
     {
       "day": 208,
-      "chapters": ["Esther 1-5", "Psalm 53"]
+      "chapters": ["Esther 1-5", "Psaumes 53"]
     },
     {
       "day": 209,
-      "chapters": ["Esther 6-10", "Psalm 54"]
+      "chapters": ["Esther 6-10", "Psaumes 54"]
     },
     {
       "type": "header",
@@ -1129,19 +1124,19 @@
     },
     {
       "day": 210,
-      "chapters": ["Daniel 1-3", "Psalm 55"]
+      "chapters": ["Daniel 1-3", "Psaumes 55"]
     },
     {
       "day": 211,
-      "chapters": ["Daniel 4-6", "Psalm 56"]
+      "chapters": ["Daniel 4-6", "Psaumes 56"]
     },
     {
       "day": 212,
-      "chapters": ["Daniel 7-9", "Psalm 57"]
+      "chapters": ["Daniel 7-9", "Psaumes 57"]
     },
     {
       "day": 213,
-      "chapters": ["Daniel 10-12", "Psalm 58"]
+      "chapters": ["Daniel 10-12", "Psaumes 58"]
     },
     {
       "type": "video",
@@ -1150,7 +1145,7 @@
     },
     {
       "day": 214,
-      "chapters": ["Haggai 1-2", "Psalm 59"]
+      "chapters": ["Haggai 1-2", "Psaumes 59"]
     },
     {
       "type": "video",
@@ -1159,15 +1154,15 @@
     },
     {
       "day": 215,
-      "chapters": ["Sacharja 1-4", "Psalm 60"]
+      "chapters": ["Sacharja 1-4", "Psaumes 60"]
     },
     {
       "day": 216,
-      "chapters": ["Sacharja 5-8", "Psalm 61"]
+      "chapters": ["Sacharja 5-8", "Psaumes 61"]
     },
     {
       "day": 217,
-      "chapters": ["Sacharja 9-14", "Psalm 62"]
+      "chapters": ["Sacharja 9-14", "Psaumes 62"]
     },
     {
       "type": "video",
@@ -1176,11 +1171,11 @@
     },
     {
       "day": 218,
-      "chapters": ["Maleachi 1-2", "Psalm 63"]
+      "chapters": ["Maleachi 1-2", "Psaumes 63"]
     },
     {
       "day": 219,
-      "chapters": ["Maleachi 3-4", "Psalm 64"]
+      "chapters": ["Maleachi 3-4", "Psaumes 64"]
     },
     {
       "type": "header",
@@ -1193,67 +1188,67 @@
     },
     {
       "day": 220,
-      "chapters": ["1. Chronik 1-10", "Psalm 65"]
+      "chapters": ["1. Chronik 1-10", "Psaumes 65"]
     },
     {
       "day": 221,
-      "chapters": ["1. Chronik 11-14", "Psalm 66"]
+      "chapters": ["1. Chronik 11-14", "Psaumes 66"]
     },
     {
       "day": 222,
-      "chapters": ["1. Chronik 15-17", "Psalm 67"]
+      "chapters": ["1. Chronik 15-17", "Psaumes 67"]
     },
     {
       "day": 223,
-      "chapters": ["1. Chronik 18-21", "Psalm 68"]
+      "chapters": ["1. Chronik 18-21", "Psaumes 68"]
     },
     {
       "day": 224,
-      "chapters": ["1. Chronik 22-24", "Psalm 69"]
+      "chapters": ["1. Chronik 22-24", "Psaumes 69"]
     },
     {
       "day": 225,
-      "chapters": ["1. Chronik 25-29", "Psalm 70"]
+      "chapters": ["1. Chronik 25-29", "Psaumes 70"]
     },
     {
       "day": 226,
-      "chapters": ["2. Chronik 1-4", "Psalm 71"]
+      "chapters": ["2. Chronik 1-4", "Psaumes 71"]
     },
     {
       "day": 227,
-      "chapters": ["2. Chronik 5-8", "Psalm 72"]
+      "chapters": ["2. Chronik 5-8", "Psaumes 72"]
     },
     {
       "day": 228,
-      "chapters": ["2. Chronik 9-12", "Psalm 73"]
+      "chapters": ["2. Chronik 9-12", "Psaumes 73"]
     },
     {
       "day": 229,
-      "chapters": ["2. Chronik 13-17", "Psalm 74"]
+      "chapters": ["2. Chronik 13-17", "Psaumes 74"]
     },
     {
       "day": 230,
-      "chapters": ["2. Chronik 18-20", "Psalm 75"]
+      "chapters": ["2. Chronik 18-20", "Psaumes 75"]
     },
     {
       "day": 231,
-      "chapters": ["2. Chronik 21-24", "Psalm 76"]
+      "chapters": ["2. Chronik 21-24", "Psaumes 76"]
     },
     {
       "day": 232,
-      "chapters": ["2. Chronik 25-27", "Psalm 77"]
+      "chapters": ["2. Chronik 25-27", "Psaumes 77"]
     },
     {
       "day": 233,
-      "chapters": ["2. Chronik 28-31", "Psalm 78"]
+      "chapters": ["2. Chronik 28-31", "Psaumes 78"]
     },
     {
       "day": 234,
-      "chapters": ["2. Chronik 32-34", "Psalm 79"]
+      "chapters": ["2. Chronik 32-34", "Psaumes 79"]
     },
     {
       "day": 235,
-      "chapters": ["2. Chronik 35-36", "Psalm 80"]
+      "chapters": ["2. Chronik 35-36", "Psaumes 80"]
     },
     {
       "type": "header",
@@ -1266,27 +1261,27 @@
     },
     {
       "day": 236,
-      "chapters": ["Matthäus 1-2", "Psalm 81"]
+      "chapters": ["Matthäus 1-2", "Psaumes 81"]
     },
     {
       "day": 237,
-      "chapters": ["Matthäus 3-4", "Psalm 82"]
+      "chapters": ["Matthäus 3-4", "Psaumes 82"]
     },
     {
       "day": 238,
-      "chapters": ["Matthäus 5-6", "Psalm 83"]
+      "chapters": ["Matthäus 5-6", "Psaumes 83"]
     },
     {
       "day": 239,
-      "chapters": ["Matthäus 7-8", "Psalm 84"]
+      "chapters": ["Matthäus 7-8", "Psaumes 84"]
     },
     {
       "day": 240,
-      "chapters": ["Matthäus 9-10", "Psalm 85"]
+      "chapters": ["Matthäus 9-10", "Psaumes 85"]
     },
     {
       "day": 241,
-      "chapters": ["Matthäus 11-12", "Psalm 86"]
+      "chapters": ["Matthäus 11-12", "Psaumes 86"]
     },
     {
       "type": "video",
@@ -1295,35 +1290,35 @@
     },
     {
       "day": 242,
-      "chapters": ["Matthäus 13-14", "Psalm 87"]
+      "chapters": ["Matthäus 13-14", "Psaumes 87"]
     },
     {
       "day": 243,
-      "chapters": ["Matthäus 15-16", "Psalm 88"]
+      "chapters": ["Matthäus 15-16", "Psaumes 88"]
     },
     {
       "day": 244,
-      "chapters": ["Matthäus 17-18", "Psalm 89"]
+      "chapters": ["Matthäus 17-18", "Psaumes 89"]
     },
     {
       "day": 245,
-      "chapters": ["Matthäus 19-20", "Psalm 90"]
+      "chapters": ["Matthäus 19-20", "Psaumes 90"]
     },
     {
       "day": 246,
-      "chapters": ["Matthäus 21-22", "Psalm 91"]
+      "chapters": ["Matthäus 21-22", "Psaumes 91"]
     },
     {
       "day": 247,
-      "chapters": ["Matthäus 23-24", "Psalm 92"]
+      "chapters": ["Matthäus 23-24", "Psaumes 92"]
     },
     {
       "day": 248,
-      "chapters": ["Matthäus 25-26", "Psalm 93"]
+      "chapters": ["Matthäus 25-26", "Psaumes 93"]
     },
     {
       "day": 249,
-      "chapters": ["Matthäus 27-28", "Psalm 94"]
+      "chapters": ["Matthäus 27-28", "Psaumes 94"]
     },
     {
       "type": "video",
@@ -1332,35 +1327,35 @@
     },
     {
       "day": 250,
-      "chapters": ["Markus 1-2", "Psalm 95"]
+      "chapters": ["Markus 1-2", "Psaumes 95"]
     },
     {
       "day": 251,
-      "chapters": ["Markus 3-4", "Psalm 96"]
+      "chapters": ["Markus 3-4", "Psaumes 96"]
     },
     {
       "day": 252,
-      "chapters": ["Markus 5-6", "Psalm 97"]
+      "chapters": ["Markus 5-6", "Psaumes 97"]
     },
     {
       "day": 253,
-      "chapters": ["Markus 7-8", "Psalm 98"]
+      "chapters": ["Markus 7-8", "Psaumes 98"]
     },
     {
       "day": 254,
-      "chapters": ["Markus 9-10", "Psalm 99"]
+      "chapters": ["Markus 9-10", "Psaumes 99"]
     },
     {
       "day": 255,
-      "chapters": ["Markus 11-12", "Psalm 100"]
+      "chapters": ["Markus 11-12", "Psaumes 100"]
     },
     {
       "day": 256,
-      "chapters": ["Markus 13-14", "Psalm 101"]
+      "chapters": ["Markus 13-14", "Psaumes 101"]
     },
     {
       "day": 257,
-      "chapters": ["Markus 15-16", "Psalm 102"]
+      "chapters": ["Markus 15-16", "Psaumes 102"]
     },
     {
       "type": "video",
@@ -1369,27 +1364,27 @@
     },
     {
       "day": 258,
-      "chapters": ["Johannes 1-2", "Psalm 103"]
+      "chapters": ["Johannes 1-2", "Psaumes 103"]
     },
     {
       "day": 259,
-      "chapters": ["Johannes 3-4", "Psalm 104"]
+      "chapters": ["Johannes 3-4", "Psaumes 104"]
     },
     {
       "day": 260,
-      "chapters": ["Johannes 5-6", "Psalm 105"]
+      "chapters": ["Johannes 5-6", "Psaumes 105"]
     },
     {
       "day": 261,
-      "chapters": ["Johannes 7-8", "Psalm 106"]
+      "chapters": ["Johannes 7-8", "Psaumes 106"]
     },
     {
       "day": 262,
-      "chapters": ["Johannes 9-10", "Psalm 107"]
+      "chapters": ["Johannes 9-10", "Psaumes 107"]
     },
     {
       "day": 263,
-      "chapters": ["Johannes 11-12", "Psalm 108"]
+      "chapters": ["Johannes 11-12", "Psaumes 108"]
     },
     {
       "type": "video",
@@ -1398,15 +1393,15 @@
     },
     {
       "day": 264,
-      "chapters": ["Johannes 13-15", "Psalm 109"]
+      "chapters": ["Johannes 13-15", "Psaumes 109"]
     },
     {
       "day": 265,
-      "chapters": ["Johannes 16-18", "Psalm 110"]
+      "chapters": ["Johannes 16-18", "Psaumes 110"]
     },
     {
       "day": 266,
-      "chapters": ["Johannes 19-21", "Psalm 111"]
+      "chapters": ["Johannes 19-21", "Psaumes 111"]
     },
     {
       "type": "video",
@@ -1415,23 +1410,23 @@
     },
     {
       "day": 267,
-      "chapters": ["Lukas 1", "Psalm 112"]
+      "chapters": ["Lukas 1", "Psaumes 112"]
     },
     {
       "day": 268,
-      "chapters": ["Lukas 2-3", "Psalm 113"]
+      "chapters": ["Lukas 2-3", "Psaumes 113"]
     },
     {
       "day": 269,
-      "chapters": ["Lukas 4-5", "Psalm 114"]
+      "chapters": ["Lukas 4-5", "Psaumes 114"]
     },
     {
       "day": 270,
-      "chapters": ["Lukas 6-7", "Psalm 115"]
+      "chapters": ["Lukas 6-7", "Psaumes 115"]
     },
     {
       "day": 271,
-      "chapters": ["Lukas 8-9", "Psalm 116"]
+      "chapters": ["Lukas 8-9", "Psaumes 116"]
     },
     {
       "type": "video",
@@ -1440,31 +1435,31 @@
     },
     {
       "day": 272,
-      "chapters": ["Lukas 10-11", "Psalm 117"]
+      "chapters": ["Lukas 10-11", "Psaumes 117"]
     },
     {
       "day": 273,
-      "chapters": ["Lukas 12-13", "Psalm 118"]
+      "chapters": ["Lukas 12-13", "Psaumes 118"]
     },
     {
       "day": 274,
-      "chapters": ["Lukas 14-16", "Psalm 119, 1-32"]
+      "chapters": ["Lukas 14-16", "Psaumes 119, 1-32"]
     },
     {
       "day": 275,
-      "chapters": ["Lukas 17-18", "Psalm 119, 33-64"]
+      "chapters": ["Lukas 17-18", "Psaumes 119, 33-64"]
     },
     {
       "day": 276,
-      "chapters": ["Lukas 19-20", "Psalm 119, 65-96"]
+      "chapters": ["Lukas 19-20", "Psaumes 119, 65-96"]
     },
     {
       "day": 277,
-      "chapters": ["Lukas 21-22", "Psalm 119, 97-128"]
+      "chapters": ["Lukas 21-22", "Psaumes 119, 97-128"]
     },
     {
       "day": 278,
-      "chapters": ["Lukas 23-24", "Psalm 119, 129-152"]
+      "chapters": ["Lukas 23-24", "Psaumes 119, 129-152"]
     },
     {
       "type": "video",
@@ -1473,27 +1468,27 @@
     },
     {
       "day": 279,
-      "chapters": ["Apostelgeschichte 1-2", "Psalm 119, 153-176"]
+      "chapters": ["Apostelgeschichte 1-2", "Psaumes 119, 153-176"]
     },
     {
       "day": 280,
-      "chapters": ["Apostelgeschichte 3-4", "Psalm 120"]
+      "chapters": ["Apostelgeschichte 3-4", "Psaumes 120"]
     },
     {
       "day": 281,
-      "chapters": ["Apostelgeschichte 5-6", "Psalm 121"]
+      "chapters": ["Apostelgeschichte 5-6", "Psaumes 121"]
     },
     {
       "day": 282,
-      "chapters": ["Apostelgeschichte 7-8", "Psalm 122"]
+      "chapters": ["Apostelgeschichte 7-8", "Psaumes 122"]
     },
     {
       "day": 283,
-      "chapters": ["Apostelgeschichte 9-10", "Psalm 123"]
+      "chapters": ["Apostelgeschichte 9-10", "Psaumes 123"]
     },
     {
       "day": 284,
-      "chapters": ["Apostelgeschichte 11-12", "Psalm 124"]
+      "chapters": ["Apostelgeschichte 11-12", "Psaumes 124"]
     },
     {
       "type": "video",
@@ -1502,35 +1497,35 @@
     },
     {
       "day": 285,
-      "chapters": ["Apostelgeschichte 13-14", "Psalm 125"]
+      "chapters": ["Apostelgeschichte 13-14", "Psaumes 125"]
     },
     {
       "day": 286,
-      "chapters": ["Apostelgeschichte 15-16", "Psalm 126"]
+      "chapters": ["Apostelgeschichte 15-16", "Psaumes 126"]
     },
     {
       "day": 287,
-      "chapters": ["Apostelgeschichte 17-18", "Psalm 127"]
+      "chapters": ["Apostelgeschichte 17-18", "Psaumes 127"]
     },
     {
       "day": 288,
-      "chapters": ["Apostelgeschichte 19-20", "Psalm 128"]
+      "chapters": ["Apostelgeschichte 19-20", "Psaumes 128"]
     },
     {
       "day": 289,
-      "chapters": ["Apostelgeschichte 21-22", "Psalm 129"]
+      "chapters": ["Apostelgeschichte 21-22", "Psaumes 129"]
     },
     {
       "day": 290,
-      "chapters": ["Apostelgeschichte 23-24", "Psalm 130"]
+      "chapters": ["Apostelgeschichte 23-24", "Psaumes 130"]
     },
     {
       "day": 291,
-      "chapters": ["Apostelgeschichte 25-26", "Psalm 131"]
+      "chapters": ["Apostelgeschichte 25-26", "Psaumes 131"]
     },
     {
       "day": 292,
-      "chapters": ["Apostelgeschichte 27-28", "Psalm 132"]
+      "chapters": ["Apostelgeschichte 27-28", "Psaumes 132"]
     },
     {
       "type": "header",
@@ -1543,11 +1538,11 @@
     },
     {
       "day": 293,
-      "chapters": ["Römer 1-2", "Psalm 133"]
+      "chapters": ["Römer 1-2", "Psaumes 133"]
     },
     {
       "day": 294,
-      "chapters": ["Römer 3-4", "Psalm 134"]
+      "chapters": ["Römer 3-4", "Psaumes 134"]
     },
     {
       "type": "video",
@@ -1556,27 +1551,27 @@
     },
     {
       "day": 295,
-      "chapters": ["Römer 5-6", "Psalm 135"]
+      "chapters": ["Römer 5-6", "Psaumes 135"]
     },
     {
       "day": 296,
-      "chapters": ["Römer 7-8", "Psalm 136"]
+      "chapters": ["Römer 7-8", "Psaumes 136"]
     },
     {
       "day": 297,
-      "chapters": ["Römer 9-10", "Psalm 137"]
+      "chapters": ["Römer 9-10", "Psaumes 137"]
     },
     {
       "day": 298,
-      "chapters": ["Römer 11-12", "Psalm 138"]
+      "chapters": ["Römer 11-12", "Psaumes 138"]
     },
     {
       "day": 299,
-      "chapters": ["Römer 13-14", "Psalm 139"]
+      "chapters": ["Römer 13-14", "Psaumes 139"]
     },
     {
       "day": 300,
-      "chapters": ["Römer 15-16", "Psalm 140"]
+      "chapters": ["Römer 15-16", "Psaumes 140"]
     },
     {
       "type": "video",
@@ -1585,35 +1580,35 @@
     },
     {
       "day": 301,
-      "chapters": ["1. Korinther 1-2", "Psalm 141"]
+      "chapters": ["1. Korinther 1-2", "Psaumes 141"]
     },
     {
       "day": 302,
-      "chapters": ["1. Korinther 3-4", "Psalm 142"]
+      "chapters": ["1. Korinther 3-4", "Psaumes 142"]
     },
     {
       "day": 303,
-      "chapters": ["1. Korinther 5-6", "Psalm 143"]
+      "chapters": ["1. Korinther 5-6", "Psaumes 143"]
     },
     {
       "day": 304,
-      "chapters": ["1. Korinther 7-8", "Psalm 144"]
+      "chapters": ["1. Korinther 7-8", "Psaumes 144"]
     },
     {
       "day": 305,
-      "chapters": ["1. Korinther 9-10", "Psalm 145"]
+      "chapters": ["1. Korinther 9-10", "Psaumes 145"]
     },
     {
       "day": 306,
-      "chapters": ["1. Korinther 11-12", "Psalm 146"]
+      "chapters": ["1. Korinther 11-12", "Psaumes 146"]
     },
     {
       "day": 307,
-      "chapters": ["1. Korinther 13-14", "Psalm 147"]
+      "chapters": ["1. Korinther 13-14", "Psaumes 147"]
     },
     {
       "day": 308,
-      "chapters": ["1. Korinther 15-16", "Psalm 148"]
+      "chapters": ["1. Korinther 15-16", "Psaumes 148"]
     },
     {
       "type": "video",
@@ -1622,27 +1617,27 @@
     },
     {
       "day": 309,
-      "chapters": ["2. Korinther 1-2", "Psalm 149"]
+      "chapters": ["2. Korinther 1-2", "Psaumes 149"]
     },
     {
       "day": 310,
-      "chapters": ["2. Korinther 3-4", "Psalm 150"]
+      "chapters": ["2. Korinther 3-4", "Psaumes 150"]
     },
     {
       "day": 311,
-      "chapters": ["2. Korinther 5-6", "Psalm 1"]
+      "chapters": ["2. Korinther 5-6", "Psaumes 1"]
     },
     {
       "day": 312,
-      "chapters": ["2. Korinther 7-8", "Psalm 2"]
+      "chapters": ["2. Korinther 7-8", "Psaumes 2"]
     },
     {
       "day": 313,
-      "chapters": ["2. Korinther 9-10", "Psalm 3"]
+      "chapters": ["2. Korinther 9-10", "Psaumes 3"]
     },
     {
       "day": 314,
-      "chapters": ["2. Korinther 11-13", "Psalm 4"]
+      "chapters": ["2. Korinther 11-13", "Psaumes 4"]
     },
     {
       "type": "video",
@@ -1651,15 +1646,15 @@
     },
     {
       "day": 315,
-      "chapters": ["Galater 1-2", "Psalm 5"]
+      "chapters": ["Galater 1-2", "Psaumes 5"]
     },
     {
       "day": 316,
-      "chapters": ["Galater 3-4", "Psalm 6"]
+      "chapters": ["Galater 3-4", "Psaumes 6"]
     },
     {
       "day": 317,
-      "chapters": ["Galater 5-6", "Psalm 7"]
+      "chapters": ["Galater 5-6", "Psaumes 7"]
     },
     {
       "type": "video",
@@ -1668,15 +1663,15 @@
     },
     {
       "day": 318,
-      "chapters": ["Epheser 1-2", "Psalm 8"]
+      "chapters": ["Epheser 1-2", "Psaumes 8"]
     },
     {
       "day": 319,
-      "chapters": ["Epheser 3-4", "Psalm 9"]
+      "chapters": ["Epheser 3-4", "Psaumes 9"]
     },
     {
       "day": 320,
-      "chapters": ["Epheser 5-6", "Psalm 10"]
+      "chapters": ["Epheser 5-6", "Psaumes 10"]
     },
     {
       "type": "video",
@@ -1685,19 +1680,19 @@
     },
     {
       "day": 321,
-      "chapters": ["Philipper 1-2", "Psalm 11"]
+      "chapters": ["Philipper 1-2", "Psaumes 11"]
     },
     {
       "day": 322,
-      "chapters": ["Philipper 3-4", "Psalm 12"]
+      "chapters": ["Philipper 3-4", "Psaumes 12"]
     },
     {
       "day": 323,
-      "chapters": ["Kolosser 1-2", "Psalm 13"]
+      "chapters": ["Kolosser 1-2", "Psaumes 13"]
     },
     {
       "day": 324,
-      "chapters": ["Kolosser 3-4", "Psalm 14"]
+      "chapters": ["Kolosser 3-4", "Psaumes 14"]
     },
     {
       "type": "video",
@@ -1706,15 +1701,15 @@
     },
     {
       "day": 325,
-      "chapters": ["1. Thessalonicher 1-2", "Psalm 15"]
+      "chapters": ["1. Thessalonicher 1-2", "Psaumes 15"]
     },
     {
       "day": 326,
-      "chapters": ["1. Thessalonicher 3-4", "Psalm 16"]
+      "chapters": ["1. Thessalonicher 3-4", "Psaumes 16"]
     },
     {
       "day": 327,
-      "chapters": ["1. Thessalonicher 5", "Psalm 17"]
+      "chapters": ["1. Thessalonicher 5", "Psaumes 17"]
     },
     {
       "type": "video",
@@ -1723,7 +1718,7 @@
     },
     {
       "day": 328,
-      "chapters": ["2. Thessalonicher 1-3", "Psalm 18"]
+      "chapters": ["2. Thessalonicher 1-3", "Psaumes 18"]
     },
     {
       "type": "video",
@@ -1732,15 +1727,15 @@
     },
     {
       "day": 329,
-      "chapters": ["1. Timotheus 1-2", "Psalm 19"]
+      "chapters": ["1. Timotheus 1-2", "Psaumes 19"]
     },
     {
       "day": 330,
-      "chapters": ["1. Timotheus 3-4", "Psalm 20"]
+      "chapters": ["1. Timotheus 3-4", "Psaumes 20"]
     },
     {
       "day": 331,
-      "chapters": ["1. Timotheus 5-6", "Psalm 21"]
+      "chapters": ["1. Timotheus 5-6", "Psaumes 21"]
     },
     {
       "type": "video",
@@ -1749,7 +1744,7 @@
     },
     {
       "day": 332,
-      "chapters": ["2. Timotheus 1-4", "Psalm 22"]
+      "chapters": ["2. Timotheus 1-4", "Psaumes 22"]
     },
     {
       "type": "video",
@@ -1758,7 +1753,7 @@
     },
     {
       "day": 333,
-      "chapters": ["Titus 1-3", "Psalm 23"]
+      "chapters": ["Titus 1-3", "Psaumes 23"]
     },
     {
       "type": "video",
@@ -1767,7 +1762,7 @@
     },
     {
       "day": 334,
-      "chapters": ["Philemon 1", "Psalm 24"]
+      "chapters": ["Philemon 1", "Psaumes 24"]
     },
     {
       "type": "video",
@@ -1776,27 +1771,27 @@
     },
     {
       "day": 335,
-      "chapters": ["Hebräer 1-2", "Psalm 25"]
+      "chapters": ["Hebräer 1-2", "Psaumes 25"]
     },
     {
       "day": 336,
-      "chapters": ["Hebräer 3-4", "Psalm 26"]
+      "chapters": ["Hebräer 3-4", "Psaumes 26"]
     },
     {
       "day": 337,
-      "chapters": ["Hebräer 5-6", "Psalm 27"]
+      "chapters": ["Hebräer 5-6", "Psaumes 27"]
     },
     {
       "day": 338,
-      "chapters": ["Hebräer 7-8", "Psalm 28"]
+      "chapters": ["Hebräer 7-8", "Psaumes 28"]
     },
     {
       "day": 339,
-      "chapters": ["Hebräer 9-10", "Psalm 29"]
+      "chapters": ["Hebräer 9-10", "Psaumes 29"]
     },
     {
       "day": 340,
-      "chapters": ["Hebräer 11-13", "Psalm 30"]
+      "chapters": ["Hebräer 11-13", "Psaumes 30"]
     },
     {
       "type": "video",
@@ -1805,11 +1800,11 @@
     },
     {
       "day": 341,
-      "chapters": ["Jakobus 1-3", "Psalm 31"]
+      "chapters": ["Jakobus 1-3", "Psaumes 31"]
     },
     {
       "day": 342,
-      "chapters": ["Jakobus 4-5", "Psalm 32"]
+      "chapters": ["Jakobus 4-5", "Psaumes 32"]
     },
     {
       "type": "video",
@@ -1818,11 +1813,11 @@
     },
     {
       "day": 343,
-      "chapters": ["1. Petrus 1-2", "Psalm 33"]
+      "chapters": ["1. Petrus 1-2", "Psaumes 33"]
     },
     {
       "day": 344,
-      "chapters": ["1. Petrus 3-5", "Psalm 34"]
+      "chapters": ["1. Petrus 3-5", "Psaumes 34"]
     },
     {
       "type": "video",
@@ -1831,7 +1826,7 @@
     },
     {
       "day": 345,
-      "chapters": ["2. Petrus 1-3", "Psalm 35"]
+      "chapters": ["2. Petrus 1-3", "Psaumes 35"]
     },
     {
       "type": "video",
@@ -1840,15 +1835,15 @@
     },
     {
       "day": 346,
-      "chapters": ["1. Johannes 1-2", "Psalm 36"]
+      "chapters": ["1. Johannes 1-2", "Psaumes 36"]
     },
     {
       "day": 347,
-      "chapters": ["1. Johannes 3-4", "Psalm 37"]
+      "chapters": ["1. Johannes 3-4", "Psaumes 37"]
     },
     {
       "day": 348,
-      "chapters": ["1. Johannes 5", "2. Johannes 1", "3. Johannes 1", "Psalm 38"]
+      "chapters": ["1. Johannes 5", "2. Johannes 1", "3. Johannes 1", "Psaumes 38"]
     },
     {
       "type": "video",
@@ -1857,7 +1852,7 @@
     },
     {
       "day": 349,
-      "chapters": ["Judas 1", "Psalm 39"]
+      "chapters": ["Judas 1", "Psaumes 39"]
     },
     {
       "type": "header",
@@ -1870,19 +1865,19 @@
     },
     {
       "day": 350,
-      "chapters": ["Offenbarung 1-3", "Psalm 40"]
+      "chapters": ["Offenbarung 1-3", "Psaumes 40"]
     },
     {
       "day": 351,
-      "chapters": ["Offenbarung 4-6", "Psalm 41"]
+      "chapters": ["Offenbarung 4-6", "Psaumes 41"]
     },
     {
       "day": 352,
-      "chapters": ["Offenbarung 7-9", "Psalm 42"]
+      "chapters": ["Offenbarung 7-9", "Psaumes 42"]
     },
     {
       "day": 353,
-      "chapters": ["Offenbarung 10-11", "Psalm 43"]
+      "chapters": ["Offenbarung 10-11", "Psaumes 43"]
     },
     {
       "type": "video",
@@ -1891,15 +1886,15 @@
     },
     {
       "day": 354,
-      "chapters": ["Offenbarung 12-13", "Psalm 44"]
+      "chapters": ["Offenbarung 12-13", "Psaumes 44"]
     },
     {
       "day": 355,
-      "chapters": ["Offenbarung 14-16", "Psalm 45"]
+      "chapters": ["Offenbarung 14-16", "Psaumes 45"]
     },
     {
       "day": 356,
-      "chapters": ["Offenbarung 17-18", "Psalm 46"]
+      "chapters": ["Offenbarung 17-18", "Psaumes 46"]
     },
     {
       "type": "video",
@@ -1908,11 +1903,11 @@
     },
     {
       "day": 357,
-      "chapters": ["Offenbarung 19-20", "Psalm 47"]
+      "chapters": ["Offenbarung 19-20", "Psaumes 47"]
     },
     {
       "day": 358,
-      "chapters": ["Offenbarung 21-22", "Psalm 48"]
+      "chapters": ["Offenbarung 21-22", "Psaumes 48"]
     }
   ],
   "credits": "Dieser Leseplan ist von <a href='https://www.readscripture.org/' rel='noreferrer nofollow'>ReadScripture</a>. Ein großes Dankeschön an <a href='https://dasbibelprojekt.de/' rel='noreferrer nofollow'>das Bibel-Projekt</a> für die Videos. Du kannst sie <a href='https://dasbibelprojekt.de/spenden/' rel='noreferrer nofollow'>hier</a> unterstützen."

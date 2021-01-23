@@ -4,7 +4,8 @@ import { useViewportScroll } from 'framer-motion'
 
 const TopBar = (props) => {
   const { scrollY } = useViewportScroll()
-  const [ offsetTop, setOffsetTop] = useState(scrollY.get())
+  const [ offsetTop, setOffsetTop] = useState(0)
+  //TODO:
   useEffect(() => scrollY.onChange(latest => {
     setOffsetTop(latest)
   }), [])

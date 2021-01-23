@@ -9,6 +9,10 @@ const nextConfig = {
     images: {
         domains: ['img.youtube.com']
     },
+    i18n: {
+        locales: ['de', 'fr'],
+        defaultLocale: 'de',
+    },
     workboxOpts: {
         swDest: 'static/service-worker.js',
         runtimeCaching: [

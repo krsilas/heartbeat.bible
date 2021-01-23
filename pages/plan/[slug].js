@@ -52,18 +52,16 @@ const Plan = (props) => {
   );
 }
 
-export async function getStaticPaths() {
+export async function getStaticPaths({locales}) {
   const paths = ["365", "30nt", "systematic", "start"]
   return {
     fallback: false,
-    paths: paths.map((slug) => ({ params: { slug } }))
+    paths: paths.map((slug) => ({ params: { slug }, locale: 'fr' })).concat(paths.map((slug) => ({ params: { slug }, locale: 'de' })))
   }
 }
 
-export const getStaticProps = async (context) => {
-  const { slug } = context.params;
-  const res = await fetch(`${process.env.BASE_URL}/de/${slug}.json`);
-  const data = await res.json();
+export const getStaticProps = async ({ locale, params: { slug }}) => {
+  const data = require(`../../public/${locale}/${slug}.json`)
   return {
     props:{ ...data, slug }
   };

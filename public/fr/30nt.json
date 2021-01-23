@@ -1,0 +1,127 @@
+{
+    "title": "Un aperçu du Nouveau Testament",
+    "color": "green",
+    "plan": [
+      {
+        "day": 1,
+        "chapters": ["Luc 1-2"]
+      },
+      {
+        "day": 2,
+        "chapters": ["Jean 1,1–18"]
+      },
+      {
+        "day": 3,
+        "chapters": ["Luc 4,14–44"]
+      },
+      {
+        "day": 4,
+        "chapters": ["Matthieu 5–6"]
+      },
+      {
+        "day": 5,
+        "chapters": ["Jean 3"]
+      },
+      {
+        "day": 6,
+        "chapters": ["Jean 5"]
+      },
+      {
+        "day": 7,
+        "chapters": ["Jean 11"]
+      },
+      {
+        "day": 8,
+        "chapters": ["Jean 15"]
+      },
+      {
+        "day": 9,
+        "chapters": ["Jean 17"]
+      },
+      {
+        "day": 10,
+        "chapters": ["Matthieu 26–27"]
+      },
+      {
+        "day": 11,
+        "chapters": ["Jean 20"]
+      },
+      {
+        "day": 12,
+        "chapters": ["Luc 24"]
+      },
+      {
+        "day": 13,
+        "chapters": ["Actes 2"]
+      },
+      {
+        "day": 14,
+        "chapters": ["Actes 9"]
+      },
+      {
+        "day": 15,
+        "chapters": ["Actes 16"]
+      },
+      {
+        "day": 16,
+        "chapters": ["Actes 26"]
+      },
+      {
+        "day": 17,
+        "chapters": ["Romains 3"]
+      },
+      {
+        "day": 18,
+        "chapters": ["Romains 7–8"]
+      },
+      {
+        "day": 19,
+        "chapters": ["1 Corinthiens 13"]
+      },
+      {
+        "day": 20,
+        "chapters": ["1 Corinthiens 15"]
+      },
+      {
+        "day": 21,
+        "chapters": ["Galates 5"]
+      },
+      {
+        "day": 22,
+        "chapters": ["Éphésiens 4,1–16"]
+      },
+      {
+        "day": 23,
+        "chapters": ["Éphésiens 6"]
+      },
+      {
+        "day": 24,
+        "chapters": ["Philippiens 1,18–2,18"]
+      },
+      {
+        "day": 25,
+        "chapters": ["Colossiens 3,1–17"]
+      },
+      {
+        "day": 26,
+        "chapters": ["Hébreux 4,14–5,10"]
+      },
+      {
+        "day": 27,
+        "chapters": ["Jacques 1"]
+      },
+      {
+        "day": 28,
+        "chapters": ["1 Pierre 1,13–25"]
+      },
+      {
+        "day": 29,
+        "chapters": ["1 Jean 4,7–21"]
+      },
+      {
+        "day": 30,
+        "chapters": ["Apocalypse 21–22"]
+      }
+    ],
+    "credits": "<a>https://static.crossway.org/excerpt/7-esv-30-days-in-the-nt-reading-plan.3.pdf</a>"
+  }

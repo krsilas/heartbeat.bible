@@ -4,7 +4,7 @@ import Recommendations from '../src/components/Recommendations'
 import PWAInstallPrompt from "../src/components/PWAInstallPrompt"
 import CookieNotice from '../src/components/CookieNotice'
 
-function Index({plans}) {
+function Index({plans, cookie}) {
 
   return (
     <> 
@@ -16,18 +16,17 @@ function Index({plans}) {
         )}
       </div>
       <PWAInstallPrompt />
-      <CookieNotice />
+      <CookieNotice text={cookie} />
       <Recommendations />
       </div>
     </>  
     )
 }
 
-export const getStaticProps = async () => {
-  const res = await fetch(`${process.env.BASE_URL}/de/index.json`);
-  const {plans} = await res.json();
+export const getStaticProps = async (context) => {
+  const {plans, cookie} = require(`../public/${context.locale}/index.json`)
   return {
-    props: { plans }
+    props: { plans, locale: context.locale, cookie }
   };
 };
 

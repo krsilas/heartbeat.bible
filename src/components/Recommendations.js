@@ -1,25 +1,25 @@
 import { useEffect, useState } from 'react'
 import localforage from 'localforage'
 import { isPWA } from '../utils'
+import { useRouter } from 'next/router'
 const Recommendations = () => {
+		const router = useRouter()
     const [ recEnabled, setRec ] = useState(false)
     const [ scrollPosition, setScrollPosition ] = useState(0)
     const scrollListener = () => {
         document.addEventListener("scroll", () => {
-            setScrollPosition(window.scrollY);
+          setScrollPosition(window.scrollY);
         })
     }
     useEffect(()=>{
         localforage.getItem('recEnabled').then(value=>{
-			if (value === null) {
-				setRec(true)
-				localforage.setItem('recEnabled', true)
-			} else {
-				setRec(value)
-			}
-        }).catch(()=>{
-			setRec(true)
-		})
+				if (value === null) {
+					setRec(router.locale === 'de' ? true : false)
+					localforage.setItem('recEnabled', router.locale === 'de' ? true : false)
+				} else {
+					setRec(value)
+				}
+        }).catch(()=>{setRec(true)})
 		
         return scrollListener()
       }, [])

@@ -5,7 +5,11 @@ import localforage from 'localforage'
 import { useState, useLayoutEffect, useEffect } from 'react'
 
 export default function CheckList({ plan, color, slug }) {
-	const [ days, setDays ] = useState([]);
+  const [ days, setDays ] = useState([]);
+  const [ lazyLength, setLazyLength ] = useState(60);
+  useEffect(()=>{
+    setTimeout(()=>{setLazyLength(plan.length)}, 1000)
+  }, [])
 
   const isArray = (arr) => (arr && arr.length > 0)
   const isChecked = (day) => isArray(days) ? days.includes(day) : false
@@ -38,7 +42,7 @@ export default function CheckList({ plan, color, slug }) {
 	return (
 		<div className="max-w-xl mx-auto">
 			<ul className="p-4 md:px-6 md:py-3 rounded-sm">
-			{plan.slice(0,100).map((item, i)=>(
+			{plan.slice(0, lazyLength).map((item, i)=>(
 				item.day 
 				? <CheckItem key={i} color={color} checked={isChecked(item.day)} handleClick={()=>handleClick(item.day)}>
 						{item.chapters.map((entry, i)=><p key={i}>{entry}</p>)}
