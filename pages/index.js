@@ -24,7 +24,7 @@ function Index({plans, cookie}) {
 }
 
 export const getStaticProps = async (context) => {
-  const {plans, cookie} = require(`../public/${context.locale}/index.json`)
+  const {plans, cookie} = require(`../content/${context.locale}/index.json`)
   return {
     props: { plans, locale: context.locale, cookie }
   };

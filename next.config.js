@@ -28,7 +28,7 @@ const nextConfig = {
                 urlPattern: /^https?.*/,
                 handler: 'StaleWhileRevalidate',
                 options: {
-                    cacheName: 'offlineCache-v2.0.0',
+                    cacheName: 'offlineCache-v2.0.1',
                     expiration: {
                         maxEntries: 200,
                         maxAgeSeconds: 30 * 24 * 60 * 60, // 1 month
@@ -49,6 +49,10 @@ const nextConfig = {
 				{
 					source: "/_hive/:slug",
 					destination: "https://hive.splitbee.io/:slug",
+                },
+                {
+					source: "/service-worker.js",
+					destination: "/_next/static/service-worker.js",
 				},
 			];
 		},

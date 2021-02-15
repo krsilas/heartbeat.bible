@@ -89,7 +89,7 @@ const Settings = ({strings}) => {
 }
 
 export const getStaticProps = ({ locale }) => {
-  const strings = require(`../public/${locale}/settings.json`)
+  const strings = require(`../content/${locale}/settings.json`)
   return {
     props: {strings},
   }

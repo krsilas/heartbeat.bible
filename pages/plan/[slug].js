@@ -61,7 +61,7 @@ export async function getStaticPaths({locales}) {
 }
 
 export const getStaticProps = async ({ locale, params: { slug }}) => {
-  const data = require(`../../public/${locale}/${slug}.json`)
+  const data = require(`../../content/${locale}/${slug}.json`)
   return {
     props:{ ...data, slug }
   };
